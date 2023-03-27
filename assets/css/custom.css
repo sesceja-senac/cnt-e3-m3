@@ -1,0 +1,3314 @@
+/* fonte e títulos*/
+@font-face {
+    font-family: slackey-regular;
+    src: url(../font/Slackey-Regular.ttf);
+}
+
+h3 {
+    font-family: slackey-regular;
+    font-size: 48px;
+}
+
+h4 {
+    font-weight: bold;
+}
+
+.bt-print {
+    margin-right: 44px;
+    margin-top: -16px;
+}
+
+p {
+    word-wrap: break-word;
+}
+
+.barragem {
+    background-size: contain;
+    max-width: 100%;
+    min-height: 100vh;
+    ;
+}
+
+/* fim fonte e títulos*/
+
+/* estrutura blocos*/
+body {
+    overflow-x: hidden;
+    background-image: linear-gradient(to bottom, #E6FFE7, #00A7B3);
+}
+
+#booklet {
+    position: relative;
+}
+
+.bloco3-paralax1pg3 {
+    background: url(../../img/assets/pg3/bg_div.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 408px;
+    margin-bottom: -27px;
+}
+
+.painel-container {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.pagina>div>.container.estilo1 {
+    padding: 30px;
+    background-color: #fff;
+    opacity: 0.8;
+    min-height: 100vh;
+}
+
+.pagina>div>.container.estilopg2 {
+    padding: 30px;
+    background-color: #fff;
+    opacity: 0.9;
+}
+
+.pagina>div>.container.estilopg3 {
+    padding: 30px;
+    background-color: #004F53;
+    color: #fff;
+}
+
+.estilopg3-fonte {
+    color: #fff;
+}
+
+.pagina>div>.container {
+    padding: 30px;
+    background-color: transparent;
+
+}
+
+.pagina>div>.container.estilopg2-2 {
+    padding: 30px;
+    background-color: #fff;
+    opacity: 0.9;
+    margin-top: -500px;
+}
+
+.pagina>div>.container.estilo3pg3 {
+    background-color: #fff;
+    padding-bottom: 60px;
+}
+
+
+
+.pagina>div>.container.estilopg2-3 {
+    padding: 30px;
+    background-color: #fff;
+    opacity: 0.9;
+    margin-bottom: -1955px;
+    margin-top: -500px;
+
+}
+
+.pagina>.container {
+    padding-bottom: 200px;
+}
+
+.bloco.estilo1 .container {
+    padding-top: 50px;
+}
+
+.pg-footer {
+    background-color: transparent;
+    position: absolute;
+    bottom: 0;
+}
+
+.bloco {
+    background: unset;
+    background-repeat: repeat-y;
+    background-size: 15% 2000px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    margin-bottom: 5px;
+}
+
+.titulo-conteudo {
+    background-color: transparent;
+    position: absolute;
+    width: 100%;
+}
+
+.pagination {
+    justify-content: center;
+}
+
+#topo img {
+    width: 100%;
+}
+
+#booklet>footer>ul>li.active a {
+    background-color: #00838d;
+    color: #fff;
+}
+
+/* blocos */
+#booklet>header>div {
+    background-color: transparent;
+}
+
+.bloco1dtopo {
+    width: 100%;
+    height: 30px;
+    background-color: black;
+}
+
+.bloco1-pg1 {
+    position: relative;
+    background-image: url('../../img/assets/pg1/bg_inicial.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-position: center;
+}
+
+.bloco1-pg2 {
+    position: relative;
+    background-image: url('../../img/assets/pg2/bg1.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+}
+
+.bloco2-pg1 {
+    background:
+        url(../../img/assets/pg1/mapa1.png),
+        url(../../img/assets/pg1/mapa.png),
+        url(../../img/assets/pg1/mapa_fundo.png);
+    margin: auto;
+    background-repeat: no-repeat;
+    background-position: center 1337px;
+}
+
+.moldurapg1 {
+    background-image:
+        url(../../img/assets/pg1/figura_bg1.png),
+        url(../../img/assets/pg1/figura_bg2.png);
+    background-size: contain;
+    background-position: left 20%, right 20px;
+    background-repeat: no-repeat;
+}
+
+.moldurapg2 {
+    background-image: url(../../img/assets/pg2/figura_bg.png), url(../../img/assets/pg2/figura_bg2.png);
+    background-size: 40%;
+    background-position: right 68px, left 49%;
+    background-repeat: no-repeat;
+}
+
+.bloco2-pg2 {
+    position: relative;
+    background-image: linear-gradient(to bottom, #00A7B3, #7CDADD);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+}
+
+.bloco3-pg2 {
+    position: relative;
+    background-image:
+        url(../../img/assets/pg2/bg_3.png),
+        url(../../img/assets/pg2/img_centro.png),
+        linear-gradient(to bottom, #CE975B, #004F53);
+    background-size: contain;
+    background-attachment: unset;
+    background-position: center 32%, center 68%;
+    background-repeat: no-repeat;
+    padding-bottom: 22px;
+
+}
+
+.bloco3-pg1 {
+    position: relative;
+    background-image: url('../../img/assets/pg1/bg_inferior.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.pagina>div>.container.estilopg4 {
+    background-color: #fff;
+}
+
+.containerpg4 {
+    background-color: #fff;
+    border-radius: 30px;
+    min-height: 100vh;
+    padding-top: 72px;
+}
+
+.bloco1-pg4 {
+    position: relative;
+    background-image: url('../../img/assets/pg4/bg.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.bloco1-pg3 {
+    position: relative;
+    background-image: url('../../img/assets/pg3/bg_chuva.png'),
+        url('../../img/assets/pg3/bg_inicio.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #004F53;
+
+}
+
+
+
+.bloco2-pg3 {
+    background-color: #004F53;
+    background-image: url('../../img/assets/pg3/bg_montanha1.png'),
+        url('../../img/assets/pg3/bg_montanha2.png'),
+        url('../../img/assets/pg3/bg_montanha3.png'),
+        url('../../img/assets/pg3/bg_montanha4.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: top, bottom, top, bottom;
+    color: #fff;
+}
+
+.bloco3-pg3 {
+    background-image: url('../../img/assets/pg3/bg_final.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.bloco2pg2-paralax1 {
+    background: url(../../img/assets/pg2/bg_div.png);
+    margin-top: unset;
+    background-repeat: no-repeat;
+    padding-top: 0;
+    background-size: 100% 100%;
+    height: 500px;
+    background-color: transparent;
+}
+
+.pg-footer a:visited {
+    color: #7a7a7a;
+    background-color: #d9d9d9;
+}
+
+.bloco3-paralax1 {
+    background: url(../../img/assets/pg1/final.png);
+    margin-top: unset;
+    background-repeat: no-repeat;
+    padding-top: 0;
+    background-size: 110% 110%;
+    margin-top: unset;
+    height: 400px;
+}
+
+.bloco3-paralax0 {
+    background: url(../../img/assets/pg1/div.png);
+    margin-top: unset;
+    background-repeat: no-repeat;
+    padding-top: 0;
+    background-size: 100% 100%;
+    margin-top: -36px;
+    height: 400px;
+}
+
+.bloco3-paralax1pg2 {
+    background: url(../../img/assets/pg2/bg_inferior.png);
+    margin-top: unset;
+    background-repeat: no-repeat;
+    padding-top: 0;
+    background-size: 100% 100%;
+    margin-top: unset;
+    height: 2000px;
+}
+
+/* fim estrutura blocos*/
+
+/* rellax*/
+.rellax {
+    width: 25%;
+    position: absolute;
+    z-index: 10;
+}
+
+.rellax-10 {
+    width: 17%;
+    right: 350px;
+    top: 1800px;
+}
+
+.rellax-9 {
+    width: 20%;
+    left: 160px;
+    top: 450px;
+
+}
+
+.rellax-8 {
+    width: 15%;
+    right: 350px;
+}
+
+.rellax-7 {
+    width: 15%;
+    right: 420px;
+    top: 30px;
+}
+
+.rellax-6 {
+    left: 0px;
+}
+
+.rellax-5 {
+    right: 0px;
+}
+
+.rellax-4 {
+    right: 0px;
+    width: unset;
+    bottom: 0px;
+}
+
+.rellax-3 {
+    left: 0px;
+    width: unset;
+    bottom: 0px;
+}
+
+.rellax-2 {
+    right: -452px;
+    width: 55%;
+}
+
+.rellax-1 {
+    right: 890px;
+    width: 53%;
+}
+
+.rellax-0 {
+    left: 0px;
+    top: 0px;
+}
+
+/* fim rellax*/
+/* config legenda, tooltip, print*/
+figcaption {
+    text-align: center;
+}
+
+.tooltip-inner {
+    max-width: 400px;
+    font-size: 16px;
+}
+
+.bt-print {
+    z-index: 9;
+}
+
+.bt-tooltip {
+    border: none;
+    padding: 0;
+    color: inherit;
+    background: transparent;
+    border-bottom: 2px dashed #fff;
+}
+
+.gif {
+    max-width: 400px;
+}
+
+iframe {
+    width: 580px;
+    height: 360px;
+    margin: 10px auto;
+    display: block;
+}
+
+/* fim config legenda, tooltip, print*/
+/* borda das figuras e gif */
+.figborda {
+    background-color: #00767F;
+    border-radius: 25px;
+    padding: 30px;
+}
+
+.figbordagif {
+    background-color: #00767F;
+    border-radius: 25px;
+    padding: 15px;
+}
+
+/* fim borda das figuras e gif*/
+
+/* estilo caixa saiba mais */
+.icone.saiba-mais::before {
+    background-image: url('../../img/assets/pg1/ico_saibamais.png');
+}
+
+.caixa {
+    border-style: unset;
+    border-width: unset;
+    background-color: #00838d;
+    border-radius: 40px;
+}
+
+.caixa-destaque1 {
+    border-style: unset;
+    border-width: unset;
+    opacity: unset;
+    background-color: #00838d;
+    border-radius: 20px;
+    padding: 40px;
+    padding-left: 60px;
+    position: relative;
+    margin-left: 20px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    box-shadow: 18px 18px 0px 1px rgba(252, 123, 3, 1);
+    -webkit-box-shadow: 18px 18px 0px 1px rgba(252, 123, 3, 1);
+    -moz-box-shadow: 18px 18px 0px 1px rgba(252, 123, 3, 1);
+}
+
+.caixa.icone {
+    color: #fff;
+}
+
+.saiba {
+    font-weight: bold;
+    font-size: 20px;
+    ;
+}
+
+.icone::before {
+    width: 120px;
+    height: 128px;
+    background-color: unset;
+    left: -70px;
+}
+
+/* fim estilo caixa saiba mais */
+
+/* config modal mapa */
+
+.painel {
+    display: flex;
+    position: relative;
+    height: 124vh;
+}
+
+.painel2 {
+    position: relative;
+    height: 5vh;
+}
+
+/* botoes igual o mapa */
+/* .bt-caatinga2 {
+    background-image: url('../../img/assets/pg1/mapa_caatinga.png');
+    background-color: transparent;
+    border: none;
+    right: 135px;
+    top: -731px;
+    opacity: 0.7;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+.bt-mata2 {
+    background-image: url('../../img/assets/pg1/mapa_mata.png');
+    background-color: transparent;
+    border: none;
+    width: 637px;
+    height: 630px;
+    opacity: 0.7;
+    right: 116px;
+    bottom: 356px;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+.bt-pampa2 {
+    background-image: url('../../img/assets/pg1/mapa_pampa.png');
+    background-color: transparent;
+    border: none;
+    width: 637px;
+    height: 630px;
+    opacity: 0.7;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -344px;
+    right: 376px;
+}
+
+.bt-pantanal2 {
+    background-image: url('../../img/assets/pg1/mapa_pantanal.png');
+    background-color: transparent;
+    border: none;
+    width: 637px;
+    height: 630px;
+    opacity: 0.7;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -534px;
+    right: 440px;
+}
+
+.bt-cerrado2 {
+    background-image: url('../../img/assets/pg1/mapa_cerrado.png');
+    background-color: transparent;
+    border: none;
+    width: 637px;
+    height: 630px;
+    opacity: 0.7;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 237px;
+    top: -739px;
+}
+
+.bt-amazonia2 {
+    background-image: url('../../img/assets/pg1/mapa_amazonia.png');
+    background-color: transparent;
+    border: none;
+    width: 637px;
+    height: 630px;
+    opacity: 0.7;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 129px;
+    top: -739px;
+}
+
+.bt-caatinga2:hover {
+    background-image: url('../../img/assets/pg1/mapa_caatinga.png');
+    background-color: transparent;
+    border: none;
+    transform: scale(1.1);
+    opacity: 1.0;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 135px;
+    top: -731px;
+}
+
+.bt-amazonia2:hover {
+    background-image: url('../../img/assets/pg1/mapa_amazonia.png');
+    background-color: transparent;
+    border: none;
+    width: 637px;
+    height: 630px;
+    transform: scale(1.1);
+    opacity: 1.0;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 129px;
+    top: -860px;
+}
+
+.bt-pantanal2:hover {
+    background-image: url('../../img/assets/pg1/mapa_pantanal.png');
+    background-color: transparent;
+    border: none;
+    width: 637px;
+    height: 630px;
+    transform: scale(1.1);
+    opacity: 1.0;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -534px;
+    right: 440px;
+}
+
+.bt-cerrado2:hover {
+    background-image: url('../../img/assets/pg1/mapa_cerrado.png');
+    background-color: transparent;
+    border: none;
+    width: 637px;
+    height: 630px;
+    transform: scale(1.1);
+    opacity: 1.0;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 237px;
+    top: 230px;
+}
+
+.bt-mata2:hover {
+    background-image: url('../../img/assets/pg1/mapa_mata.png');
+    background-color: transparent;
+    border: none;
+    width: 637px;
+    height: 630px;
+    transform: scale(1.1);
+    opacity: 1.0;
+    right: 116px;
+    bottom: 356px;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+.bt-pampa2:hover {
+    background-image: url('../../img/assets/pg1/mapa_pampa.png');
+    background-color: transparent;
+    border: none;
+    width: 637px;
+    height: 630px;
+    transform: scale(1.1);
+    opacity: 1.0;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -344px;
+    right: 376px;
+} */
+
+/* fim botoes igual o mapa */
+
+/* botoes bolinhas do mapa */
+.bt-amazonia:hover {
+    background-image: url('../../img/assets/pg1/mapa_bt1_hover.png');
+    width: 303px;
+    height: 304px;
+    background-color: transparent;
+    border: none;
+    transform: scale(1.1);
+    background-repeat: no-repeat;
+    top: 154px;
+    left: 27px;
+}
+
+.bt-cerrado:hover {
+    background-image: url('../../img/assets/pg1/mapa_bt2_hover.png');
+    width: 303px;
+    height: 304px;
+    background-color: transparent;
+    border: none;
+    transform: scale(1.1);
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 193px;
+    top: 77px;
+}
+
+.bt-caatinga:hover {
+    background-image: url('../../img/assets/pg1/mapa_bt3_hover.png');
+    background-color: transparent;
+    border: none;
+    width: 303px;
+    height: 304px;
+    transform: scale(1.1);
+    right: 1px;
+    top: 196px;
+    background-repeat: no-repeat;
+}
+
+.bt-pantanal:hover {
+    background-image: url('../../img/assets/pg1/mapa_bt4_hover.png');
+    width: 303px;
+    height: 304px;
+    background-color: transparent;
+    border: none;
+    transform: scale(1.1);
+    background-repeat: no-repeat;
+    bottom: 379px;
+    left: 200px;
+}
+
+.bt-mata:hover {
+    background-image: url('../../img/assets/pg1/mapa_bt5_hover.png');
+    background-color: transparent;
+    border: none;
+    width: 303px;
+    height: 304px;
+    transform: scale(1.1);
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 245px;
+    right: 171px;
+}
+
+.bt-pampa:hover {
+    background-image: url('../../img/assets/pg1/mapa_bt6_hover.png');
+    background-color: transparent;
+    border: none;
+    width: 303px;
+    height: 304px;
+    transform: scale(1.1);
+    bottom: 194px;
+    right: 476px;
+    background-repeat: no-repeat;
+}
+
+.bt-amazonia {
+    background-image: url('../../img/assets/pg1/bt_amazonia.png');
+    background-color: transparent;
+    border: none;
+    width: 136px;
+    height: 137px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 154px;
+    left: 27px;
+}
+
+.bt-cerrado {
+    background-image: url('../../img/assets/pg1/bt_cerrado.png');
+    background-color: transparent;
+    border: none;
+    width: 136px;
+    height: 137px;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 193px;
+    top: 77px;
+}
+
+.bt-caatinga {
+    background-image: url('../../img/assets/pg1/bt_caatinga.png');
+    background-color: transparent;
+    border: none;
+    width: 136px;
+    height: 137px;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 1px;
+    top: 196px;
+}
+
+.bt-pantanal {
+    background-image: url('../../img/assets/pg1/bt_pantanal.png');
+    background-color: transparent;
+    border: none;
+    width: 136px;
+    height: 137px;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 379px;
+    left: 200px;
+}
+
+.bt-mata {
+    background-image: url('../../img/assets/pg1/bt_mata.png');
+    background-color: transparent;
+    border: none;
+    width: 136px;
+    height: 137px;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 245px;
+    right: 171px;
+}
+
+.bt-pampa {
+    background-image: url('../../img/assets/pg1/bt_pampa.png');
+    background-color: transparent;
+    border: none;
+    width: 136px;
+    height: 137px;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 194px;
+    right: 476px;
+}
+
+/* fim botoes bolinhas do mapa */
+/* fim config modal mapa */
+/* config tabela personalizada */
+table.sesc td,
+table.sesc th {
+    border: 2px solid #00A7B3;
+}
+
+table.sesc th {
+    color: #FFFFFF;
+    background-color: #004F53;
+}
+
+table.sesc td {
+    background-color: #FFFFFF;
+    color: black;
+}
+
+/* fim config tabela personalizada */
+/* cards*/
+.cards {
+    margin: 20px auto;
+}
+
+.img-cards {
+    width: 279px;
+    height: 363px;
+    cursor: pointer;
+}
+
+.img-cards_fig {
+    width: 700px;
+    height: 484px;
+    cursor: pointer;
+}
+
+.flip-card {
+    height: 363px;
+}
+
+.flip-card_fig {
+    height: 881px;
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner,
+.flip-card_fig:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.flip-card-front {}
+
+.flip-card-back {
+    transform: rotateY(180deg);
+}
+
+/* fim cards*/
+
+.fundobarragem {
+    background-image: url(../../img/assets/pg2/barragem_texto.png), url(../../img/assets/pg2/barragem.gif);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-position: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 2560px) {
+    .rellax-2 {
+        right: -847px;
+        width: 55%;
+    }
+
+    .rellax-1 {
+        right: 1250px;
+        width: 53%;
+    }
+
+    .rellax-4 {
+        left: 2107px;
+        width: unset;
+        bottom: 0px;
+    }
+
+    .rellax-3 {
+        left: -1px;
+        width: unset;
+        bottom: 0px;
+    }
+
+    .bloco2-pg1 {
+        background:
+            url(../../img/assets/pg1/mapa1.png),
+            url(../../img/assets/pg1/mapa.png),
+            url(../../img/assets/pg1/mapa_fundo.png);
+        margin: auto;
+        background-repeat: no-repeat;
+        background-position: center 1337px;
+    }
+
+    .bt-mata:hover {
+        background-image: url('../../img/assets/pg1/mapa_bt5_hover.png');
+        background-color: transparent;
+        border: none;
+        width: 303px;
+        height: 304px;
+        transform: scale(1.1);
+        background-repeat: no-repeat;
+        position: absolute;
+        bottom: 674px;
+        right: 171px;
+    }
+
+    .bt-mata {
+        background-image: url(../../img/assets/pg1/bt_mata.png);
+        background-color: transparent;
+        border: none;
+        width: 136px;
+        height: 137px;
+        background-repeat: no-repeat;
+        position: absolute;
+        bottom: 674px;
+        right: 171px;
+    }
+
+    .bt-pampa:hover {
+        background-image: url('../../img/assets/pg1/mapa_bt6_hover.png');
+        background-color: transparent;
+        border: none;
+        width: 303px;
+        height: 304px;
+        transform: scale(1.1);
+        background-repeat: no-repeat;
+        bottom: 580px;
+        right: 476px;
+    }
+
+    .bt-pampa {
+        background-image: url(../../img/assets/pg1/bt_pampa.png);
+        background-color: transparent;
+        border: none;
+        width: 136px;
+        height: 137px;
+        background-repeat: no-repeat;
+        position: absolute;
+        bottom: 580px;
+        right: 476px;
+    }
+
+    .bt-pantanal:hover {
+        background-image: url('../../img/assets/pg1/mapa_bt4_hover.png');
+        width: 303px;
+        height: 304px;
+        background-color: transparent;
+        border: none;
+        transform: scale(1.1);
+        background-repeat: no-repeat;
+        bottom: 789px;
+        left: 200px;
+    }
+
+    .bt-pantanal {
+        background-image: url(../../img/assets/pg1/bt_pantanal.png);
+        background-color: transparent;
+        border: none;
+        width: 136px;
+        height: 137px;
+        background-repeat: no-repeat;
+        position: absolute;
+        bottom: 789px;
+        left: 200px;
+    }
+}
+
+@media (max-width: 1920px) {
+    .rellax-1 {
+        right: 930px;
+        width: 53%;
+    }
+
+    .rellax-2 {
+        right: -518px;
+        width: 55%;
+    }
+
+    .rellax-3 {
+        left: -2px;
+        width: unset;
+        bottom: 0px;
+    }
+
+    .rellax-7 {
+        width: 17%;
+        right: 113px;
+        top: 30px;
+    }
+
+    .rellax-9 {
+        width: 17%;
+        left: 58px;
+        top: 450px;
+    }
+
+    .rellax-10 {
+        width: 14%;
+        right: 214px;
+        top: 1800px;
+    }
+
+
+    .rellax-8 {
+        width: 13%;
+        right: 186px;
+    }
+
+    .bloco2-pg1 {
+        background:
+            url(../../img/assets/pg1/mapa1.png),
+            url(../../img/assets/pg1/mapa.png),
+            url(../../img/assets/pg1/mapa_fundo.png);
+        margin: auto;
+        background-repeat: no-repeat;
+        background-position: center 1337px;
+    }
+
+    .bt-pantanal {
+        background-image: url(../../img/assets/pg1/bt_pantanal.png);
+        background-color: transparent;
+        border: none;
+        width: 136px;
+        height: 137px;
+        background-repeat: no-repeat;
+        position: absolute;
+        bottom: 745px;
+        left: 200px;
+    }
+
+    .bt-pantanal:hover {
+        background-image: url('../../img/assets/pg1/mapa_bt4_hover.png');
+        width: 303px;
+        height: 304px;
+        background-color: transparent;
+        border: none;
+        transform: scale(1.1);
+        background-repeat: no-repeat;
+        bottom: 745px;
+        left: 200px;
+    }
+
+    .bt-mata {
+        background-image: url(../../img/assets/pg1/bt_mata.png);
+        background-color: transparent;
+        border: none;
+        width: 136px;
+        height: 137px;
+        background-repeat: no-repeat;
+        position: absolute;
+        bottom: 630px;
+        right: 171px;
+    }
+
+    .bt-mata:hover {
+        background-image: url('../../img/assets/pg1/mapa_bt5_hover.png');
+        background-color: transparent;
+        border: none;
+        width: 303px;
+        height: 304px;
+        transform: scale(1.1);
+        background-repeat: no-repeat;
+        position: absolute;
+        bottom: 630px;
+        right: 171px;
+    }
+
+    .bt-pampa {
+        background-image: url(../../img/assets/pg1/bt_pampa.png);
+        background-color: transparent;
+        border: none;
+        width: 136px;
+        height: 137px;
+        background-repeat: no-repeat;
+        position: absolute;
+        bottom: 545px;
+        right: 476px;
+    }
+
+    .bt-pampa:hover {
+        background-image: url('../../img/assets/pg1/mapa_bt6_hover.png');
+        background-color: transparent;
+        border: none;
+        width: 303px;
+        height: 304px;
+        transform: scale(1.1);
+        bottom: 545px;
+        right: 476px;
+        background-repeat: no-repeat;
+    }
+
+    .painel {
+        display: flex;
+        position: relative;
+        max-height: 116vh; 
+       min-height: 112vh; 
+    }
+}
+
+@media (max-width: 1800px) {
+    .rellax-2 {
+        right: -410px;
+        width: 50%;
+    }
+
+    .rellax-1 {
+        right: 887px;
+        width: 45%;
+    }
+
+    .rellax-3 {
+        left: 57px;
+        width: unset;
+        bottom: 0px;
+    }
+
+    .rellax-4 {
+        left: 1291px;
+        width: unset;
+        bottom: 0px;
+    }
+
+    .bloco2-pg1 {
+        background:
+            url(../../img/assets/pg1/mapa1.png),
+            url(../../img/assets/pg1/mapa.png),
+            url(../../img/assets/pg1/mapa_fundo.png);
+        margin: auto;
+        background-repeat: no-repeat;
+        background-position: center 1337px;
+    }
+}
+
+@media (max-width: 1680px) {
+    .rellax-7 {
+        width: 17%;
+        right: 81px;
+        top: 30px;
+    }
+
+    .bloco2-pg1 {
+        background:
+            url(../../img/assets/pg1/mapa1.png),
+            url(../../img/assets/pg1/mapa.png),
+            url(../../img/assets/pg1/mapa_fundo.png);
+        margin: auto;
+        background-repeat: no-repeat;
+        background-position: center 1337px;
+    }
+
+    .rellax-9 {
+        width: 17%;
+        left: 33px;
+        top: 450px;
+    }
+
+    .rellax-8 {
+        width: 16%;
+        right: 93px;
+    }
+
+    .rellax-10 {
+        width: 17%;
+        right: 85px;
+        top: 1800px;
+    }
+
+    .rellax-3 {
+        left: -1px;
+        width: unset;
+        bottom: 0px;
+    }
+
+    .bt-mata:hover {
+        background-image: url('../../img/assets/pg1/mapa_bt5_hover.png');
+        background-color: transparent;
+        border: none;
+        width: 303px;
+        height: 304px;
+        transform: scale(1.1);
+        background-repeat: no-repeat;
+        position: absolute;
+        bottom: 598px;
+        right: 171px;
+    }
+
+    .bt-mata {
+        background-image: url(../../img/assets/pg1/bt_mata.png);
+        background-color: transparent;
+        border: none;
+        width: 136px;
+        height: 137px;
+        background-repeat: no-repeat;
+        position: absolute;
+        bottom: 598px;
+        right: 171px;
+    }
+
+    .bt-pampa:hover {
+        background-image: url('../../img/assets/pg1/mapa_bt6_hover.png');
+        background-color: transparent;
+        border: none;
+        width: 303px;
+        height: 304px;
+        transform: scale(1.1);
+        background-repeat: no-repeat;
+        bottom: 502px;
+        right: 476px;
+    }
+
+    .bt-pampa {
+        background-image: url(../../img/assets/pg1/bt_pampa.png);
+        background-color: transparent;
+        border: none;
+        width: 136px;
+        height: 137px;
+        background-repeat: no-repeat;
+        position: absolute;
+        bottom: 502px;
+        right: 476px;
+    }
+
+    .bt-pantanal:hover {
+        background-image: url('../../img/assets/pg1/mapa_bt4_hover.png');
+        width: 303px;
+        height: 304px;
+        background-color: transparent;
+        border: none;
+        transform: scale(1.1);
+        background-repeat: no-repeat;
+        bottom: 709px;
+        left: 200px;
+    }
+
+    .bt-pantanal {
+        background-image: url(../../img/assets/pg1/bt_pantanal.png);
+        background-color: transparent;
+        border: none;
+        width: 136px;
+        height: 137px;
+        background-repeat: no-repeat;
+        position: absolute;
+        bottom: 709px;
+        left: 200px;
+    }
+
+}
+
+@media (max-width: 1600px) {
+    .rellax-3 {
+        left: -1px;
+        width: unset;
+        bottom: 0px;
+    }
+
+    .rellax-7 {
+        width: 17%;
+        right: 42px;
+        top: 30px;
+    }
+
+    .rellax-9 {
+        width: 17%;
+        left: 27px;
+        top: 507px;
+    }
+
+    .rellax-8 {
+        width: 16%;
+        right: 53px;
+    }
+
+    .rellax-10 {
+        width: 17%;
+        right: 45px;
+        top: 1800px;
+    }
+
+    .bloco2-pg1 {
+        background-image: unset;
+        margin: unset;
+        background-repeat: unset;
+        background-position: unset;
+    }
+
+    .bt-pantanal {
+        background-image: url(../../img/assets/pg1/bt_pantanal.png);
+        background-color: transparent;
+        border: none;
+        width: 136px;
+        height: 137px;
+        background-repeat: no-repeat;
+        position: absolute;
+        bottom: 534px;
+        left: 200px;
+    }
+
+    .bt-pantanal:hover {
+        background-image: url('../../img/assets/pg1/mapa_bt4_hover.png');
+        width: 303px;
+        height: 304px;
+        background-color: transparent;
+        border: none;
+        transform: scale(1.1);
+        background-repeat: no-repeat;
+        bottom: 534px;
+        left: 200px;
+    }
+
+    .bt-pampa {
+        background-image: url(../../img/assets/pg1/bt_pampa.png);
+        background-color: transparent;
+        border: none;
+        width: 136px;
+        height: 137px;
+        background-repeat: no-repeat;
+        position: absolute;
+        bottom: 331px;
+        right: 476px;
+    }
+
+    .bt-pampa:hover {
+        background-image: url('../../img/assets/pg1/mapa_bt6_hover.png');
+        background-color: transparent;
+        border: none;
+        width: 303px;
+        height: 304px;
+        transform: scale(1.1);
+        bottom: 331px;
+        right: 476px;
+        background-repeat: no-repeat;
+    }
+
+    .bt-mata {
+        background-image: url(../../img/assets/pg1/bt_mata.png);
+        background-color: transparent;
+        border: none;
+        width: 136px;
+        height: 137px;
+        background-repeat: no-repeat;
+        position: absolute;
+        bottom: 402px;
+        right: 171px;
+    }
+
+    .bt-mata:hover {
+        background-image: url('../../img/assets/pg1/mapa_bt5_hover.png');
+        background-color: transparent;
+        border: none;
+        width: 303px;
+        height: 304px;
+        transform: scale(1.1);
+        background-repeat: no-repeat;
+        position: absolute;
+        bottom: 402px;
+        right: 171px;
+    }
+
+    .bloco2-pg1 {
+        background:
+            url(../../img/assets/pg1/mapa1.png),
+            url(../../img/assets/pg1/mapa.png),
+            url(../../img/assets/pg1/mapa_fundo.png);
+        margin: auto;
+        background-repeat: no-repeat;
+        background-position: center 1337px;
+
+    }
+    .painel {
+        display: flex;
+        position: relative;
+        height: 93vh;
+    }
+}
+
+@media (max-width: 1440px) {
+    .rellax-0 {
+        left: -1px;
+        width: 18%;
+    }
+
+    .rellax-3 {
+        left: -2px;
+        width: unset;
+        bottom: 0px;
+    }
+
+    .rellax-2 {
+        right: -280px;
+        width: 30%;
+    }
+
+    .rellax-1 {
+        right: 971px;
+        width: 20%;
+    }
+
+    .rellax-9 {
+        width: 17%;
+        left: -1px;
+        top: 450px;
+    }
+
+    .rellax-8 {
+        width: 16%;
+        right: 9px;
+    }
+
+    .rellax-7 {
+        width: 17%;
+        right: 1px;
+        top: 30px;
+    }
+
+    .rellax-10 {
+        width: 17%;
+        right: 2px;
+        top: 1800px;
+    }
+
+    .bloco2-pg1 {
+        background:
+            url(../../img/assets/pg1/mapa1.png),
+            url(../../img/assets/pg1/mapa.png),
+            url(../../img/assets/pg1/mapa_fundo.png);
+        margin: auto;
+        background-repeat: no-repeat;
+        background-position: center 1337px;
+    }
+}
+
+@media (max-width: 1366px) {
+    .rellax-2 {
+        right: -238px;
+        width: 30%;
+    }
+
+    .rellax-1 {
+        right: 935px;
+        width: 20%;
+    }
+
+    .rellax-0 {
+        left: -1px;
+        width: 18%;
+    }
+
+    .rellax-3 {
+        left: -2px;
+        width: unset;
+        bottom: 0px;
+    }
+
+    .rellax-7 {
+        width: 17%;
+        right: -21px;
+        top: 89px;
+    }
+
+    .rellax-8 {
+        width: 15%;
+        right: 4px;
+    }
+
+    .rellax-9 {
+        width: 14%;
+        left: 6px;
+        top: 526px;
+    }
+
+    .rellax-10 {
+        width: 15%;
+        right: 4px;
+        top: 1856px;
+    }
+
+    .bt-mata {
+        background-image: url(../../img/assets/pg1/bt_mata.png);
+        background-color: transparent;
+        border: none;
+        width: 136px;
+        height: 137px;
+        background-repeat: no-repeat;
+        position: absolute;
+        bottom: 254px;
+        right: 171px;
+    }
+
+    .bt-mata:hover {
+        background-image: url('../../img/assets/pg1/mapa_bt5_hover.png');
+        background-color: transparent;
+        border: none;
+        width: 303px;
+        height: 304px;
+        transform: scale(1.1);
+        background-repeat: no-repeat;
+        position: absolute;
+        bottom: 254px;
+        right: 171px;
+    }
+
+    .bt-pampa {
+        background-image: url(../../img/assets/pg1/bt_pampa.png);
+        background-color: transparent;
+        border: none;
+        width: 136px;
+        height: 137px;
+        background-repeat: no-repeat;
+        position: absolute;
+        bottom: 174px;
+        right: 476px;
+    }
+
+    .bt-pampa:hover {
+        background-image: url('../../img/assets/pg1/mapa_bt6_hover.png');
+        background-color: transparent;
+        border: none;
+        width: 303px;
+        height: 304px;
+        transform: scale(1.1);
+        bottom: 174px;
+        right: 476px;
+        background-repeat: no-repeat;
+    }
+
+    .bt-pantanal {
+        background-image: url(../../img/assets/pg1/bt_pantanal.png);
+        background-color: transparent;
+        border: none;
+        width: 136px;
+        height: 137px;
+        background-repeat: no-repeat;
+        position: absolute;
+        bottom: 362px;
+        left: 200px;
+    }
+
+    .bt-pantanal:hover {
+        background-image: url('../../img/assets/pg1/mapa_bt4_hover.png');
+        width: 303px;
+        height: 304px;
+        background-color: transparent;
+        border: none;
+        transform: scale(1.1);
+        background-repeat: no-repeat;
+        bottom: 362px;
+        left: 200px;
+    }
+    .painel {
+        display: flex;
+        position: relative;
+        height: 125vh;
+    }
+}
+
+@media (max-width: 1280px) {
+    .rellax-0 {
+        left: 0px;
+        width: 18%;
+    }
+    .painel {
+        display: flex;
+        position: relative;
+        max-height: 130vh;
+        min-height: 94vh;
+    }
+    .rellax-2 {
+        right: -195px;
+        width: 30%;
+    }
+
+    .rellax-1 {
+        right: 892px;
+        width: 20%;
+    }
+
+    .rellax-3 {
+        left: -4px;
+        width: unset;
+        bottom: 0px;
+    }
+
+    .rellax-7 {
+        width: 13%;
+        right: 1px;
+        top: 30px;
+    }
+
+    .rellax-8 {
+        width: 12%;
+        right: 9px;
+    }
+
+    .rellax-9 {
+        width: 13%;
+        left: -1px;
+        top: 450px;
+    }
+
+    .rellax-10 {
+        width: 13%;
+        right: 2px;
+        top: 1800px;
+    }
+
+    .bt-mata {
+        background-image: url(../../img/assets/pg1/bt_mata.png);
+        background-color: transparent;
+        border: none;
+        width: 136px;
+        height: 137px;
+        background-repeat: no-repeat;
+        position: absolute;
+        bottom: 154px;
+        right: 171px;
+    }
+
+    .bt-mata:hover {
+        background-image: url('../../img/assets/pg1/mapa_bt5_hover.png');
+        background-color: transparent;
+        border: none;
+        width: 303px;
+        height: 304px;
+        transform: scale(1.1);
+        background-repeat: no-repeat;
+        position: absolute;
+        bottom: 154px;
+        right: 171px;
+    }
+
+    .bt-pampa {
+        background-image: url(../../img/assets/pg1/bt_pampa.png);
+        background-color: transparent;
+        border: none;
+        width: 136px;
+        height: 137px;
+        background-repeat: no-repeat;
+        position: absolute;
+        bottom: 75px;
+        right: 476px;
+    }
+
+    .bt-pampa:hover {
+        background-image: url('../../img/assets/pg1/mapa_bt6_hover.png');
+        background-color: transparent;
+        border: none;
+        width: 303px;
+        height: 304px;
+        transform: scale(1.1);
+        bottom: 75px;
+        right: 476px;
+        background-repeat: no-repeat;
+    }
+
+    .bt-pantanal {
+        background-image: url(../../img/assets/pg1/bt_pantanal.png);
+        background-color: transparent;
+        border: none;
+        width: 136px;
+        height: 137px;
+        background-repeat: no-repeat;
+        position: absolute;
+        bottom: 317px;
+        left: 200px;
+    }
+
+
+    .bt-pantanal:hover {
+        background-image: url('../../img/assets/pg1/mapa_bt4_hover.png');
+        width: 303px;
+        height: 304px;
+        background-color: transparent;
+        border: none;
+        transform: scale(1.1);
+        background-repeat: no-repeat;
+        bottom: 317px;
+        left: 200px;
+    }
+
+}
+
+@media (max-width: 1024px) {
+    .bt-mata:hover {
+        background-image: url('../../img/assets/pg1/mapa_bt5_hover.png');
+        background-color: transparent;
+        border: none;
+        width: 303px;
+        height: 304px;
+        transform: scale(1.1);
+        background-repeat: no-repeat;
+        position: absolute;
+        bottom: 254px;
+        right: 171px;
+    }
+
+    .bloco2-pg1 {
+        background:
+            url(../../img/assets/pg1/mapa1.png),
+            url(../../img/assets/pg1/mapa.png),
+            url(../../img/assets/pg1/mapa_fundo.png);
+        margin: auto;
+        background-repeat: no-repeat;
+        background-position: center 1337px;
+    }
+
+    .bt-mata {
+        background-image: url(../../img/assets/pg1/bt_mata.png);
+        background-color: transparent;
+        border: none;
+        width: 136px;
+        height: 137px;
+        background-repeat: no-repeat;
+        position: absolute;
+        bottom: 254px;
+        right: 171px;
+    }
+
+    .bt-pampa:hover {
+        background-image: url('../../img/assets/pg1/mapa_bt6_hover.png');
+        background-color: transparent;
+        border: none;
+        width: 303px;
+        height: 304px;
+        transform: scale(1.1);
+        background-repeat: no-repeat;
+        bottom: 168px;
+        right: 476px;
+    }
+
+    .bt-pampa {
+        background-image: url(../../img/assets/pg1/bt_pampa.png);
+        background-color: transparent;
+        border: none;
+        width: 136px;
+        height: 137px;
+        background-repeat: no-repeat;
+        position: absolute;
+        bottom: 168px;
+        right: 476px;
+    }
+
+    .bt-pantanal:hover {
+        background-image: url('../../img/assets/pg1/mapa_bt4_hover.png');
+        width: 303px;
+        height: 304px;
+        background-color: transparent;
+        border: none;
+        transform: scale(1.1);
+        background-repeat: no-repeat;
+        bottom: 370px;
+        left: 200px;
+    }
+
+    .bt-pantanal {
+        background-image: url(../../img/assets/pg1/bt_pantanal.png);
+        background-color: transparent;
+        border: none;
+        width: 136px;
+        height: 137px;
+        background-repeat: no-repeat;
+        position: absolute;
+        bottom: 370px;
+        left: 200px;
+    }
+    .painel {
+        display: flex;
+        position: relative;
+        max-height: 160vh;
+    min-height: 128vh;
+    }
+
+.bt-amazonia:hover {
+    background-image: url('../../img/assets/pg1/mapa_bt1_hover.png');
+    width: 303px;
+    height: 304px;
+    background-color: transparent;
+    border: none;
+    transform: scale(1.1);
+    background-repeat: no-repeat;
+    top: 143px;
+    left: 11px;
+}
+.bt-amazonia {
+    background-image: url(../../img/assets/pg1/bt_amazonia.png);
+    background-color: transparent;
+    border: none;
+    width: 136px;
+    height: 137px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 143px;
+    left: 11px;
+}
+.bt-cerrado:hover {
+    background-image: url('../../img/assets/pg1/mapa_bt2_hover.png');
+    width: 303px;
+    height: 304px;
+    background-color: transparent;
+    border: none;
+    transform: scale(1.1);
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 136px;
+    top: 100px;
+}
+.bt-cerrado {
+    background-image: url(../../img/assets/pg1/bt_cerrado.png);
+    background-color: transparent;
+    border: none;
+    width: 136px;
+    height: 137px;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 136px;
+    top: 100px;
+}
+.bt-caatinga:hover {
+    background-image: url('../../img/assets/pg1/mapa_bt3_hover.png');
+    background-color: transparent;
+    border: none;
+    width: 303px;
+    height: 304px;
+    transform: scale(1.1);
+    background-repeat: no-repeat;
+    right: 1px;
+    top: 218px;
+}
+.bt-caatinga {
+    background-image: url(../../img/assets/pg1/bt_caatinga.png);
+    background-color: transparent;
+    border: none;
+    width: 136px;
+    height: 137px;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 1px;
+    top: 218px;
+}
+
+}
+
+@media (max-width: 990px) {}
+
+@media (max-width:820px) {
+    .bt-mata:hover {
+        background-image: url('../../img/assets/pg1/mapa_bt5_hover.png');
+        background-color: transparent;
+        border: none;
+        width: 303px;
+        height: 304px;
+        transform: scale(1.1);
+        background-repeat: no-repeat;
+        position: absolute;
+        bottom: 885px;
+        right: 171px;
+    }
+
+    .bt-mata {
+        background-image: url(../../img/assets/pg1/bt_mata.png);
+        background-color: transparent;
+        border: none;
+        width: 136px;
+        height: 137px;
+        background-repeat: no-repeat;
+        position: absolute;
+        bottom: 885px;
+        right: 171px;
+    }
+
+    .bt-pampa:hover {
+        background-image: url('../../img/assets/pg1/mapa_bt6_hover.png');
+        background-color: transparent;
+        border: none;
+        width: 303px;
+        height: 304px;
+        transform: scale(1.1);
+        background-repeat: no-repeat;
+        bottom: 796px;
+        right: 407px;
+    }
+
+    .bt-pampa {
+        background-image: url(../../img/assets/pg1/bt_pampa.png);
+        background-color: transparent;
+        border: none;
+        width: 136px;
+        height: 137px;
+        background-repeat: no-repeat;
+        position: absolute;
+        bottom: 796px;
+        right: 407px;
+    }
+
+    .bt-pantanal:hover {
+        background-image: url('../../img/assets/pg1/mapa_bt4_hover.png');
+        width: 303px;
+        height: 304px;
+        background-color: transparent;
+        border: none;
+        transform: scale(1.1);
+        background-repeat: no-repeat;
+        bottom: 1012px;
+        left: 200px;
+    }
+
+    .bt-pantanal {
+        background-image: url(../../img/assets/pg1/bt_pantanal.png);
+        background-color: transparent;
+        border: none;
+        width: 136px;
+        height: 137px;
+        background-repeat: no-repeat;
+        position: absolute;
+        bottom: 1012px;
+        left: 200px;
+    }
+
+    .painel {
+        display: flex;
+        flex-wrap: nowrap;
+        position: unset;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        height: 86vh;
+    }
+
+}
+
+@media (max-width:800px) {
+    .bt-mata:hover {
+        background-image: url('../../img/assets/pg1/mapa_bt5_hover.png');
+        background-color: transparent;
+        border: none;
+        width: 303px;
+        height: 304px;
+        transform: scale(1.1);
+        background-repeat: no-repeat;
+        position: absolute;
+        bottom: 4575px;
+        right: 171px;
+    }
+    .bt-mata {
+        background-image: url(../../img/assets/pg1/bt_mata.png);
+        background-color: transparent;
+        border: none;
+        width: 136px;
+        height: 137px;
+        background-repeat: no-repeat;
+        position: absolute;
+        bottom: 4575px;
+        right: 171px;
+    }
+    .bt-pampa:hover {
+        background-image: url('../../img/assets/pg1/mapa_bt6_hover.png');
+        background-color: transparent;
+        border: none;
+        width: 303px;
+        height: 304px;
+        transform: scale(1.1);
+        background-repeat: no-repeat;
+        bottom: 4471px;
+        right: 407px;
+    }
+    .bt-pampa {
+        background-image: url(../../img/assets/pg1/bt_pampa.png);
+        background-color: transparent;
+        border: none;
+        width: 136px;
+        height: 137px;
+        background-repeat: no-repeat;
+        position: absolute;
+        bottom: 4471px;
+        right: 407px;
+    }
+    
+      .bt-pantanal:hover {
+            background-image: url('../../img/assets/pg1/mapa_bt4_hover.png');
+            width: 303px;
+            height: 304px;
+            background-color: transparent;
+            border: none;
+            transform: scale(1.1);
+            background-repeat: no-repeat;
+            bottom: 4698px;
+            left: 200px;
+        }
+        .bt-pantanal {
+            background-image: url(../../img/assets/pg1/bt_pantanal.png);
+            background-color: transparent;
+            border: none;
+            width: 136px;
+            height: 137px;
+            background-repeat: no-repeat;
+            position: absolute;
+            bottom: 4698px;
+            left: 200px;
+        }
+        .bt-amazonia:hover {
+            background-image: url('../../img/assets/pg1/mapa_bt1_hover.png');
+            width: 303px;
+            height: 304px;
+            background-color: transparent;
+            border: none;
+            transform: scale(1.1);
+            background-repeat: no-repeat;
+            top: 2661px;
+            left: 11px;
+        }
+        .bt-amazonia {
+            background-image: url(../../img/assets/pg1/bt_amazonia.png);
+            background-color: transparent;
+            border: none;
+            width: 136px;
+            height: 137px;
+            background-repeat: no-repeat;
+            position: absolute;
+            top: 2661px;
+            left: 11px;
+        }
+        
+        .bt-cerrado:hover {
+            background-image: url('../../img/assets/pg1/mapa_bt2_hover.png');
+            width: 303px;
+            height: 304px;
+            background-color: transparent;
+            border: none;
+            transform: scale(1.1);
+            background-repeat: no-repeat;
+            position: absolute;
+            right: 136px;
+            top: 2607px;
+        }
+        .bt-cerrado {
+            background-image: url(../../img/assets/pg1/bt_cerrado.png);
+            background-color: transparent;
+            border: none;
+            width: 136px;
+            height: 137px;
+            background-repeat: no-repeat;
+            position: absolute;
+            right: 136px;
+            top: 2607px;
+        }
+        .bt-caatinga:hover {
+            background-image: url('../../img/assets/pg1/mapa_bt3_hover.png');
+            background-color: transparent;
+            border: none;
+            width: 303px;
+            height: 304px;
+            transform: scale(1.1);
+            background-repeat: no-repeat;
+            right: 1px;
+            top: 2679px;
+        }
+        .bt-caatinga {
+            background-image: url(../../img/assets/pg1/bt_caatinga.png);
+            background-color: transparent;
+            border: none;
+            width: 136px;
+            height: 137px;
+            background-repeat: no-repeat;
+            position: absolute;
+            right: 1px;
+            top: 2679px;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:768px) {
+    .bt-mata:hover {
+        background-image: url('../../img/assets/pg1/mapa_bt5_hover.png');
+        background-color: transparent;
+        border: none;
+        width: 303px;
+        height: 304px;
+        transform: scale(1.1);
+        background-repeat: no-repeat;
+        position: absolute;
+        bottom: 4000px;
+        right: 171px;
+    }
+    .bt-mata {
+        background-image: url(../../img/assets/pg1/bt_mata.png);
+        background-color: transparent;
+        border: none;
+        width: 136px;
+        height: 137px;
+        background-repeat: no-repeat;
+        position: absolute;
+        bottom: 4000px;
+        right: 171px;
+    }
+    .bt-pampa:hover {
+        background-image: url('../../img/assets/pg1/mapa_bt6_hover.png');
+        background-color: transparent;
+        border: none;
+        width: 303px;
+        height: 304px;
+        transform: scale(1.1);
+        background-repeat: no-repeat;
+        bottom: 3919px;
+        right: 407px;
+    }
+
+    .bt-pampa {
+        background-image: url(../../img/assets/pg1/bt_pampa.png);
+        background-color: transparent;
+        border: none;
+        width: 136px;
+        height: 137px;
+        background-repeat: no-repeat;
+        position: absolute;
+        bottom: 3919px;
+        right: 407px;
+    }
+
+
+
+    .bt-pantanal:hover {
+        background-image: url('../../img/assets/pg1/mapa_bt4_hover.png');
+        width: 303px;
+        height: 304px;
+        background-color: transparent;
+        border: none;
+        transform: scale(1.1);
+        background-repeat: no-repeat;
+        bottom: 4138px;
+        left: 181px;
+    }
+    .bt-pantanal {
+        background-image: url(../../img/assets/pg1/bt_pantanal.png);
+        background-color: transparent;
+        border: none;
+        width: 136px;
+        height: 137px;
+        background-repeat: no-repeat;
+        position: absolute;
+        bottom: 4138px;
+        left: 181px;
+    }
+    .bt-cerrado {
+        background-image: url(../../img/assets/pg1/bt_cerrado.png);
+        background-color: transparent;
+        border: none;
+        width: 136px;
+        height: 137px;
+        background-repeat: no-repeat;
+        position: absolute;
+        right: 136px;
+        top: 2504px;
+    }
+    .bt-caatinga {
+        background-image: url(../../img/assets/pg1/bt_caatinga.png);
+        background-color: transparent;
+        border: none;
+        width: 136px;
+        height: 137px;
+        background-repeat: no-repeat;
+        position: absolute;
+        right: 1px;
+        top: 2576px;
+    }
+    .bt-amazonia {
+        background-image: url(../../img/assets/pg1/bt_amazonia.png);
+        background-color: transparent;
+        border: none;
+        width: 136px;
+        height: 137px;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 2560px;
+        left: 11px;
+    }
+
+
+    .bt-amazonia:hover {
+        background-image: url('../../img/assets/pg1/mapa_bt1_hover.png');
+        width: 303px;
+        height: 304px;
+        background-color: transparent;
+        border: none;
+        transform: scale(1.1);
+        background-repeat: no-repeat;
+        top: 2560px;
+        left: 11px;
+    }
+    
+    .bt-cerrado:hover {
+        background-image: url('../../img/assets/pg1/mapa_bt2_hover.png');
+        width: 303px;
+        height: 304px;
+        background-color: transparent;
+        border: none;
+        transform: scale(1.1);
+        background-repeat: no-repeat;
+        position: absolute;
+        right: 136px;
+        top: 2504px;
+    }
+    
+    .bt-caatinga:hover {
+        background-image: url('../../img/assets/pg1/mapa_bt3_hover.png');
+        background-color: transparent;
+        border: none;
+        width: 303px;
+        height: 304px;
+        transform: scale(1.1);
+        right: 1px;
+        top: 2576px;
+        background-repeat: no-repeat;
+    }
+
+
+
+
+
+
+
+
+}
+
+@media (max-width:720px) {
+    .bloco2-pg1 {
+        background-image: unset;
+        margin: unset;
+        background-repeat: unset;
+        background-position: unset;
+    }
+
+    .painel {
+        display: flex;
+        flex-wrap: nowrap;
+        position: unset;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        height: 80vh;
+    }
+
+
+    .bt-amazonia:hover {
+        background-image: url('../../img/assets/pg1/mapa_bt1_hover.png');
+        width: 303px;
+        height: 304px;
+        background-color: transparent;
+        border: none;
+        transform: scale(1.1);
+        background-repeat: no-repeat;
+        top: unset;
+        left: unset;
+    }
+
+    .bt-cerrado:hover {
+        background-image: url('../../img/assets/pg1/mapa_bt2_hover.png');
+        width: 303px;
+        height: 304px;
+        background-color: transparent;
+        border: none;
+        transform: scale(1.1);
+        background-repeat: no-repeat;
+        position: unset;
+        right: unset;
+        top: unset;
+    }
+
+    .bt-caatinga:hover {
+        background-image: url('../../img/assets/pg1/mapa_bt3_hover.png');
+        background-color: transparent;
+        border: none;
+        width: 303px;
+        height: 304px;
+        transform: scale(1.1);
+        right: unset;
+        top: unset;
+        background-repeat: no-repeat;
+    }
+
+    .bt-pantanal:hover {
+        background-image: url('../../img/assets/pg1/mapa_bt4_hover.png');
+        width: 303px;
+        height: 304px;
+        background-color: transparent;
+        border: none;
+        transform: scale(1.1);
+        background-repeat: no-repeat;
+        bottom: unset;
+        left: unset;
+    }
+
+    .bt-mata:hover {
+        background-image: url('../../img/assets/pg1/mapa_bt5_hover.png');
+        background-color: transparent;
+        border: none;
+        width: 303px;
+        height: 304px;
+        transform: scale(1.1);
+        background-repeat: no-repeat;
+        position: unset;
+        bottom: unset;
+        right: unset;
+    }
+
+    .bt-pampa:hover {
+        background-image: url('../../img/assets/pg1/mapa_bt6_hover.png');
+        background-color: transparent;
+        border: none;
+        width: 303px;
+        height: 304px;
+        transform: scale(1.1);
+        bottom: unset;
+        right: unset;
+        background-repeat: no-repeat;
+    }
+
+    .bt-amazonia {
+        background-image: url('../../img/assets/pg1/bt_amazonia.png');
+        background-color: transparent;
+        border: none;
+        width: 136px;
+        height: 137px;
+        background-repeat: no-repeat;
+        position: unset;
+        top: unset;
+        left: unset;
+    }
+
+    .bt-cerrado {
+        background-image: url('../../img/assets/pg1/bt_cerrado.png');
+        background-color: transparent;
+        border: none;
+        width: 136px;
+        height: 137px;
+        background-repeat: no-repeat;
+        position: unset;
+        right: unset;
+        top: unset;
+    }
+
+    .bt-caatinga {
+        background-image: url('../../img/assets/pg1/bt_caatinga.png');
+        background-color: transparent;
+        border: none;
+        width: 136px;
+        height: 137px;
+        background-repeat: no-repeat;
+        position: unset;
+        right: unset;
+        top: unset;
+    }
+
+    .bt-pantanal {
+        background-image: url('../../img/assets/pg1/bt_pantanal.png');
+        background-color: transparent;
+        border: none;
+        width: 136px;
+        height: 137px;
+        background-repeat: no-repeat;
+        position: unset;
+        bottom: unset;
+        left: unset;
+    }
+
+    .bt-mata {
+        background-image: url('../../img/assets/pg1/bt_mata.png');
+        background-color: transparent;
+        border: none;
+        width: 136px;
+        height: 137px;
+        background-repeat: no-repeat;
+        position: unset;
+        bottom: unset;
+        right: unset;
+    }
+
+    .bt-pampa {
+        background-image: url('../../img/assets/pg1/bt_pampa.png');
+        background-color: transparent;
+        border: none;
+        width: 136px;
+        height: 137px;
+        background-repeat: no-repeat;
+        position: unset;
+        bottom: unset;
+        right: unset;
+    }
+}
+
+@media (max-width:640px) {
+    .pagina>div>.container.estilopg2-2 {
+        padding: 30px;
+        padding-top: 74px;
+        background-color: #fff;
+        opacity: 0.8;
+        margin-top: -500px;
+    }
+
+    .pagina>div>.container.estilopg2-3 {
+        padding: 30px;
+        background-color: #fff;
+        opacity: 0.8;
+        padding-top: 74px;
+        margin-bottom: -1955px;
+        margin-top: -500px;
+
+    }
+
+    .bloco2-pg1 {
+        background-image: unset;
+        margin: unset;
+        background-repeat: unset;
+        background-position: unset;
+    }
+
+    .pg-footer {
+        background-color: transparent;
+        position: absolute;
+        bottom: -33px;
+    }
+
+    .painel {
+        height: 179vh;
+        display: flex;
+        flex-wrap: nowrap;
+        position: unset;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .bt-amazonia:hover {
+        background-image: url('../../img/assets/pg1/mapa_bt1_hover.png');
+        width: 303px;
+        height: 304px;
+        background-color: transparent;
+        border: none;
+        transform: scale(1.1);
+        background-repeat: no-repeat;
+        top: unset;
+        left: unset;
+    }
+
+    .bt-cerrado:hover {
+        background-image: url('../../img/assets/pg1/mapa_bt2_hover.png');
+        width: 303px;
+        height: 304px;
+        background-color: transparent;
+        border: none;
+        transform: scale(1.1);
+        background-repeat: no-repeat;
+        position: unset;
+        right: unset;
+        top: unset;
+    }
+
+    .bt-caatinga:hover {
+        background-image: url('../../img/assets/pg1/mapa_bt3_hover.png');
+        background-color: transparent;
+        border: none;
+        width: 303px;
+        height: 304px;
+        transform: scale(1.1);
+        right: unset;
+        top: unset;
+        background-repeat: no-repeat;
+    }
+
+    .bt-pantanal:hover {
+        background-image: url('../../img/assets/pg1/mapa_bt4_hover.png');
+        width: 303px;
+        height: 304px;
+        background-color: transparent;
+        border: none;
+        transform: scale(1.1);
+        background-repeat: no-repeat;
+        bottom: unset;
+        left: unset;
+    }
+
+    .bt-mata:hover {
+        background-image: url('../../img/assets/pg1/mapa_bt5_hover.png');
+        background-color: transparent;
+        border: none;
+        width: 303px;
+        height: 304px;
+        transform: scale(1.1);
+        background-repeat: no-repeat;
+        position: unset;
+        bottom: unset;
+        right: unset;
+    }
+
+    .bt-pampa:hover {
+        background-image: url('../../img/assets/pg1/mapa_bt6_hover.png');
+        background-color: transparent;
+        border: none;
+        width: 303px;
+        height: 304px;
+        transform: scale(1.1);
+        bottom: unset;
+        right: unset;
+        background-repeat: no-repeat;
+    }
+
+    .bt-amazonia {
+        background-image: url('../../img/assets/pg1/bt_amazonia.png');
+        background-color: transparent;
+        border: none;
+        width: 136px;
+        height: 137px;
+        background-repeat: no-repeat;
+        position: unset;
+        top: unset;
+        left: unset;
+    }
+
+    .bt-cerrado {
+        background-image: url('../../img/assets/pg1/bt_cerrado.png');
+        background-color: transparent;
+        border: none;
+        width: 136px;
+        height: 137px;
+        background-repeat: no-repeat;
+        position: unset;
+        right: unset;
+        top: unset;
+    }
+
+    .bt-caatinga {
+        background-image: url('../../img/assets/pg1/bt_caatinga.png');
+        background-color: transparent;
+        border: none;
+        width: 136px;
+        height: 137px;
+        background-repeat: no-repeat;
+        position: unset;
+        right: unset;
+        top: unset;
+    }
+
+    .bt-pantanal {
+        background-image: url('../../img/assets/pg1/bt_pantanal.png');
+        background-color: transparent;
+        border: none;
+        width: 136px;
+        height: 137px;
+        background-repeat: no-repeat;
+        position: unset;
+        bottom: unset;
+        left: unset;
+    }
+
+    .bt-mata {
+        background-image: url('../../img/assets/pg1/bt_mata.png');
+        background-color: transparent;
+        border: none;
+        width: 136px;
+        height: 137px;
+        background-repeat: no-repeat;
+        position: unset;
+        bottom: unset;
+        right: unset;
+    }
+
+    .bt-pampa {
+        background-image: url('../../img/assets/pg1/bt_pampa.png');
+        background-color: transparent;
+        border: none;
+        width: 136px;
+        height: 137px;
+        background-repeat: no-repeat;
+        position: unset;
+        bottom: unset;
+        right: unset;
+    }
+}
+
+@media (max-width:604px) {
+    .painel {
+        display: flex;
+        flex-wrap: nowrap;
+        position: unset;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+}
+
+@media (max-width:533px) {
+    .painel {
+        display: flex;
+        flex-wrap: nowrap;
+        position: unset;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .bloco2-pg1 {
+        background-image: unset;
+        margin: unset;
+        background-repeat: unset;
+        background-position: unset;
+    }
+
+    .bt-print {
+        margin-right: -20px;
+        margin-top: -25px;
+    }
+}
+
+@media (max-width:500px) {}
+
+@media (max-width:480px) {
+    h3 {
+        font-family: slackey-regular;
+        font-size: 43px;
+    }
+
+    .bloco2-pg1 {
+        background-image: unset;
+        margin: unset;
+        background-repeat: unset;
+        background-position: unset;
+    }
+}
+
+@media (max-width:424px) {
+    h3 {
+        font-family: slackey-regular;
+        font-size: 34px;
+    }
+
+    .bloco2-pg1 {
+        background-image: unset;
+        margin: unset;
+        background-repeat: unset;
+        background-position: unset;
+    }
+
+    .painel {
+        display: flex;
+        flex-wrap: nowrap;
+        position: unset;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        height: 117vh;
+    }
+}
+
+@media (max-width:360px) {
+    h3 {
+        font-family: slackey-regular;
+        font-size: 30px;
+    }
+
+
+    .pagina>div>.container.estilo1 {
+        padding: 30px;
+        padding-top: 80px;
+        background-color: #fff;
+        opacity: 0.8;
+        min-height: 100vh;
+    }
+
+    .painel {
+        height: 130vh;
+        display: flex;
+        flex-wrap: nowrap;
+        position: unset;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bt-print {
+        margin-right: -19px;
+        margin-top: -16px;
+    }
+
+    .bloco2-pg1 {
+        background-image: unset;
+        margin: unset;
+        background-repeat: unset;
+        background-position: unset;
+    }
+
+    .bt-amazonia:hover {
+        background-image: url('../../img/assets/pg1/mapa_bt1_hover.png');
+        width: 303px;
+        height: 304px;
+        background-color: transparent;
+        border: none;
+        transform: scale(1.1);
+        background-repeat: no-repeat;
+        position: unset;
+    }
+
+    .bt-cerrado:hover {
+        background-image: url('../../img/assets/pg1/mapa_bt2_hover.png');
+        width: 303px;
+        height: 304px;
+        background-color: transparent;
+        border: none;
+        transform: scale(1.1);
+        background-repeat: no-repeat;
+        position: unset;
+    }
+
+    .bt-caatinga:hover {
+        background-image: url('../../img/assets/pg1/mapa_bt3_hover.png');
+        background-color: transparent;
+        border: none;
+        width: 303px;
+        height: 304px;
+        transform: scale(1.1);
+        position: unset;
+        background-repeat: no-repeat;
+    }
+
+    .bt-pantanal:hover {
+        background-image: url('../../img/assets/pg1/mapa_bt4_hover.png');
+        width: 303px;
+        height: 304px;
+        background-color: transparent;
+        border: none;
+        transform: scale(1.1);
+        background-repeat: no-repeat;
+        position: unset;
+    }
+
+    .bt-mata:hover {
+        background-image: url('../../img/assets/pg1/mapa_bt5_hover.png');
+        background-color: transparent;
+        border: none;
+        width: 303px;
+        height: 304px;
+        transform: scale(1.1);
+        background-repeat: no-repeat;
+        position: unset;
+    }
+
+    .bt-pampa:hover {
+        background-image: url('../../img/assets/pg1/mapa_bt6_hover.png');
+        background-color: transparent;
+        border: none;
+        width: 303px;
+        height: 304px;
+        transform: scale(1.1);
+        position: unset;
+        background-repeat: no-repeat;
+    }
+
+    .bt-amazonia {
+        background-image: url('../../img/assets/pg1/bt_amazonia.png');
+        background-color: transparent;
+        border: none;
+        width: 136px;
+        height: 137px;
+        background-repeat: no-repeat;
+        position: unset;
+    }
+
+    .bt-cerrado {
+        background-image: url('../../img/assets/pg1/bt_cerrado.png');
+        background-color: transparent;
+        border: none;
+        width: 136px;
+        height: 137px;
+        background-repeat: no-repeat;
+        position: unset;
+    }
+
+    .bt-caatinga {
+        background-image: url('../../img/assets/pg1/bt_caatinga.png');
+        background-color: transparent;
+        border: none;
+        width: 136px;
+        height: 137px;
+        background-repeat: no-repeat;
+        position: unset;
+    }
+
+    .bt-pantanal {
+        background-image: url('../../img/assets/pg1/bt_pantanal.png');
+        background-color: transparent;
+        border: none;
+        width: 136px;
+        height: 137px;
+        background-repeat: no-repeat;
+        position: unset;
+    }
+
+    .bt-mata {
+        background-image: url('../../img/assets/pg1/bt_mata.png');
+        background-color: transparent;
+        border: none;
+        width: 136px;
+        height: 137px;
+        background-repeat: no-repeat;
+        position: unset;
+    }
+
+    .bt-pampa {
+        background-image: url('../../img/assets/pg1/bt_pampa.png');
+        background-color: transparent;
+        border: none;
+        width: 136px;
+        height: 137px;
+        background-repeat: no-repeat;
+        position: unset;
+    }
+
+}
+
+
+@media (max-width:320px) {
+    .pagina>div>.container.estilopg2 {
+        padding: 30px;
+        padding-top: 89px;
+        background-color: #fff;
+        opacity: 0.9;
+    }
+
+    h3 {
+        font-family: slackey-regular;
+        font-size: 30px;
+    }
+
+    .pg-footer {
+        background-color: transparent;
+        position: absolute;
+        bottom: -27px;
+    }
+
+    .bloco2-pg1 {
+        background-image: unset;
+        margin: unset;
+        background-repeat: unset;
+        background-position: unset;
+    }
+
+    .painel {
+        display: flex;
+        flex-wrap: nowrap;
+        position: unset;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        height: 200vh;
+    }
+
+
+    .bt-amazonia:hover {
+        background-image: url('../../img/assets/pg1/mapa_bt1_hover.png');
+        width: 303px;
+        height: 304px;
+        background-color: transparent;
+        border: none;
+        transform: scale(1.1);
+        background-repeat: no-repeat;
+        top: unset;
+        left: unset;
+    }
+
+    .bt-cerrado:hover {
+        background-image: url('../../img/assets/pg1/mapa_bt2_hover.png');
+        width: 303px;
+        height: 304px;
+        background-color: transparent;
+        border: none;
+        transform: scale(1.1);
+        background-repeat: no-repeat;
+        position: unset;
+        right: unset;
+        top: unset;
+    }
+
+    .bt-caatinga:hover {
+        background-image: url('../../img/assets/pg1/mapa_bt3_hover.png');
+        background-color: transparent;
+        border: none;
+        width: 303px;
+        height: 304px;
+        transform: scale(1.1);
+        right: unset;
+        top: unset;
+        background-repeat: no-repeat;
+    }
+
+    .bt-pantanal:hover {
+        background-image: url('../../img/assets/pg1/mapa_bt4_hover.png');
+        width: 303px;
+        height: 304px;
+        background-color: transparent;
+        border: none;
+        transform: scale(1.1);
+        background-repeat: no-repeat;
+        bottom: unset;
+        left: unset;
+    }
+
+    .bt-mata:hover {
+        background-image: url('../../img/assets/pg1/mapa_bt5_hover.png');
+        background-color: transparent;
+        border: none;
+        width: 303px;
+        height: 304px;
+        transform: scale(1.1);
+        background-repeat: no-repeat;
+        position: unset;
+        bottom: unset;
+        right: unset;
+    }
+
+    .bt-pampa:hover {
+        background-image: url('../../img/assets/pg1/mapa_bt6_hover.png');
+        background-color: transparent;
+        border: none;
+        width: 303px;
+        height: 304px;
+        transform: scale(1.1);
+        bottom: unset;
+        right: unset;
+        background-repeat: no-repeat;
+    }
+
+    .bt-amazonia {
+        background-image: url('../../img/assets/pg1/bt_amazonia.png');
+        background-color: transparent;
+        border: none;
+        width: 136px;
+        height: 137px;
+        background-repeat: no-repeat;
+        position: unset;
+        top: unset;
+        left: unset;
+    }
+
+    .bt-cerrado {
+        background-image: url('../../img/assets/pg1/bt_cerrado.png');
+        background-color: transparent;
+        border: none;
+        width: 136px;
+        height: 137px;
+        background-repeat: no-repeat;
+        position: unset;
+        right: unset;
+        top: unset;
+    }
+
+    .bt-caatinga {
+        background-image: url('../../img/assets/pg1/bt_caatinga.png');
+        background-color: transparent;
+        border: none;
+        width: 136px;
+        height: 137px;
+        background-repeat: no-repeat;
+        position: unset;
+        right: unset;
+        top: unset;
+    }
+
+    .bt-pantanal {
+        background-image: url('../../img/assets/pg1/bt_pantanal.png');
+        background-color: transparent;
+        border: none;
+        width: 136px;
+        height: 137px;
+        background-repeat: no-repeat;
+        position: unset;
+        bottom: unset;
+        left: unset;
+    }
+
+    .bt-mata {
+        background-image: url('../../img/assets/pg1/bt_mata.png');
+        background-color: transparent;
+        border: none;
+        width: 136px;
+        height: 137px;
+        background-repeat: no-repeat;
+        position: unset;
+        bottom: unset;
+        right: unset;
+    }
+
+    .bt-pampa {
+        background-image: url('../../img/assets/pg1/bt_pampa.png');
+        background-color: transparent;
+        border: none;
+        width: 136px;
+        height: 137px;
+        background-repeat: no-repeat;
+        position: unset;
+        bottom: unset;
+        right: unset;
+    }
+
+    .pagina>div>.container.estilo1 {
+        padding: 30px;
+        padding-top: 80px;
+        background-color: #fff;
+        opacity: 0.8;
+        min-height: 100vh;
+    }
+
+    .bt-print {
+        width: 185%;
+        max-width: 132px;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: .8rem;
+        color: #00838D;
+        border-color: #00838D;
+        border-style: solid;
+        padding: 8px 5px;
+        background-color: white;
+        box-shadow: 0px 2px 0 1px rgba(0, 0, 0, .1);
+    }
+}
+
+@media (max-width:213px) {
+    .pagina>div>.container.estilopg2 {
+        padding: 30px;
+        padding-top: 91px;
+        background-color: #fff;
+        opacity: 0.9;
+    }
+
+    h3 {
+        font-family: slackey-regular;
+        font-size: 17px;
+    }
+
+
+    .painel {
+        display: flex;
+        flex-wrap: nowrap;
+        position: unset;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        height: 250vh;
+    }
+
+    .bloco2-pg1 {
+        background-image: unset;
+        margin: unset;
+        background-repeat: unset;
+        background-position: unset;
+    }
+
+    .bt-amazonia:hover {
+        background-image: url('../../img/assets/pg1/mapa_bt1_hover.png');
+        width: 303px;
+        height: 304px;
+        background-color: transparent;
+        border: none;
+        transform: scale(1.1);
+        background-repeat: no-repeat;
+        top: unset;
+        left: unset;
+    }
+
+    .bt-cerrado:hover {
+        background-image: url('../../img/assets/pg1/mapa_bt2_hover.png');
+        width: 303px;
+        height: 304px;
+        background-color: transparent;
+        border: none;
+        transform: scale(1.1);
+        background-repeat: no-repeat;
+        position: unset;
+        right: unset;
+        top: unset;
+    }
+
+    .bt-caatinga:hover {
+        background-image: url('../../img/assets/pg1/mapa_bt3_hover.png');
+        background-color: transparent;
+        border: none;
+        width: 303px;
+        height: 304px;
+        transform: scale(1.1);
+        right: unset;
+        top: unset;
+        background-repeat: no-repeat;
+    }
+
+    .bt-pantanal:hover {
+        background-image: url('../../img/assets/pg1/mapa_bt4_hover.png');
+        width: 303px;
+        height: 304px;
+        background-color: transparent;
+        border: none;
+        transform: scale(1.1);
+        background-repeat: no-repeat;
+        bottom: unset;
+        left: unset;
+    }
+
+    .bt-mata:hover {
+        background-image: url('../../img/assets/pg1/mapa_bt5_hover.png');
+        background-color: transparent;
+        border: none;
+        width: 303px;
+        height: 304px;
+        transform: scale(1.1);
+        background-repeat: no-repeat;
+        position: unset;
+        bottom: unset;
+        right: unset;
+    }
+
+    .bt-pampa:hover {
+        background-image: url('../../img/assets/pg1/mapa_bt6_hover.png');
+        background-color: transparent;
+        border: none;
+        width: 303px;
+        height: 304px;
+        transform: scale(1.1);
+        bottom: unset;
+        right: unset;
+        background-repeat: no-repeat;
+    }
+
+    .bt-amazonia {
+        background-image: url('../../img/assets/pg1/bt_amazonia.png');
+        background-color: transparent;
+        border: none;
+        width: 136px;
+        height: 137px;
+        background-repeat: no-repeat;
+        position: unset;
+        top: unset;
+        left: unset;
+    }
+
+    .bt-cerrado {
+        background-image: url('../../img/assets/pg1/bt_cerrado.png');
+        background-color: transparent;
+        border: none;
+        width: 136px;
+        height: 137px;
+        background-repeat: no-repeat;
+        position: unset;
+        right: unset;
+        top: unset;
+    }
+
+    .bt-caatinga {
+        background-image: url('../../img/assets/pg1/bt_caatinga.png');
+        background-color: transparent;
+        border: none;
+        width: 136px;
+        height: 137px;
+        background-repeat: no-repeat;
+        position: unset;
+        right: unset;
+        top: unset;
+    }
+
+    .bt-pantanal {
+        background-image: url('../../img/assets/pg1/bt_pantanal.png');
+        background-color: transparent;
+        border: none;
+        width: 136px;
+        height: 137px;
+        background-repeat: no-repeat;
+        position: unset;
+        bottom: unset;
+        left: unset;
+    }
+
+    .bt-mata {
+        background-image: url('../../img/assets/pg1/bt_mata.png');
+        background-color: transparent;
+        border: none;
+        width: 136px;
+        height: 137px;
+        background-repeat: no-repeat;
+        position: unset;
+        bottom: unset;
+        right: unset;
+    }
+
+    .bt-pampa {
+        background-image: url('../../img/assets/pg1/bt_pampa.png');
+        background-color: transparent;
+        border: none;
+        width: 136px;
+        height: 137px;
+        background-repeat: no-repeat;
+        position: unset;
+        bottom: unset;
+        right: unset;
+    }
+
+    .pagina>div>.container.estilo1 {
+        padding: 30px;
+        padding-top: 80px;
+        background-color: #fff;
+        opacity: 0.8;
+        min-height: 100vh;
+    }
+
+}
