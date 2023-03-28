@@ -7,10 +7,18 @@
 h3 {
     font-family: slackey-regular;
     font-size: 48px;
+    margin-top: 40px;
+    margin-bottom: 50px;
 }
 
 h4 {
     font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.fontetitulo {
+    font-family: slackey-regular;
 }
 
 .bt-print {
@@ -20,6 +28,8 @@ h4 {
 
 p {
     word-wrap: break-word;
+    margin-top: 40px;
+    margin-bottom: 10px;
 }
 
 .barragem {
@@ -30,7 +40,6 @@ p {
 }
 
 /* fim fonte e títulos*/
-
 /* estrutura blocos*/
 body {
     overflow-x: hidden;
@@ -324,6 +333,7 @@ body {
     background-size: 100% 100%;
     margin-top: -36px;
     height: 400px;
+    margin-bottom: -383px;
 }
 
 .bloco3-paralax1pg2 {
@@ -424,7 +434,7 @@ figcaption {
     padding: 0;
     color: inherit;
     background: transparent;
-    border-bottom: 2px dashed #fff;
+    border-bottom: 2px dashed black;
 }
 
 .gif {
@@ -504,9 +514,7 @@ iframe {
 }
 
 /* fim estilo caixa saiba mais */
-
 /* config modal mapa */
-
 .painel {
     display: flex;
     position: relative;
@@ -517,167 +525,6 @@ iframe {
     position: relative;
     height: 5vh;
 }
-
-/* botoes igual o mapa */
-/* .bt-caatinga2 {
-    background-image: url('../../img/assets/pg1/mapa_caatinga.png');
-    background-color: transparent;
-    border: none;
-    right: 135px;
-    top: -731px;
-    opacity: 0.7;
-    background-repeat: no-repeat;
-    position: absolute;
-}
-
-.bt-mata2 {
-    background-image: url('../../img/assets/pg1/mapa_mata.png');
-    background-color: transparent;
-    border: none;
-    width: 637px;
-    height: 630px;
-    opacity: 0.7;
-    right: 116px;
-    bottom: 356px;
-    background-repeat: no-repeat;
-    position: absolute;
-}
-
-.bt-pampa2 {
-    background-image: url('../../img/assets/pg1/mapa_pampa.png');
-    background-color: transparent;
-    border: none;
-    width: 637px;
-    height: 630px;
-    opacity: 0.7;
-    background-repeat: no-repeat;
-    position: absolute;
-    top: -344px;
-    right: 376px;
-}
-
-.bt-pantanal2 {
-    background-image: url('../../img/assets/pg1/mapa_pantanal.png');
-    background-color: transparent;
-    border: none;
-    width: 637px;
-    height: 630px;
-    opacity: 0.7;
-    background-repeat: no-repeat;
-    position: absolute;
-    top: -534px;
-    right: 440px;
-}
-
-.bt-cerrado2 {
-    background-image: url('../../img/assets/pg1/mapa_cerrado.png');
-    background-color: transparent;
-    border: none;
-    width: 637px;
-    height: 630px;
-    opacity: 0.7;
-    background-repeat: no-repeat;
-    position: absolute;
-    right: 237px;
-    top: -739px;
-}
-
-.bt-amazonia2 {
-    background-image: url('../../img/assets/pg1/mapa_amazonia.png');
-    background-color: transparent;
-    border: none;
-    width: 637px;
-    height: 630px;
-    opacity: 0.7;
-    background-repeat: no-repeat;
-    position: absolute;
-    left: 129px;
-    top: -739px;
-}
-
-.bt-caatinga2:hover {
-    background-image: url('../../img/assets/pg1/mapa_caatinga.png');
-    background-color: transparent;
-    border: none;
-    transform: scale(1.1);
-    opacity: 1.0;
-    background-repeat: no-repeat;
-    position: absolute;
-    right: 135px;
-    top: -731px;
-}
-
-.bt-amazonia2:hover {
-    background-image: url('../../img/assets/pg1/mapa_amazonia.png');
-    background-color: transparent;
-    border: none;
-    width: 637px;
-    height: 630px;
-    transform: scale(1.1);
-    opacity: 1.0;
-    background-repeat: no-repeat;
-    position: absolute;
-    left: 129px;
-    top: -860px;
-}
-
-.bt-pantanal2:hover {
-    background-image: url('../../img/assets/pg1/mapa_pantanal.png');
-    background-color: transparent;
-    border: none;
-    width: 637px;
-    height: 630px;
-    transform: scale(1.1);
-    opacity: 1.0;
-    background-repeat: no-repeat;
-    position: absolute;
-    top: -534px;
-    right: 440px;
-}
-
-.bt-cerrado2:hover {
-    background-image: url('../../img/assets/pg1/mapa_cerrado.png');
-    background-color: transparent;
-    border: none;
-    width: 637px;
-    height: 630px;
-    transform: scale(1.1);
-    opacity: 1.0;
-    background-repeat: no-repeat;
-    position: absolute;
-    right: 237px;
-    top: 230px;
-}
-
-.bt-mata2:hover {
-    background-image: url('../../img/assets/pg1/mapa_mata.png');
-    background-color: transparent;
-    border: none;
-    width: 637px;
-    height: 630px;
-    transform: scale(1.1);
-    opacity: 1.0;
-    right: 116px;
-    bottom: 356px;
-    background-repeat: no-repeat;
-    position: absolute;
-}
-
-.bt-pampa2:hover {
-    background-image: url('../../img/assets/pg1/mapa_pampa.png');
-    background-color: transparent;
-    border: none;
-    width: 637px;
-    height: 630px;
-    transform: scale(1.1);
-    opacity: 1.0;
-    background-repeat: no-repeat;
-    position: absolute;
-    top: -344px;
-    right: 376px;
-} */
-
-/* fim botoes igual o mapa */
 
 /* botoes bolinhas do mapa */
 .bt-amazonia:hover {
@@ -867,7 +714,7 @@ table.sesc td {
 }
 
 .flip-card_fig {
-    height: 881px;
+    height: 50vh;
 }
 
 .flip-card-inner {
@@ -1158,8 +1005,8 @@ table.sesc td {
     .painel {
         display: flex;
         position: relative;
-        max-height: 116vh; 
-       min-height: 112vh; 
+        max-height: 116vh;
+        min-height: 112vh;
     }
 }
 
@@ -1432,6 +1279,7 @@ table.sesc td {
         background-position: center 1337px;
 
     }
+
     .painel {
         display: flex;
         position: relative;
@@ -1612,6 +1460,7 @@ table.sesc td {
         bottom: 362px;
         left: 200px;
     }
+
     .painel {
         display: flex;
         position: relative;
@@ -1624,12 +1473,14 @@ table.sesc td {
         left: 0px;
         width: 18%;
     }
+
     .painel {
         display: flex;
         position: relative;
         max-height: 130vh;
         min-height: 94vh;
     }
+
     .rellax-2 {
         right: -195px;
         width: 30%;
@@ -1828,84 +1679,148 @@ table.sesc td {
         bottom: 370px;
         left: 200px;
     }
+
     .painel {
         display: flex;
         position: relative;
         max-height: 160vh;
-    min-height: 128vh;
+        min-height: 128vh;
     }
 
-.bt-amazonia:hover {
-    background-image: url('../../img/assets/pg1/mapa_bt1_hover.png');
-    width: 303px;
-    height: 304px;
-    background-color: transparent;
-    border: none;
-    transform: scale(1.1);
-    background-repeat: no-repeat;
-    top: 143px;
-    left: 11px;
-}
-.bt-amazonia {
-    background-image: url(../../img/assets/pg1/bt_amazonia.png);
-    background-color: transparent;
-    border: none;
-    width: 136px;
-    height: 137px;
-    background-repeat: no-repeat;
-    position: absolute;
-    top: 143px;
-    left: 11px;
-}
-.bt-cerrado:hover {
-    background-image: url('../../img/assets/pg1/mapa_bt2_hover.png');
-    width: 303px;
-    height: 304px;
-    background-color: transparent;
-    border: none;
-    transform: scale(1.1);
-    background-repeat: no-repeat;
-    position: absolute;
-    right: 136px;
-    top: 100px;
-}
-.bt-cerrado {
-    background-image: url(../../img/assets/pg1/bt_cerrado.png);
-    background-color: transparent;
-    border: none;
-    width: 136px;
-    height: 137px;
-    background-repeat: no-repeat;
-    position: absolute;
-    right: 136px;
-    top: 100px;
-}
-.bt-caatinga:hover {
-    background-image: url('../../img/assets/pg1/mapa_bt3_hover.png');
-    background-color: transparent;
-    border: none;
-    width: 303px;
-    height: 304px;
-    transform: scale(1.1);
-    background-repeat: no-repeat;
-    right: 1px;
-    top: 218px;
-}
-.bt-caatinga {
-    background-image: url(../../img/assets/pg1/bt_caatinga.png);
-    background-color: transparent;
-    border: none;
-    width: 136px;
-    height: 137px;
-    background-repeat: no-repeat;
-    position: absolute;
-    right: 1px;
-    top: 218px;
-}
+    .bt-amazonia:hover {
+        background-image: url('../../img/assets/pg1/mapa_bt1_hover.png');
+        width: 303px;
+        height: 304px;
+        background-color: transparent;
+        border: none;
+        transform: scale(1.1);
+        background-repeat: no-repeat;
+        top: 143px;
+        left: 11px;
+    }
+
+    .bt-amazonia {
+        background-image: url(../../img/assets/pg1/bt_amazonia.png);
+        background-color: transparent;
+        border: none;
+        width: 136px;
+        height: 137px;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 143px;
+        left: 11px;
+    }
+
+    .bt-cerrado:hover {
+        background-image: url('../../img/assets/pg1/mapa_bt2_hover.png');
+        width: 303px;
+        height: 304px;
+        background-color: transparent;
+        border: none;
+        transform: scale(1.1);
+        background-repeat: no-repeat;
+        position: absolute;
+        right: 136px;
+        top: 100px;
+    }
+
+    .bt-cerrado {
+        background-image: url(../../img/assets/pg1/bt_cerrado.png);
+        background-color: transparent;
+        border: none;
+        width: 136px;
+        height: 137px;
+        background-repeat: no-repeat;
+        position: absolute;
+        right: 136px;
+        top: 100px;
+    }
+
+    .bt-caatinga:hover {
+        background-image: url('../../img/assets/pg1/mapa_bt3_hover.png');
+        background-color: transparent;
+        border: none;
+        width: 303px;
+        height: 304px;
+        transform: scale(1.1);
+        background-repeat: no-repeat;
+        right: 1px;
+        top: 218px;
+    }
+
+    .bt-caatinga {
+        background-image: url(../../img/assets/pg1/bt_caatinga.png);
+        background-color: transparent;
+        border: none;
+        width: 136px;
+        height: 137px;
+        background-repeat: no-repeat;
+        position: absolute;
+        right: 1px;
+        top: 218px;
+    }
 
 }
 
-@media (max-width: 990px) {}
+@media (max-width: 960px) {
+    .flip-card_fig {
+        height: 78vh;
+    }
+
+    .painel {
+        display: flex;
+        position: relative;
+        margin-bottom: -92px;
+    }
+
+    .bt-cerrado {
+        background-image: url(../../img/assets/pg1/bt_cerrado.png);
+        background-color: transparent;
+        border: none;
+        width: 136px;
+        height: 137px;
+        background-repeat: no-repeat;
+        position: absolute;
+        right: 136px;
+        top: 20px;
+    }
+
+    .bt-amazonia {
+        background-image: url(../../img/assets/pg1/bt_amazonia.png);
+        background-color: transparent;
+        border: none;
+        width: 136px;
+        height: 137px;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 57px;
+        left: 44px;
+    }
+
+    .bt-pampa {
+        background-image: url(../../img/assets/pg1/bt_pampa.png);
+        background-color: transparent;
+        border: none;
+        width: 136px;
+        height: 137px;
+        background-repeat: no-repeat;
+        position: absolute;
+        bottom: 139px;
+        right: 445px;
+    }
+
+    .bt-caatinga {
+        background-image: url(../../img/assets/pg1/bt_caatinga.png);
+        background-color: transparent;
+        border: none;
+        width: 136px;
+        height: 137px;
+        background-repeat: no-repeat;
+        position: absolute;
+        right: 7px;
+        top: 84px;
+    }
+}
 
 @media (max-width:820px) {
     .bt-mata:hover {
@@ -2007,6 +1922,7 @@ table.sesc td {
         bottom: 4575px;
         right: 171px;
     }
+
     .bt-mata {
         background-image: url(../../img/assets/pg1/bt_mata.png);
         background-color: transparent;
@@ -2018,6 +1934,7 @@ table.sesc td {
         bottom: 4575px;
         right: 171px;
     }
+
     .bt-pampa:hover {
         background-image: url('../../img/assets/pg1/mapa_bt6_hover.png');
         background-color: transparent;
@@ -2029,6 +1946,7 @@ table.sesc td {
         bottom: 4471px;
         right: 407px;
     }
+
     .bt-pampa {
         background-image: url(../../img/assets/pg1/bt_pampa.png);
         background-color: transparent;
@@ -2040,97 +1958,103 @@ table.sesc td {
         bottom: 4471px;
         right: 407px;
     }
-    
-      .bt-pantanal:hover {
-            background-image: url('../../img/assets/pg1/mapa_bt4_hover.png');
-            width: 303px;
-            height: 304px;
-            background-color: transparent;
-            border: none;
-            transform: scale(1.1);
-            background-repeat: no-repeat;
-            bottom: 4698px;
-            left: 200px;
-        }
-        .bt-pantanal {
-            background-image: url(../../img/assets/pg1/bt_pantanal.png);
-            background-color: transparent;
-            border: none;
-            width: 136px;
-            height: 137px;
-            background-repeat: no-repeat;
-            position: absolute;
-            bottom: 4698px;
-            left: 200px;
-        }
-        .bt-amazonia:hover {
-            background-image: url('../../img/assets/pg1/mapa_bt1_hover.png');
-            width: 303px;
-            height: 304px;
-            background-color: transparent;
-            border: none;
-            transform: scale(1.1);
-            background-repeat: no-repeat;
-            top: 2661px;
-            left: 11px;
-        }
-        .bt-amazonia {
-            background-image: url(../../img/assets/pg1/bt_amazonia.png);
-            background-color: transparent;
-            border: none;
-            width: 136px;
-            height: 137px;
-            background-repeat: no-repeat;
-            position: absolute;
-            top: 2661px;
-            left: 11px;
-        }
-        
-        .bt-cerrado:hover {
-            background-image: url('../../img/assets/pg1/mapa_bt2_hover.png');
-            width: 303px;
-            height: 304px;
-            background-color: transparent;
-            border: none;
-            transform: scale(1.1);
-            background-repeat: no-repeat;
-            position: absolute;
-            right: 136px;
-            top: 2607px;
-        }
-        .bt-cerrado {
-            background-image: url(../../img/assets/pg1/bt_cerrado.png);
-            background-color: transparent;
-            border: none;
-            width: 136px;
-            height: 137px;
-            background-repeat: no-repeat;
-            position: absolute;
-            right: 136px;
-            top: 2607px;
-        }
-        .bt-caatinga:hover {
-            background-image: url('../../img/assets/pg1/mapa_bt3_hover.png');
-            background-color: transparent;
-            border: none;
-            width: 303px;
-            height: 304px;
-            transform: scale(1.1);
-            background-repeat: no-repeat;
-            right: 1px;
-            top: 2679px;
-        }
-        .bt-caatinga {
-            background-image: url(../../img/assets/pg1/bt_caatinga.png);
-            background-color: transparent;
-            border: none;
-            width: 136px;
-            height: 137px;
-            background-repeat: no-repeat;
-            position: absolute;
-            right: 1px;
-            top: 2679px;
-        }
+
+    .bt-pantanal:hover {
+        background-image: url('../../img/assets/pg1/mapa_bt4_hover.png');
+        width: 303px;
+        height: 304px;
+        background-color: transparent;
+        border: none;
+        transform: scale(1.1);
+        background-repeat: no-repeat;
+        bottom: 4698px;
+        left: 200px;
+    }
+
+    .bt-pantanal {
+        background-image: url(../../img/assets/pg1/bt_pantanal.png);
+        background-color: transparent;
+        border: none;
+        width: 136px;
+        height: 137px;
+        background-repeat: no-repeat;
+        position: absolute;
+        bottom: 4698px;
+        left: 200px;
+    }
+
+    .bt-amazonia:hover {
+        background-image: url('../../img/assets/pg1/mapa_bt1_hover.png');
+        width: 303px;
+        height: 304px;
+        background-color: transparent;
+        border: none;
+        transform: scale(1.1);
+        background-repeat: no-repeat;
+        top: 2661px;
+        left: 11px;
+    }
+
+    .bt-amazonia {
+        background-image: url(../../img/assets/pg1/bt_amazonia.png);
+        background-color: transparent;
+        border: none;
+        width: 136px;
+        height: 137px;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 2661px;
+        left: 11px;
+    }
+
+    .bt-cerrado:hover {
+        background-image: url('../../img/assets/pg1/mapa_bt2_hover.png');
+        width: 303px;
+        height: 304px;
+        background-color: transparent;
+        border: none;
+        transform: scale(1.1);
+        background-repeat: no-repeat;
+        position: absolute;
+        right: 136px;
+        top: 2607px;
+    }
+
+    .bt-cerrado {
+        background-image: url(../../img/assets/pg1/bt_cerrado.png);
+        background-color: transparent;
+        border: none;
+        width: 136px;
+        height: 137px;
+        background-repeat: no-repeat;
+        position: absolute;
+        right: 136px;
+        top: 2607px;
+    }
+
+    .bt-caatinga:hover {
+        background-image: url('../../img/assets/pg1/mapa_bt3_hover.png');
+        background-color: transparent;
+        border: none;
+        width: 303px;
+        height: 304px;
+        transform: scale(1.1);
+        background-repeat: no-repeat;
+        right: 1px;
+        top: 2679px;
+    }
+
+    .bt-caatinga {
+        background-image: url(../../img/assets/pg1/bt_caatinga.png);
+        background-color: transparent;
+        border: none;
+        width: 136px;
+        height: 137px;
+        background-repeat: no-repeat;
+        position: absolute;
+        right: 1px;
+        top: 2679px;
+    }
 
 
 
@@ -2145,22 +2069,6 @@ table.sesc td {
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media (max-width:768px) {
     .bt-mata:hover {
         background-image: url('../../img/assets/pg1/mapa_bt5_hover.png');
@@ -2174,6 +2082,7 @@ table.sesc td {
         bottom: 4000px;
         right: 171px;
     }
+
     .bt-mata {
         background-image: url(../../img/assets/pg1/bt_mata.png);
         background-color: transparent;
@@ -2185,6 +2094,7 @@ table.sesc td {
         bottom: 4000px;
         right: 171px;
     }
+
     .bt-pampa:hover {
         background-image: url('../../img/assets/pg1/mapa_bt6_hover.png');
         background-color: transparent;
@@ -2222,6 +2132,7 @@ table.sesc td {
         bottom: 4138px;
         left: 181px;
     }
+
     .bt-pantanal {
         background-image: url(../../img/assets/pg1/bt_pantanal.png);
         background-color: transparent;
@@ -2233,6 +2144,7 @@ table.sesc td {
         bottom: 4138px;
         left: 181px;
     }
+
     .bt-cerrado {
         background-image: url(../../img/assets/pg1/bt_cerrado.png);
         background-color: transparent;
@@ -2244,6 +2156,7 @@ table.sesc td {
         right: 136px;
         top: 2504px;
     }
+
     .bt-caatinga {
         background-image: url(../../img/assets/pg1/bt_caatinga.png);
         background-color: transparent;
@@ -2255,6 +2168,7 @@ table.sesc td {
         right: 1px;
         top: 2576px;
     }
+
     .bt-amazonia {
         background-image: url(../../img/assets/pg1/bt_amazonia.png);
         background-color: transparent;
@@ -2279,7 +2193,7 @@ table.sesc td {
         top: 2560px;
         left: 11px;
     }
-    
+
     .bt-cerrado:hover {
         background-image: url('../../img/assets/pg1/mapa_bt2_hover.png');
         width: 303px;
@@ -2292,7 +2206,7 @@ table.sesc td {
         right: 136px;
         top: 2504px;
     }
-    
+
     .bt-caatinga:hover {
         background-image: url('../../img/assets/pg1/mapa_bt3_hover.png');
         background-color: transparent;
@@ -2916,7 +2830,6 @@ table.sesc td {
     }
 
 }
-
 
 @media (max-width:320px) {
     .pagina>div>.container.estilopg2 {
