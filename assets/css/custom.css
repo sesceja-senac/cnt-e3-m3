@@ -78,13 +78,19 @@ body {
 .pagina>div>.container.estilopg2 {
     padding: 30px;
     background-color: #fff;
-    opacity: 0.9;
+    opacity: 1.0;
 }
 
 .pagina>div>.container.estilopg3 {
     padding: 30px;
     background-color: #004F53;
     color: #fff;
+}
+.pagina>div>.container.estilo4pg3 {
+    padding: 30px;
+    background-color: #004F53;
+    color: #fff;
+    margin-bottom: -180px;
 }
 
 .estilopg3-fonte {
