@@ -11,74 +11,85 @@
   <link rel="stylesheet" href="assets/fa/css/all.min.css">
 
   <link rel="stylesheet" href="assets-inicial/css/custom.css">
-  <title>As relações entre os seres vivos e o ambiente </title>
+  <title>As relações entre os seres vivos e o ambiente</title>
 </head>
 
 <body>
-  <div class="container">
-    <img src="assets-inicial/imgs/arara.gif" alt=""
-      class="start-bt animate__animated animate__backInLeft animate__delay-1s" data-rellax-speed="2">
-    </a>
+  <div class="container pt-4">
+    <button type="button" class="btVideo" data-bs-toggle="modal" data-bs-target="#modal-video"
+      aria-hidden="true"></button>
+    <div class="visually-hidden">
+      <h3>As relações entre os seres vivos e o ambiente</h3>
+      <p>Olá, estudantes! Bem-vindos ao nosso material que trata da biodiversidade e da organização da vida na Terra. A
+        vida surgiu há bilhões de anos e passou por incontáveis mudanças e adaptações, permitindo que hoje ela ocupe
+        praticamente todos os lugares do nosso planeta. No Brasil, a diversidade da vida é imensa! É um dos países com
+        megadiversidade de seres vivos. Neste módulo, vamos entender o impacto de desastres ambientais na
+        biodiversidade, analisando a tragédia de Mariana, um município de Minas Gerais. Por fim, vamos estudar o nosso
+        papel na preservação da biodiversidade e do planeta Terra! </p>
+    </div>
+    <div class="animation is-animating">
+      <img src="assets-inicial/imgs/arara.gif" alt="">
+    </div>
     <div class="menu">
-      <button type="button" class="btVideo" data-bs-toggle="modal" data-bs-target="#modal-video"
-        aria-hidden="true"></button>
       <a href="conteudo.html?page=1" class="bt-1" target="_blank"></a>
     </div>
-    <div class="modal fade" id="modal-video" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-            <p>Olá! Antes de começar, assista ao vídeo introdutório sobre o módulo a seguir.</p>
-            <!--aqui vai vídeo-->
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
-          </div>
+     
+    <div class="backdrop" aria-hidden="true">
+      <div class="modal-intro">
+        <p>Olá! Antes de começar, assista ao vídeo introdutório sobre o módulo a seguir.</p>
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="ytb embed-responsive-item" src="https://www.youtube.com/embed/ox_O445PoNs"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+        </div>
+
+        <div class="footer">
+          <button class="botao-fechar">
+            Fechar
+          </button>
         </div>
       </div>
     </div>
-  </div>
 
 
-
-  <!-- <img src="" class="img-fluid d-block m-auto aos-init aos-animate" data-aos="zoom-in" alt=""> -->
-
-
-
-
-
-
-
-  <div class="visually-hidden">
-    <h3>As relações entre os seres vivos e o ambiente</h3>
-    <p>Olá, estudantes! Bem-vindos ao nosso material que trata da biodiversidade e da organização da vida na Terra. A
-      vida surgiu há bilhões de anos e passou por incontáveis mudanças e adaptações, permitindo que hoje ela ocupe
-      praticamente todos os lugares do nosso planeta. No Brasil, a diversidade da vida é imensa! É um dos países com
-      megadiversidade de seres vivos. Neste módulo, vamos entender o impacto de desastres ambientais na
-      biodiversidade, analisando a tragédia de Mariana, um município de Minas Gerais. Por fim, vamos estudar o nosso
-      papel na preservação da biodiversidade e do planeta Terra! </p>
-  </div>
-
-
-
-
-
-
-
-
-
-  <!-- Bootstrap JavaScript Libraries -->
-  <script src="assets/bootstrap/bootstrap.bundle.min.js"></script>
-  <!--Jquery-->
-  <script src="assets/js/jquery-3.6.0.min.js"></script>
-  <script>
-    $('.menu a').click(function () {
-      $(this).addClass('visitado');
-    })
-  </script>
+    <!--Jquery-->
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="assets/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/tela_inicial.js"></script>
+    <script>
+      $('.menu a').click(function () {
+        $(this).addClass('visitado');
+      })
+    </script>
+    <!-- Versao atual do handtalk -->
+    <script>
+      var scriptElem = document.createElement("script");
+      scriptElem.src = "https://plugin.handtalk.me/web/latest/handtalk.min.js",
+        scriptElem.charset = "UTF-8",
+        scriptElem.onload = function () {
+          window.ht = new HT({
+            token: "bf5b7efb148a829a126a0e0c9fd533bf",
+            align: "top",
+            videoEnabled: true,
+            ytEmbedReplace: true,
+            mobileConfig: {
+              align: "right",
+              actionsAlign: "top",
+              customButtonStyle: {
+                borderRadius: "6px",
+                size: "38px",
+                horizontalMargin: "13px",
+                bottomMargin: "140px",
+                rightMargin: "40px"
+              }
+            }
+          });
+          $('.ht-skip').attr("aria-hidden", "true")
+        },
+        document.body.appendChild(scriptElem);
+    </script>
 </body>
 
 </html>
