@@ -68,6 +68,7 @@ body {
     background-color: #fff;
     opacity: 0.8;
     min-height: 100vh;
+    color: black;
 }
 
 .pagina>div>.container.estilopg2 {
@@ -81,6 +82,7 @@ body {
     background-color: #004F53;
     color: #fff;
 }
+
 .pagina>div>.container.estilo4pg3 {
     padding: 30px;
     background-color: #004F53;
@@ -227,9 +229,11 @@ body {
     background-repeat: no-repeat;
 
 }
+
 figcaption {
     margin-bottom: 40px;
 }
+
 .bloco3-pg2 {
     position: relative;
     background-image:
@@ -275,9 +279,9 @@ figcaption {
 
 .bloco1-pg3 {
     position: relative;
-    background-image: 
-    url('../../img/assets/pg3/bg_chuva.png') ,
-    url('../../img/assets/pg3/bg_inicio.png') ;
+    background-image:
+        url('../../img/assets/pg3/bg_chuva.png'),
+        url('../../img/assets/pg3/bg_inicio.png');
     background-size: contain;
     background-repeat: repeat-y, no-repeat;
     background-color: #004F53;
@@ -307,7 +311,7 @@ figcaption {
 
 .bloco2pg2-paralax1 {
     background: url(../../img/assets/pg2/bg_div.png),
-    linear-gradient(to bottom, #00A7B3, transparent );
+        linear-gradient(to bottom, #00A7B3, transparent);
     margin-top: unset;
     background-repeat: no-repeat;
     padding-top: 0;
@@ -326,7 +330,6 @@ figcaption {
     background-repeat: no-repeat;
     padding-top: 0;
     background-size: 110% 110%;
-    margin-top: unset;
     height: 400px;
 }
 
@@ -461,13 +464,15 @@ iframe {
     min-height: 100vh;
 
 }
+
 .fundobarragem {
     background-image: url(../../img/assets/pg2/barragem_texto.png), url(../../img/assets/pg2/barragem.gif);
     background-repeat: no-repeat;
     min-height: 100vh;
     background-position: center;
-    
+
 }
+
 .figborda {
     background-color: #00767F;
     border-radius: 25px;
@@ -2068,21 +2073,18 @@ table.sesc td {
         right: 1px;
         top: 2679px;
     }
-
-
-
-
-
-
-
-
-
-
-
-
 }
 
 @media (max-width:768px) {
+    .bloco3-paralax1 {
+        background: url(../../img/assets/pg1/final.png);
+        margin-top: unset;
+        background-repeat: no-repeat;
+        padding-top: 0;
+        background-size: cover;
+        background-position: center;
+        height: 400px;
+    }
     .bt-mata:hover {
         background-image: url('../../img/assets/pg1/mapa_bt5_hover.png');
         background-color: transparent;
@@ -2094,6 +2096,28 @@ table.sesc td {
         position: absolute;
         bottom: 4000px;
         right: 171px;
+    }
+
+    .moldurapg2 {
+        background-image: unset;
+        background-size: unset;
+        background-position: unset;
+        background-repeat: unset;
+    }
+
+    .moldurapg1 {
+        background-image: unset;
+        background-size: unset;
+        background-position: unset;
+        background-repeat: unset;
+    }
+
+    .bloco3-paralax1pg3 {
+        background: url(../../img/assets/pg3/bg_div.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 408px;
+        margin-bottom: -27px;
     }
 
     .bt-mata {
@@ -2417,14 +2441,25 @@ table.sesc td {
         margin-top: -500px;
     }
 
+    .flip-card_fig {
+        height: 27vh;
+    }
+
+    .bloco3-paralax1pg3 {
+        background: url(../../img/assets/pg3/bg_div.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 408px;
+        margin-bottom: -27px;
+    }
+
     .pagina>div>.container.estilopg2-3 {
         padding: 30px;
         background-color: #fff;
-        opacity: 0.8;
+        opacity: 0.98;
         padding-top: 74px;
-        margin-bottom: -1955px;
+        margin-bottom: -2024px;
         margin-top: -500px;
-
     }
 
     .bloco2-pg1 {
