@@ -33,6 +33,59 @@ p {
 }
 
 
+.modal-header1 {
+    background-color: transparent;
+    background-image: url('../../img/assets/pg1/mapa_bt1_hover.png');
+    background-repeat: no-repeat;
+    height: 304px;
+    background-position: center;
+    margin-top: -150px;
+}
+
+.modal-header2 {
+    background-color: transparent;
+    background-image: url('../../img/assets/pg1/mapa_bt2_hover.png');
+    background-repeat: no-repeat;
+    height: 304px;
+    background-position: center;
+    margin-top: -150px;
+}
+
+.modal-header3 {
+    background-color: transparent;
+    background-image: url('../../img/assets/pg1/mapa_bt3_hover.png');
+    background-repeat: no-repeat;
+    height: 304px;
+    background-position: center;
+    margin-top: -150px;
+}
+
+.modal-header4 {
+    background-color: transparent;
+    background-image: url('../../img/assets/pg1/mapa_bt4_hover.png');
+    background-repeat: no-repeat;
+    height: 304px;
+    background-position: center;
+    margin-top: -150px;
+}
+
+.modal-header5 {
+    background-color: transparent;
+    background-image: url('../../img/assets/pg1/mapa_bt5_hover.png');
+    background-repeat: no-repeat;
+    height: 304px;
+    background-position: center;
+    margin-top: -150px;
+}
+
+.modal-header6 {
+    background-color: transparent;
+    background-image: url('../../img/assets/pg1/mapa_bt6_hover.png');
+    background-repeat: no-repeat;
+    height: 304px;
+    background-position: center;
+    margin-top: -150px;
+}
 
 /* fim fonte e títulos*/
 /* estrutura blocos*/
@@ -262,19 +315,24 @@ figcaption {
 }
 
 .containerpg4 {
+    margin-right: -154px;
     background-color: #fff;
     border-radius: 30px;
     min-height: 100vh;
+    margin-bottom: 70px;
+    margin-left: 50px;
+    margin-top: 70px;
     padding-top: 72px;
 }
 
 .bloco1-pg4 {
     position: relative;
-    background-image: url('../../img/assets/pg4/bg.jpg');
-    background-size: 100% 100%;
+    background-image: url(../../img/assets/pg4/bg.jpg);
+    background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
     min-height: 100vh;
+    background-position: center;
 }
 
 .bloco1-pg3 {
@@ -894,6 +952,12 @@ table.sesc td {
         bottom: 789px;
         left: 200px;
     }
+    .painel {
+        display: flex;
+        position: relative;
+        height: 120vh;
+        margin-bottom: -490px;
+    }
 }
 
 @media (max-width: 1920px) {
@@ -918,7 +982,11 @@ table.sesc td {
         right: 113px;
         top: 30px;
     }
-
+    .rellax-4 {
+        left: 1469px;
+        width: unset;
+        bottom: 0px;
+    }
     .rellax-9 {
         width: 17%;
         left: 58px;
@@ -946,7 +1014,53 @@ table.sesc td {
         background-repeat: no-repeat;
         background-position: center 1337px;
     }
+    .bt-cerrado {
+        background-image: url(../../img/assets/pg1/bt_cerrado.png);
+        background-color: transparent;
+        border: none;
+        width: 136px;
+        height: 137px;
+        background-repeat: no-repeat;
+        position: absolute;
+        right: 193px;
+        top: 4px;
+    }
+    .bt-amazonia {
+        background-image: url(../../img/assets/pg1/bt_amazonia.png);
+        background-color: transparent;
+        border: none;
+        width: 136px;
+        height: 137px;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 58px;
+        left: 47px;
+    }
+    .bt-amazonia:hover {
+        background-image: url('../../img/assets/pg1/mapa_bt1_hover.png');
+        width: 303px;
+        height: 304px;
+        background-color: transparent;
+        border: none;
+        transform: scale(1.1);
+        background-repeat: no-repeat;
+        top: 58px;
+        left: 47px;
+    }
 
+
+
+    .bt-cerrado:hover {
+        background-image: url('../../img/assets/pg1/mapa_bt2_hover.png');
+        width: 303px;
+        height: 304px;
+        background-color: transparent;
+        border: none;
+        transform: scale(1.1);
+        background-repeat: no-repeat;
+        right: 193px;
+        top: 4px;
+    }
     .bt-pantanal {
         background-image: url(../../img/assets/pg1/bt_pantanal.png);
         background-color: transparent;
@@ -1019,12 +1133,10 @@ table.sesc td {
         right: 476px;
         background-repeat: no-repeat;
     }
-
     .painel {
         display: flex;
         position: relative;
-        max-height: 116vh;
-        min-height: 112vh;
+        height: 111vh;
     }
 }
 
@@ -1350,6 +1462,17 @@ table.sesc td {
         top: 1800px;
     }
 
+    .rellax-4 {
+        left: 1149px;
+        width: unset;
+        bottom: 0px;
+    }
+
+    .painel {
+        margin-bottom: -310px;
+        height: 111vh;
+    }
+
     .bloco2-pg1 {
         background:
             url(../../img/assets/pg1/mapa1.png),
@@ -1359,14 +1482,156 @@ table.sesc td {
         background-repeat: no-repeat;
         background-position: center 1337px;
     }
+
+    .bt-cerrado {
+        background-image: url(../../img/assets/pg1/bt_cerrado.png);
+        background-color: transparent;
+        border: none;
+        width: 136px;
+        height: 137px;
+        background-repeat: no-repeat;
+        position: absolute;
+        right: 153px;
+        top: -3px;
+    }
+
+    .bt-amazonia {
+        background-image: url(../../img/assets/pg1/bt_amazonia.png);
+        background-color: transparent;
+        border: none;
+        width: 136px;
+        height: 137px;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 44px;
+        left: 52px;
+    }
+
+    .bt-caatinga {
+        background-image: url(../../img/assets/pg1/bt_caatinga.png);
+        background-color: transparent;
+        border: none;
+        width: 136px;
+        height: 137px;
+        background-repeat: no-repeat;
+        position: absolute;
+        right: 30px;
+        top: 70px;
+    }
 }
+
+
+ @media (max-width: 1400px) {
+    /* .pg-footer {
+        background-color: transparent;
+        position: absolute;
+        bottom: 140px;
+    } */
+    .painel {
+        margin-bottom: -444px;
+        height: 111vh;
+    }
+    .bt-mata {
+        background-image: url(../../img/assets/pg1/bt_mata.png);
+        background-color: transparent;
+        border: none;
+        width: 136px;
+        height: 137px;
+        background-repeat: no-repeat;
+        position: absolute;
+        bottom: 585px;
+        right: 171px;
+    }
+    .bt-mata:hover {
+        background-image: url('../../img/assets/pg1/mapa_bt5_hover.png');
+        background-color: transparent;
+        border: none;
+        width: 303px;
+        height: 304px;
+        transform: scale(1.1);
+        background-repeat: no-repeat;
+        position: absolute;
+        bottom: 585px;
+        right: 171px;
+    }
+    .bt-pampa {
+        background-image: url(../../img/assets/pg1/bt_pampa.png);
+        background-color: transparent;
+        border: none;
+        width: 136px;
+        height: 137px;
+        background-repeat: no-repeat;
+        position: absolute;
+        bottom: 464px;
+        right: 442px;
+    }
+    .bt-pampa:hover {
+        background-image: url('../../img/assets/pg1/mapa_bt6_hover.png');
+        background-color: transparent;
+        border: none;
+        width: 303px;
+        height: 304px;
+        transform: scale(1.1);
+        background-repeat: no-repeat;
+        position: absolute;
+        bottom: 464px;
+        right: 442px;
+    }
+    .bt-pantanal {
+        background-image: url(../../img/assets/pg1/bt_pantanal.png);
+        background-color: transparent;
+        border: none;
+        width: 136px;
+        height: 137px;
+        background-repeat: no-repeat;
+        position: absolute;
+        bottom: 706px;
+        left: 200px;
+    }
+
+    .bt-pantanal:hover {
+        background-image: url('../../img/assets/pg1/mapa_bt4_hover.png');
+        background-color: transparent;
+        border: none;
+        width: 303px;
+        height: 304px;
+        transform: scale(1.1);
+        background-repeat: no-repeat;
+        position: absolute;
+        bottom: 706px;
+        left: 200px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+} 
+
+
+
+
+
+
+
+
 
 @media (max-width: 1366px) {
     .rellax-2 {
         right: -238px;
         width: 30%;
     }
-
+  
     .rellax-1 {
         right: 935px;
         width: 20%;
@@ -1624,7 +1889,7 @@ table.sesc td {
         transform: scale(1.1);
         background-repeat: no-repeat;
         position: absolute;
-        bottom: 254px;
+        bottom: 684px;
         right: 171px;
     }
 
@@ -1646,7 +1911,7 @@ table.sesc td {
         height: 137px;
         background-repeat: no-repeat;
         position: absolute;
-        bottom: 254px;
+        bottom: 684px;
         right: 171px;
     }
 
@@ -1658,8 +1923,8 @@ table.sesc td {
         height: 304px;
         transform: scale(1.1);
         background-repeat: no-repeat;
-        bottom: 168px;
-        right: 476px;
+        bottom: 580px;
+        right: 441px;
     }
 
     .bt-pampa {
@@ -1670,8 +1935,8 @@ table.sesc td {
         height: 137px;
         background-repeat: no-repeat;
         position: absolute;
-        bottom: 168px;
-        right: 476px;
+        bottom: 580px;
+        right: 441px;
     }
 
     .bt-pantanal:hover {
@@ -1682,8 +1947,8 @@ table.sesc td {
         border: none;
         transform: scale(1.1);
         background-repeat: no-repeat;
-        bottom: 370px;
-        left: 200px;
+        bottom: 809px;
+        left: 222px;
     }
 
     .bt-pantanal {
@@ -1694,15 +1959,14 @@ table.sesc td {
         height: 137px;
         background-repeat: no-repeat;
         position: absolute;
-        bottom: 370px;
-        left: 200px;
+        bottom: 809px;
+        left: 222px;
     }
 
     .painel {
         display: flex;
         position: relative;
-        max-height: 160vh;
-        min-height: 128vh;
+        height: 80vh;
     }
 
     .bt-amazonia:hover {
@@ -1713,8 +1977,8 @@ table.sesc td {
         border: none;
         transform: scale(1.1);
         background-repeat: no-repeat;
-        top: 143px;
-        left: 11px;
+        top: 57px;
+    left: 51px;
     }
 
     .bt-amazonia {
@@ -1725,8 +1989,8 @@ table.sesc td {
         height: 137px;
         background-repeat: no-repeat;
         position: absolute;
-        top: 143px;
-        left: 11px;
+        top: 57px;
+    left: 51px;
     }
 
     .bt-cerrado:hover {
@@ -1738,8 +2002,8 @@ table.sesc td {
         transform: scale(1.1);
         background-repeat: no-repeat;
         position: absolute;
-        right: 136px;
-        top: 100px;
+        right: 153px;
+        top: 13px;
     }
 
     .bt-cerrado {
@@ -1750,8 +2014,8 @@ table.sesc td {
         height: 137px;
         background-repeat: no-repeat;
         position: absolute;
-        right: 136px;
-        top: 100px;
+        right: 153px;
+        top: 13px;
     }
 
     .bt-caatinga:hover {
@@ -1762,8 +2026,8 @@ table.sesc td {
         height: 304px;
         transform: scale(1.1);
         background-repeat: no-repeat;
-        right: 1px;
-        top: 218px;
+        right: 19px;
+    top: 88px;
     }
 
     .bt-caatinga {
@@ -1774,8 +2038,8 @@ table.sesc td {
         height: 137px;
         background-repeat: no-repeat;
         position: absolute;
-        right: 1px;
-        top: 218px;
+        right: 19px;
+        top: 88px;
     }
 
 }
@@ -2085,6 +2349,7 @@ table.sesc td {
         background-position: center;
         height: 400px;
     }
+
     .bt-mata:hover {
         background-image: url('../../img/assets/pg1/mapa_bt5_hover.png');
         background-color: transparent;
@@ -2094,7 +2359,7 @@ table.sesc td {
         transform: scale(1.1);
         background-repeat: no-repeat;
         position: absolute;
-        bottom: 4000px;
+        bottom: 3765px;
         right: 171px;
     }
 
@@ -2128,7 +2393,7 @@ table.sesc td {
         height: 137px;
         background-repeat: no-repeat;
         position: absolute;
-        bottom: 4000px;
+        bottom: 3765px;
         right: 171px;
     }
 
@@ -2140,8 +2405,8 @@ table.sesc td {
         height: 304px;
         transform: scale(1.1);
         background-repeat: no-repeat;
-        bottom: 3919px;
-        right: 407px;
+        bottom: 3674px;
+        right: 390px;
     }
 
     .bt-pampa {
@@ -2152,8 +2417,8 @@ table.sesc td {
         height: 137px;
         background-repeat: no-repeat;
         position: absolute;
-        bottom: 3919px;
-        right: 407px;
+        bottom: 3674px;
+        right: 390px;
     }
 
 
@@ -2166,7 +2431,7 @@ table.sesc td {
         border: none;
         transform: scale(1.1);
         background-repeat: no-repeat;
-        bottom: 4138px;
+        bottom: 3895px;
         left: 181px;
     }
 
@@ -2178,7 +2443,7 @@ table.sesc td {
         height: 137px;
         background-repeat: no-repeat;
         position: absolute;
-        bottom: 4138px;
+        bottom: 3895px;
         left: 181px;
     }
 
@@ -2191,7 +2456,7 @@ table.sesc td {
         background-repeat: no-repeat;
         position: absolute;
         right: 136px;
-        top: 2504px;
+        top: 2654px;
     }
 
     .bt-caatinga {
@@ -2203,7 +2468,7 @@ table.sesc td {
         background-repeat: no-repeat;
         position: absolute;
         right: 1px;
-        top: 2576px;
+        top: 2714px;
     }
 
     .bt-amazonia {
@@ -2214,7 +2479,7 @@ table.sesc td {
         height: 137px;
         background-repeat: no-repeat;
         position: absolute;
-        top: 2560px;
+        top: 2699px;
         left: 11px;
     }
 
@@ -2241,7 +2506,7 @@ table.sesc td {
         background-repeat: no-repeat;
         position: absolute;
         right: 136px;
-        top: 2504px;
+        top: 2654px;
     }
 
     .bt-caatinga:hover {
@@ -2252,7 +2517,7 @@ table.sesc td {
         height: 304px;
         transform: scale(1.1);
         right: 1px;
-        top: 2576px;
+        top: 2714px;
         background-repeat: no-repeat;
     }
 
@@ -2442,7 +2707,7 @@ table.sesc td {
     }
 
     .flip-card_fig {
-        height: 27vh;
+        height: 36vh;
     }
 
     .bloco3-paralax1pg3 {
@@ -2472,7 +2737,6 @@ table.sesc td {
     .pg-footer {
         background-color: transparent;
         position: absolute;
-        bottom: -33px;
     }
 
     .painel {
@@ -2709,7 +2973,7 @@ table.sesc td {
         align-content: center;
         justify-content: center;
         align-items: center;
-        height: 117vh;
+        height: 139vh;
     }
 }
 
@@ -2718,7 +2982,6 @@ table.sesc td {
         font-family: slackey-regular;
         font-size: 30px;
     }
-
 
     .pagina>div>.container.estilo1 {
         padding: 30px;
