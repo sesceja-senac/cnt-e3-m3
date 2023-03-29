@@ -32,12 +32,7 @@ p {
     margin-bottom: 10px;
 }
 
-.barragem {
-    background-size: contain;
-    max-width: 100%;
-    min-height: 100vh;
-    ;
-}
+
 
 /* fim fonte e títulos*/
 /* estrutura blocos*/
@@ -120,8 +115,8 @@ body {
 .pagina>div>.container.estilopg2-3 {
     padding: 30px;
     background-color: #fff;
-    opacity: 0.9;
-    margin-bottom: -1955px;
+    opacity: 0.96;
+    margin-bottom: -2020px;
     margin-top: -500px;
 
 }
@@ -192,7 +187,7 @@ body {
     position: relative;
     background-image: url('../../img/assets/pg2/bg1.png');
     background-size: cover;
-    background-attachment: fixed;
+    background-color: #00A7B3;
     background-repeat: no-repeat;
 
 }
@@ -225,13 +220,16 @@ body {
 
 .bloco2-pg2 {
     position: relative;
-    background-image: linear-gradient(to bottom, #00A7B3, #7CDADD);
+    /* background-image: linear-gradient(to bottom, #00A7B3, #7CDADD); */
+    background-color: #00A7B3;
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
 
 }
-
+figcaption {
+    margin-bottom: 40px;
+}
 .bloco3-pg2 {
     position: relative;
     background-image:
@@ -277,10 +275,11 @@ body {
 
 .bloco1-pg3 {
     position: relative;
-    background-image: url('../../img/assets/pg3/bg_chuva.png'),
-        url('../../img/assets/pg3/bg_inicio.png');
+    background-image: 
+    url('../../img/assets/pg3/bg_chuva.png') ,
+    url('../../img/assets/pg3/bg_inicio.png') ;
     background-size: contain;
-    background-repeat: no-repeat;
+    background-repeat: repeat-y, no-repeat;
     background-color: #004F53;
 
 }
@@ -307,13 +306,13 @@ body {
 }
 
 .bloco2pg2-paralax1 {
-    background: url(../../img/assets/pg2/bg_div.png);
+    background: url(../../img/assets/pg2/bg_div.png),
+    linear-gradient(to bottom, #00A7B3, transparent );
     margin-top: unset;
     background-repeat: no-repeat;
     padding-top: 0;
     background-size: 100% 100%;
     height: 500px;
-    background-color: transparent;
 }
 
 .pg-footer a:visited {
@@ -456,6 +455,19 @@ iframe {
 
 /* fim config legenda, tooltip, print*/
 /* borda das figuras e gif */
+.barragem {
+    background-size: contain;
+    max-width: 100%;
+    min-height: 100vh;
+
+}
+.fundobarragem {
+    background-image: url(../../img/assets/pg2/barragem_texto.png), url(../../img/assets/pg2/barragem.gif);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-position: center;
+    
+}
 .figborda {
     background-color: #00767F;
     border-radius: 25px;
@@ -754,12 +766,7 @@ table.sesc td {
 
 /* fim cards*/
 
-.fundobarragem {
-    background-image: url(../../img/assets/pg2/barragem_texto.png), url(../../img/assets/pg2/barragem.gif);
-    background-repeat: no-repeat;
-    min-height: 100vh;
-    background-position: center;
-}
+
 
 
 
