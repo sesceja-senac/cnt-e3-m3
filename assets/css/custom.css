@@ -19,8 +19,9 @@ h4 {
 
 .fontetitulo {
     font-family: slackey-regular;
- }
- /*
+}
+
+/*
 .rellax-fig {
     width: 25%;
     position: absolute;
@@ -1013,8 +1014,8 @@ table.sesc td {
         height: 137px;
         background-repeat: no-repeat;
         position: absolute;
-        right: 193px;
-        top: 4px;
+        right: 156px;
+        top: 76px;
     }
 
     .bt-amazonia {
@@ -1025,7 +1026,7 @@ table.sesc td {
         height: 137px;
         background-repeat: no-repeat;
         position: absolute;
-        top: 58px;
+        top: 119px;
         left: 47px;
     }
 
@@ -1037,11 +1038,9 @@ table.sesc td {
         border: none;
         transform: scale(1.1);
         background-repeat: no-repeat;
-        top: 58px;
+        top: 119px;
         left: 47px;
     }
-
-
 
     .bt-cerrado:hover {
         background-image: url('../../img/assets/pg1/mapa_bt2_hover.png');
@@ -1051,8 +1050,8 @@ table.sesc td {
         border: none;
         transform: scale(1.1);
         background-repeat: no-repeat;
-        right: 193px;
-        top: 4px;
+        right: 156px;
+        top: 76px;
     }
 
     .bt-pantanal {
@@ -1063,7 +1062,7 @@ table.sesc td {
         height: 137px;
         background-repeat: no-repeat;
         position: absolute;
-        bottom: 745px;
+        bottom: 655px;
         left: 200px;
     }
 
@@ -1075,7 +1074,7 @@ table.sesc td {
         border: none;
         transform: scale(1.1);
         background-repeat: no-repeat;
-        bottom: 745px;
+        bottom: 655px;
         left: 200px;
     }
 
@@ -1087,7 +1086,7 @@ table.sesc td {
         height: 137px;
         background-repeat: no-repeat;
         position: absolute;
-        bottom: 630px;
+        bottom: 529px;
         right: 171px;
     }
 
@@ -1100,7 +1099,7 @@ table.sesc td {
         transform: scale(1.1);
         background-repeat: no-repeat;
         position: absolute;
-        bottom: 630px;
+        bottom: 529px;
         right: 171px;
     }
 
@@ -1112,7 +1111,7 @@ table.sesc td {
         height: 137px;
         background-repeat: no-repeat;
         position: absolute;
-        bottom: 545px;
+        bottom: 461px;
         right: 476px;
     }
 
@@ -1123,7 +1122,7 @@ table.sesc td {
         width: 303px;
         height: 304px;
         transform: scale(1.1);
-        bottom: 545px;
+        bottom: 461px;
         right: 476px;
         background-repeat: no-repeat;
     }
@@ -1284,6 +1283,106 @@ table.sesc td {
 
 }
 
+@media (max-width: 1630px) {
+    .bloco2-pg1 {
+        background-image: unset;
+        margin: unset;
+        background-repeat: unset;
+        background-position: unset;
+    }
+
+    .bt-pantanal {
+        background-image: url(../../img/assets/pg1/bt_pantanal.png);
+        background-color: transparent;
+        border: none;
+        width: 136px;
+        height: 137px;
+        background-repeat: no-repeat;
+        position: absolute;
+        bottom: 534px;
+        left: 200px;
+    }
+
+    .bt-pantanal:hover {
+        background-image: url('../../img/assets/pg1/mapa_bt4_hover.png');
+        width: 303px;
+        height: 304px;
+        background-color: transparent;
+        border: none;
+        transform: scale(1.1);
+        background-repeat: no-repeat;
+        bottom: 534px;
+        left: 200px;
+    }
+
+    .bt-pampa {
+        background-image: url(../../img/assets/pg1/bt_pampa.png);
+        background-color: transparent;
+        border: none;
+        width: 136px;
+        height: 137px;
+        background-repeat: no-repeat;
+        position: absolute;
+        bottom: 331px;
+        right: 476px;
+    }
+
+    .bt-pampa:hover {
+        background-image: url('../../img/assets/pg1/mapa_bt6_hover.png');
+        background-color: transparent;
+        border: none;
+        width: 303px;
+        height: 304px;
+        transform: scale(1.1);
+        bottom: 331px;
+        right: 476px;
+        background-repeat: no-repeat;
+    }
+
+    .bt-mata {
+        background-image: url(../../img/assets/pg1/bt_mata.png);
+        background-color: transparent;
+        border: none;
+        width: 136px;
+        height: 137px;
+        background-repeat: no-repeat;
+        position: absolute;
+        bottom: 402px;
+        right: 171px;
+    }
+
+    .bt-mata:hover {
+        background-image: url('../../img/assets/pg1/mapa_bt5_hover.png');
+        background-color: transparent;
+        border: none;
+        width: 303px;
+        height: 304px;
+        transform: scale(1.1);
+        background-repeat: no-repeat;
+        position: absolute;
+        bottom: 402px;
+        right: 171px;
+    }
+
+    .bloco2-pg1 {
+        background:
+            url(../../img/assets/pg1/mapa1.png),
+            url(../../img/assets/pg1/mapa.png),
+            url(../../img/assets/pg1/mapa_fundo.png);
+        margin: auto;
+        background-repeat: no-repeat;
+        background-position: center 1337px;
+
+    }
+
+    .painel {
+        display: flex;
+        position: relative;
+        height: 118vh;
+        margin-bottom: -270px;
+    }
+}
+
 @media (max-width: 1600px) {
     .rellax-3 {
         left: -1px;
@@ -1291,7 +1390,7 @@ table.sesc td {
         bottom: 0px;
     }
 
-    ellax-7 {
+    .rellax-7 {
         width: 17%;
         right: 42px;
         top: 30px;
@@ -1408,8 +1507,8 @@ table.sesc td {
     .painel {
         display: flex;
         position: relative;
-        height: 93vh;
-        margin-bottom: -224px;
+        height: 118vh;
+        margin-bottom: -270px;
     }
 }
 
@@ -1465,8 +1564,8 @@ table.sesc td {
     }
 
     .painel {
-        margin-bottom: -310px;
-        height: 111vh;
+        margin-bottom: -275px;
+        height: 118vh;
     }
 
     .bloco2-pg1 {
@@ -1515,16 +1614,86 @@ table.sesc td {
         top: 70px;
     }
 }
-@media (max-width: 1400px) {
 
-    /* .pg-footer {
-        background-color: transparent;
-        position: absolute;
-        bottom: 140px;
-    } */
+@media (max-width: 1400px) {
     .painel {
         margin-bottom: -444px;
         height: 111vh;
+    }
+
+    .bt-amazonia {
+        background-image: url(../../img/assets/pg1/bt_amazonia.png);
+        background-color: transparent;
+        border: none;
+        width: 136px;
+        height: 137px;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 115px;
+        left: 52px;
+    }
+
+    .bt-caatinga {
+        background-image: url(../../img/assets/pg1/bt_caatinga.png);
+        background-color: transparent;
+        border: none;
+        width: 136px;
+        height: 137px;
+        background-repeat: no-repeat;
+        position: absolute;
+        right: 30px;
+        top: 133px;
+    }
+
+    .bt-cerrado {
+        background-image: url(../../img/assets/pg1/bt_cerrado.png);
+        background-color: transparent;
+        border: none;
+        width: 136px;
+        height: 137px;
+        background-repeat: no-repeat;
+        position: absolute;
+        right: 153px;
+        top: 76px;
+    }
+
+    .bt-cerrado:hover {
+        background-image: url('../../img/assets/pg1/mapa_bt2_hover.png');
+        background-color: transparent;
+        border: none;
+        width: 303px;
+        height: 304px;
+        transform: scale(1.1);
+        background-repeat: no-repeat;
+        position: absolute;
+        right: 153px;
+        top: 76px;
+    }
+
+    .bt-caatinga:hover {
+        background-image: url('../../img/assets/pg1/mapa_bt3_hover.png');
+        background-color: transparent;
+        border: none;
+        width: 303px;
+        height: 304px;
+        transform: scale(1.1);
+        background-repeat: no-repeat;
+        position: absolute;
+        right: 30px;
+        top: 133px;
+    }
+
+    .bt-amazonia:hover {
+        background-image: url('../../img/assets/pg1/mapa_bt1_hover.png');
+        background-color: transparent;
+        border: none;
+        width: 303px;
+        height: 304px;
+        transform: scale(1.1);
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 115px;
+        left: 52px;
     }
 
     .bt-mata {
@@ -1535,7 +1704,7 @@ table.sesc td {
         height: 137px;
         background-repeat: no-repeat;
         position: absolute;
-        bottom: 585px;
+        bottom: 498px;
         right: 171px;
     }
 
@@ -1548,7 +1717,7 @@ table.sesc td {
         transform: scale(1.1);
         background-repeat: no-repeat;
         position: absolute;
-        bottom: 585px;
+        bottom: 498px;
         right: 171px;
     }
 
@@ -1560,7 +1729,7 @@ table.sesc td {
         height: 137px;
         background-repeat: no-repeat;
         position: absolute;
-        bottom: 464px;
+        bottom: 407px;
         right: 442px;
     }
 
@@ -1573,7 +1742,7 @@ table.sesc td {
         transform: scale(1.1);
         background-repeat: no-repeat;
         position: absolute;
-        bottom: 464px;
+        bottom: 407px;
         right: 442px;
     }
 
@@ -1585,8 +1754,8 @@ table.sesc td {
         height: 137px;
         background-repeat: no-repeat;
         position: absolute;
-        bottom: 706px;
-        left: 200px;
+        bottom: 618px;
+        left: 233px;
     }
 
     .bt-pantanal:hover {
@@ -1598,8 +1767,8 @@ table.sesc td {
         transform: scale(1.1);
         background-repeat: no-repeat;
         position: absolute;
-        bottom: 706px;
-        left: 200px;
+        bottom: 618px;
+        left: 233px;
     }
 
 
@@ -1617,6 +1786,7 @@ table.sesc td {
 
 
 }
+
 @media (max-width: 1366px) {
     .rellax-2 {
         right: -238px;
@@ -1741,7 +1911,96 @@ table.sesc td {
         height: 125vh;
     }
 }
+
 @media (max-width: 1334px) {
+    .painel {
+        display: flex;
+        position: relative;
+        height: 163vh;
+    }
+
+    .bt-mata {
+        background-image: url(../../img/assets/pg1/bt_mata.png);
+        background-color: transparent;
+        border: none;
+        width: 136px;
+        height: 137px;
+        background-repeat: no-repeat;
+        position: absolute;
+        bottom: 541px;
+        right: 171px;
+    }
+
+    .bt-mata:hover {
+        background-image: url('../../img/assets/pg1/mapa_bt5_hover.png');
+        background-color: transparent;
+        border: none;
+        width: 303px;
+        height: 304px;
+        transform: scale(1.1);
+        background-repeat: no-repeat;
+        position: absolute;
+        bottom: 541px;
+        right: 171px;
+    }
+
+    .bt-pampa {
+        background-image: url(../../img/assets/pg1/bt_pampa.png);
+        background-color: transparent;
+        border: none;
+        width: 136px;
+        height: 137px;
+        background-repeat: no-repeat;
+        position: absolute;
+        bottom: 465px;
+        right: 476px;
+    }
+
+    .bt-pampa:hover {
+        background-image: url('../../img/assets/pg1/mapa_bt6_hover.png');
+        background-color: transparent;
+        border: none;
+        width: 303px;
+        height: 304px;
+        transform: scale(1.1);
+        bottom: 465px;
+        right: 476px;
+        background-repeat: no-repeat;
+    }
+
+    .bt-pantanal {
+        background-image: url(../../img/assets/pg1/bt_pantanal.png);
+        background-color: transparent;
+        border: none;
+        width: 136px;
+        height: 137px;
+        background-repeat: no-repeat;
+        position: absolute;
+        bottom: 669px;
+        left: 200px;
+    }
+
+    .bt-pantanal:hover {
+        background-image: url('../../img/assets/pg1/mapa_bt4_hover.png');
+        width: 303px;
+        height: 304px;
+        background-color: transparent;
+        border: none;
+        transform: scale(1.1);
+        background-repeat: no-repeat;
+        bottom: 669px;
+        left: 200px;
+    }
+
+
+
+
+
+
+
+
+
+
 }
 
 @media (max-width: 1280px) {
@@ -2342,6 +2601,7 @@ table.sesc td {
         background-position: center;
         height: 400px;
     }
+
     .bt-mata:hover {
         background-image: url('../../img/assets/pg1/mapa_bt5_hover.png');
         background-color: transparent;
@@ -2351,7 +2611,7 @@ table.sesc td {
         transform: scale(1.1);
         background-repeat: no-repeat;
         position: absolute;
-        bottom: 3765px;
+        bottom: 3620px;
         right: 171px;
     }
 
@@ -2385,7 +2645,7 @@ table.sesc td {
         height: 137px;
         background-repeat: no-repeat;
         position: absolute;
-        bottom: 3765px;
+        bottom: 3620px;
         right: 171px;
     }
 
@@ -2397,7 +2657,7 @@ table.sesc td {
         height: 304px;
         transform: scale(1.1);
         background-repeat: no-repeat;
-        bottom: 3674px;
+        bottom: 3530px;
         right: 390px;
     }
 
@@ -2409,7 +2669,7 @@ table.sesc td {
         height: 137px;
         background-repeat: no-repeat;
         position: absolute;
-        bottom: 3674px;
+        bottom: 3530px;
         right: 390px;
     }
 
@@ -2423,7 +2683,7 @@ table.sesc td {
         border: none;
         transform: scale(1.1);
         background-repeat: no-repeat;
-        bottom: 3895px;
+        bottom: 3763px;
         left: 181px;
     }
 
@@ -2435,7 +2695,7 @@ table.sesc td {
         height: 137px;
         background-repeat: no-repeat;
         position: absolute;
-        bottom: 3895px;
+        bottom: 3763px;
         left: 181px;
     }
 

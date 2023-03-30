@@ -255,11 +255,11 @@ body {
     }
     .bt-1 {
         background: url(../imgs/bt_iniciar_mobile.png) no-repeat;
-        margin: auto;
+        margin: -14px;
     }
     .bt-1:hover {
         background: url(../imgs/bt_iniciar_hover_mobile.png) no-repeat;
-        margin: auto;
+        margin: -14px;
     }
 
     .ytb {
