@@ -19,8 +19,25 @@ h4 {
 
 .fontetitulo {
     font-family: slackey-regular;
+ }
+ /*
+.rellax-fig {
+    width: 25%;
+    position: absolute;
+    z-index: 10;
 }
-
+.rellax-fig1 {
+    width: 20%;
+    right: 101px;
+    top: 1522px;
+    transform: rotate(25deg);
+}
+.rellax-fig2 {
+    width: 20%;
+    left: 101px;
+    top: 1548px;
+    transform: rotate(25deg);
+} */
 .bt-print {
     margin-right: 44px;
     margin-top: -16px;
@@ -126,6 +143,8 @@ body {
     min-height: 100vh;
     color: black;
 }
+
+
 
 .pagina>div>.container.estilopg2 {
     padding: 30px;
@@ -260,21 +279,6 @@ body {
     background-position: center 1337px;
 }
 
-.moldurapg1 {
-    background-image:
-        url(../../img/assets/pg1/figura_bg1.png),
-        url(../../img/assets/pg1/figura_bg2.png);
-    background-size: contain;
-    background-position: left 20%, right 20px;
-    background-repeat: no-repeat;
-}
-
-.moldurapg2 {
-    background-image: url(../../img/assets/pg2/figura_bg.png), url(../../img/assets/pg2/figura_bg2.png);
-    background-size: 40%;
-    background-position: right 68px, left 49%;
-    background-repeat: no-repeat;
-}
 
 .bloco2-pg2 {
     position: relative;
@@ -1405,6 +1409,7 @@ table.sesc td {
         display: flex;
         position: relative;
         height: 93vh;
+        margin-bottom: -224px;
     }
 }
 
@@ -1510,7 +1515,6 @@ table.sesc td {
         top: 70px;
     }
 }
-
 @media (max-width: 1400px) {
 
     /* .pg-footer {
@@ -1613,7 +1617,6 @@ table.sesc td {
 
 
 }
-
 @media (max-width: 1366px) {
     .rellax-2 {
         right: -238px;
@@ -1737,6 +1740,8 @@ table.sesc td {
         position: relative;
         height: 125vh;
     }
+}
+@media (max-width: 1334px) {
 }
 
 @media (max-width: 1280px) {
