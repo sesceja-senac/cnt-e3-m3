@@ -32,6 +32,9 @@ p {
     margin-bottom: 10px;
 }
 
+.margem {
+    margin-top: -89px;
+}
 
 .modal-header1 {
     background-color: transparent;
@@ -91,7 +94,7 @@ p {
 /* estrutura blocos*/
 body {
     overflow-x: hidden;
-    background-image: linear-gradient( #adf9b5,#dafad2, #00A7B3);
+    background-image: linear-gradient(#adf9b5, #dafad2, #00A7B3);
 }
 
 #booklet {
@@ -240,7 +243,8 @@ body {
 .bloco1-pg2 {
     position: relative;
     background-image: url('../../img/assets/pg2/bg1.png');
-    background-size: 100% 100%;;
+    background-size: 100% 100%;
+    ;
     background-color: #00A7B3;
     background-repeat: no-repeat;
 
@@ -275,7 +279,7 @@ body {
 .bloco2-pg2 {
     position: relative;
     background: url(../../img/assets/pg2/bg_div.png),
-    linear-gradient( #00A7B3, #CE975B); 
+        linear-gradient(#00A7B3, #CE975B);
     background-position: center 70%;
     background-size: contain;
     background-attachment: unset;
@@ -820,31 +824,11 @@ table.sesc td {
     backface-visibility: hidden;
 }
 
-.flip-card-front {}
-
 .flip-card-back {
     transform: rotateY(180deg);
 }
 
 /* fim cards*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @media (max-width: 2560px) {
     .rellax-2 {
@@ -951,6 +935,7 @@ table.sesc td {
         bottom: 789px;
         left: 200px;
     }
+
     .painel {
         display: flex;
         position: relative;
@@ -981,11 +966,13 @@ table.sesc td {
         right: 113px;
         top: 30px;
     }
+
     .rellax-4 {
         left: 1469px;
         width: unset;
         bottom: 0px;
     }
+
     .rellax-9 {
         width: 17%;
         left: 58px;
@@ -1013,6 +1000,7 @@ table.sesc td {
         background-repeat: no-repeat;
         background-position: center 1337px;
     }
+
     .bt-cerrado {
         background-image: url(../../img/assets/pg1/bt_cerrado.png);
         background-color: transparent;
@@ -1024,6 +1012,7 @@ table.sesc td {
         right: 193px;
         top: 4px;
     }
+
     .bt-amazonia {
         background-image: url(../../img/assets/pg1/bt_amazonia.png);
         background-color: transparent;
@@ -1035,6 +1024,7 @@ table.sesc td {
         top: 58px;
         left: 47px;
     }
+
     .bt-amazonia:hover {
         background-image: url('../../img/assets/pg1/mapa_bt1_hover.png');
         width: 303px;
@@ -1060,6 +1050,7 @@ table.sesc td {
         right: 193px;
         top: 4px;
     }
+
     .bt-pantanal {
         background-image: url(../../img/assets/pg1/bt_pantanal.png);
         background-color: transparent;
@@ -1132,6 +1123,7 @@ table.sesc td {
         right: 476px;
         background-repeat: no-repeat;
     }
+
     .painel {
         display: flex;
         position: relative;
@@ -1295,7 +1287,7 @@ table.sesc td {
         bottom: 0px;
     }
 
-    .rellax-7 {
+    ellax-7 {
         width: 17%;
         right: 42px;
         top: 30px;
@@ -1519,8 +1511,8 @@ table.sesc td {
     }
 }
 
+@media (max-width: 1400px) {
 
- @media (max-width: 1400px) {
     /* .pg-footer {
         background-color: transparent;
         position: absolute;
@@ -1530,6 +1522,7 @@ table.sesc td {
         margin-bottom: -444px;
         height: 111vh;
     }
+
     .bt-mata {
         background-image: url(../../img/assets/pg1/bt_mata.png);
         background-color: transparent;
@@ -1541,6 +1534,7 @@ table.sesc td {
         bottom: 585px;
         right: 171px;
     }
+
     .bt-mata:hover {
         background-image: url('../../img/assets/pg1/mapa_bt5_hover.png');
         background-color: transparent;
@@ -1553,6 +1547,7 @@ table.sesc td {
         bottom: 585px;
         right: 171px;
     }
+
     .bt-pampa {
         background-image: url(../../img/assets/pg1/bt_pampa.png);
         background-color: transparent;
@@ -1564,6 +1559,7 @@ table.sesc td {
         bottom: 464px;
         right: 442px;
     }
+
     .bt-pampa:hover {
         background-image: url('../../img/assets/pg1/mapa_bt6_hover.png');
         background-color: transparent;
@@ -1576,6 +1572,7 @@ table.sesc td {
         bottom: 464px;
         right: 442px;
     }
+
     .bt-pantanal {
         background-image: url(../../img/assets/pg1/bt_pantanal.png);
         background-color: transparent;
@@ -1615,22 +1612,14 @@ table.sesc td {
 
 
 
-} 
-
-
-
-
-
-
-
-
+}
 
 @media (max-width: 1366px) {
     .rellax-2 {
         right: -238px;
         width: 30%;
     }
-  
+
     .rellax-1 {
         right: 935px;
         width: 20%;
@@ -1977,7 +1966,7 @@ table.sesc td {
         transform: scale(1.1);
         background-repeat: no-repeat;
         top: 57px;
-    left: 51px;
+        left: 51px;
     }
 
     .bt-amazonia {
@@ -1989,7 +1978,7 @@ table.sesc td {
         background-repeat: no-repeat;
         position: absolute;
         top: 57px;
-    left: 51px;
+        left: 51px;
     }
 
     .bt-cerrado:hover {
@@ -2026,7 +2015,7 @@ table.sesc td {
         transform: scale(1.1);
         background-repeat: no-repeat;
         right: 19px;
-    top: 88px;
+        top: 88px;
     }
 
     .bt-caatinga {
@@ -2348,7 +2337,6 @@ table.sesc td {
         background-position: center;
         height: 400px;
     }
-
     .bt-mata:hover {
         background-image: url('../../img/assets/pg1/mapa_bt5_hover.png');
         background-color: transparent;
@@ -2519,14 +2507,6 @@ table.sesc td {
         top: 2714px;
         background-repeat: no-repeat;
     }
-
-
-
-
-
-
-
-
 }
 
 @media (max-width:720px) {
@@ -2547,7 +2527,6 @@ table.sesc td {
         align-items: center;
         height: 80vh;
     }
-
 
     .bt-amazonia:hover {
         background-image: url('../../img/assets/pg1/mapa_bt1_hover.png');
@@ -2921,6 +2900,10 @@ table.sesc td {
         height: 100vh;
     }
 
+    .margem {
+        margin-top: unset;
+    }
+
     .bloco2-pg1 {
         background-image: unset;
         margin: unset;
@@ -2948,6 +2931,11 @@ table.sesc td {
         background-repeat: unset;
         background-position: unset;
     }
+
+    .margem {
+        margin-top: unset;
+    }
+
 }
 
 @media (max-width:424px) {
@@ -2961,6 +2949,10 @@ table.sesc td {
         margin: unset;
         background-repeat: unset;
         background-position: unset;
+    }
+
+    .margem {
+        margin-top: unset;
     }
 
     .painel {
@@ -2987,6 +2979,10 @@ table.sesc td {
         background-color: #fff;
         opacity: 0.8;
         min-height: 100vh;
+    }
+
+    .margem {
+        margin-top: unset;
     }
 
     .painel {
@@ -3157,6 +3153,10 @@ table.sesc td {
         background-color: transparent;
         position: absolute;
         bottom: -27px;
+    }
+
+    .margem {
+        margin-top: unset;
     }
 
     .bloco2-pg1 {
@@ -3360,6 +3360,9 @@ table.sesc td {
         font-size: 17px;
     }
 
+    .margem {
+        margin-top: unset;
+    }
 
     .painel {
         display: flex;
