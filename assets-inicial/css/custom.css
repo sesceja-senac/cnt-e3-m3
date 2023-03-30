@@ -1,7 +1,7 @@
 body {
     background:  url(../imgs/1.png) no-repeat,
     url(../imgs/2.png) no-repeat,
-    url(../imgs/3.gif) no-repeat center -350%,
+    url(../imgs/agua.png) no-repeat center -350%,
     url(../imgs/4.png) no-repeat;
     background-attachment: fixed;
     background-size: 100% 119%;
