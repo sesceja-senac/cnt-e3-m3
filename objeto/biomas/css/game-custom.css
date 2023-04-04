@@ -207,8 +207,13 @@
 .ui-droppable p {
     font-size: 18px;
 }
-
-#slots .row,
+.rows_padding {
+    margin-bottom: 0px !important;
+}
+#slots .row {
+    margin-top: 0px !important;
+}
+#slots .row, .rows_padding,
 #cardPile {
     display: flex;
     justify-content: center;
