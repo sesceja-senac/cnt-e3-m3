@@ -22,6 +22,8 @@
     <link rel="stylesheet" href="assets/css/associar-colunas.css">
     <link rel="stylesheet" href="assets_obj/css/objeto-quiz-corrida.css">
     <link rel="stylesheet" href="objeto-calendario/style.calendario.css">
+    <link rel="stylesheet" href="objeto/biomas/js/dragula.css">
+    <link rel="stylesheet" href="objeto/biomas/css/game-custom.css">
 </head>
 
 <body class="bg-sesc">
@@ -360,9 +362,235 @@
                             megadiversos, sendo uma das nações que abrigam a maioria das espécies do planeta.</p>
                         <p class="no-print"> Então, que tal colocar em prática o que você aprendeu até agora? </p>
 
-                        <iframe class="no-print" src="" title="YouTube video player" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            allowfullscreen="" style="height: 100%; width: 100%; background-color: #00767F;"></iframe>
+                        
+    <div id="content-game">
+                                    
+        <div class="container-fluid game-body no-print" style="padding:0;">
+            <div class="game-itens-container p-3 text-center" style="border-top-left-radius: 15px; border-top-right-radius: 15px; color: white"><strong>Arraste</strong> os itens abaixo para os biomas correspondentes.</div>
+            <div id="cardPile" class="game-itens-container">
+            
+                <div id="card1" class="card text-center" data-target="slot-1">
+                    
+                    Mandacaru
+                </div>
+                <div id="card2" class="card text-center"  data-target="slot-2">
+                    
+                    Pau-brasil
+                </div>
+                <div id="card3" class="card text-center" data-target="slot-3">
+                    
+                    Zorrilho
+                </div>
+                <div id="card4" class="card text-center" data-target="slot-4">
+                    
+                    Jaburu (tuiuiú)
+                </div>
+                <div id="card5" class="card text-center" data-target="slot-5">
+                    
+                    Guaranazeiro
+                </div>
+                <div id="card6" class="card text-center" data-target="slot-2">
+                    
+                    Mico-leão-dourado
+                </div>
+                <div id="card7" class="card text-center" data-target="slot-5">
+                    
+                    Arara-canindé 
+                </div>
+                <div id="card8" class="card text-center" data-target="slot-6">
+                    
+                    Pequizeiro
+                </div>
+                <div id="card9" class="card text-center" data-target="slot-1">
+                    
+                    Tatu-bola-do-nordeste
+                </div>
+                <div id="card10" class="card text-center" data-target="slot-3">
+                    
+                    Capim-forquilha
+                </div>
+                <div id="card11" class="card text-center" data-target="slot-6">
+                    
+                    Lobo-guará
+                </div>
+                <div id="card12" class="card text-center" data-target="slot-4">
+                    
+                    Aguapés
+                </div>
+            
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-12 col-md-4 mt-3 mb-3 cor-caatinga">
+                            <div class="game-titulo">
+                                <p>Caatinga</p>
+                            </div>
+                            <div id="slot-1" class="slot">
+                                
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 mt-3 mb-3 cor-mataatlantica">
+                            <div class="game-titulo">
+                                <p>Mata Atlântica</p>
+                            </div>
+                        <div id="slot-2" class="slot">
+                        
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 mt-3 mb-3 cor-pampa">
+                        <div class="game-titulo">
+                            <p>Pampa</p>
+                        </div>
+                        <div id="slot-3" class="slot">
+                        
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-10 align-self-start d-block mt-5 m-auto">
+                    <div class="mapa_brasil">
+                        <div class="mapa-bolinha card1 d-none">
+                            <img src="objeto/biomas/thumb/mandacaru.jpg" alt="">                                                        
+                            
+                        </div>
+                        <div class="mapa-bolinha card2 d-none">
+                            <img src="objeto/biomas/thumb/pau-brasil.jpg" alt="">                                                            
+                            
+                        </div>
+                        <div class="mapa-bolinha card3 d-none">
+                            <img src="objeto/biomas/thumb/zorrilho.jpg" alt="">                                                            
+                            
+                        </div>
+                        <div class="mapa-bolinha card4 d-none">
+                            <img src="objeto/biomas/thumb/jaburu.jpg" alt="">                                                            
+                            
+                        </div>
+                        <div class="mapa-bolinha card5 d-none">
+                            <img src="objeto/biomas/thumb/guaranazeiro.jpg" alt="">                                                            
+                            
+                        </div>
+                        <div class="mapa-bolinha card6 d-none">
+                            <img src="objeto/biomas/thumb/mico-leao-dourado.jpg" alt="">                                                            
+                            
+                        </div>
+                        <div class="mapa-bolinha card7 d-none">
+                            <img src="objeto/biomas/thumb/arara-caninde.jpg" alt="">                                                            
+                            
+                        </div>
+                        <div class="mapa-bolinha card8 d-none">
+                            <img src="objeto/biomas/thumb/pequizeiro.jpg" alt="">                                                            
+                            
+                        </div>
+                        <div class="mapa-bolinha card9 d-none">
+                            <img src="objeto/biomas/thumb/tatu-bola.jpg" alt="">                                                            
+                            
+                        </div>
+                        <div class="mapa-bolinha card10 d-none">
+                            <img src="objeto/biomas/thumb/capim-forquilha.jpg" alt="">                                                            
+                            
+                        </div>
+                        <div class="mapa-bolinha card11 d-none">
+                            <img src="objeto/biomas/thumb/lobo-guara.jpg" alt="">                                                            
+                            
+                        </div>
+                        <div class="mapa-bolinha card12 d-none">
+                            <img src="objeto/biomas/thumb/aguapes.jpg" alt="">                                                            
+                            
+                        </div>
+                    </div>
+                </div>
+                <div id="slots" class="col-12 mt-1">
+                    <div class="row">
+                       
+                    <div class="col-12 col-md-4 mt-3 mb-3 cor-pantanal">
+                        <div class="game-titulo">
+                            <p>Pantanal</p>
+                        </div>
+                        <div id="slot-4" class="slot">
+                        
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 mt-3 mb-3 cor-amazonia">
+                        <div class="game-titulo">
+                            <p>Amazônia</p>
+                        </div>
+                        <div id="slot-5" class="slot">
+                        
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 mt-3 mb-3 cor-cerrado">
+                        <div class="game-titulo">
+                            <p>Cerrado</p>
+                        </div>
+                        <div id="slot-6" class="slot">
+                        
+                        </div>
+                    </div>
+                    </div>
+                    
+                </div>
+    
+                
+                
+                
+               
+        
+            
+            </div>
+        </div>
+    </div>                           
+    
+    <div class="modal fade" id="bgmodal-acerto" tabindex="-1" aria-labelledby="bgmodal-passou" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="bgmodal-passou"><i class="fas fa-check    "></i> Parabéns, resposta correta! </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-12 col-lg-4">
+                            <img src="img/acerto.png" class="img-fluid imgModal" alt="">
+                        </div>
+                        <div class="col-12 col-lg-8">
+                    <p class="feedbackPositivoTxt">Muito bem! Este item faz parte desta etapa de produção.
+                    </p>
+                    </div></div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="bgmodal-erro" tabindex="-1" aria-labelledby="bgmodal-passou" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header bg-danger">
+                    <h5 class="modal-title" id="bgmodal-passou"><i class="fas fa-times    "></i> Atenção! </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-12 col-lg-4">
+                            <img src="img/erro.png" class="img-fluid imgModal" alt="">
+                        </div>
+                        <div class="col-12 col-lg-8">
+                    <p class="feedbackNegativoTxt">Este item não faz parte desta etapa de produção. Tente novamente.
+                    </p>
+                    </div></div>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
                     </div>
                 </div><!-- div que fecha bloco 2 -->
                 <div class="bloco3-pg1">
@@ -1521,7 +1749,7 @@
     <!-- <script src="assets/js/jquery-ui.js"></script> -->
     <!-- <script src="assets/js/jqueryui-touch-punch.js"></script> -->
     <script src="assets/js/script.js"></script>
-    <script src="assets/js/draggable.js"></script>
+    <!-- <script src="assets/js/draggable.js"></script> -->
     <script src="assets/js/jogoMemoria.js"></script>
     <script src="assets/js/html2canvas.min.js"></script>
     <script src="assets/js/scalable.js"></script>
@@ -1529,6 +1757,8 @@
     <script src="objeto/assets_obj/js/objeto-quiz-corrida.js"></script>
     <script src="objeto-calendario/astro.js"></script>
     <script src="objeto-calendario/calendar.js"></script>
+    <script src='objeto/biomas/js/dragula.js'></script>
+    <script src="objeto/biomas/js/game-custom.js"></script>
 
     <script>
         window.addEventListener("load", AOS.refresh);

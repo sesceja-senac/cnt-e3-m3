@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrasta e solta</title>
+    
+    <!-- NÃO LEVAR PARA O MATERIAL -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- NÃO LEVAR PARA O MATERIAL -->
+    
+    <link rel="stylesheet" href="js/dragula.css">
+    <link rel="stylesheet" href="css/game-custom.css">
+    <!-- <link rel="stylesheet" href="js/example.css"> -->
+    
+</head>
+<body style="background-color: #FFBC62;">
+    
+
+    <div id="content-game">
+                                    
+        <div class="container-fluid game-body no-print" style="padding:0;">
+            <div class="row">
+                <div class="col-10 align-self-start d-block m-auto">
+                    teste
+                </div>
+                <div id="slots" class="col-12 mt-5 mb-5">
+                    <div class="row">
+                        <div class="col-12 col-md-4 mt-3 mb-3">
+                            <div class="game-titulo">
+                                <p>Caatinga</p>
+                            </div>
+                            <div id="slot-1" class="slot">
+                                
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 mt-3 mb-3">
+                            <div class="game-titulo">
+                                <p>Mata Atlântica</p>
+                            </div>
+                        <div id="slot-2" class="slot">
+                        
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 mt-3 mb-3">
+                        <div class="game-titulo">
+                            <p>Pampa</p>
+                        </div>
+                        <div id="slot-3" class="slot">
+                        
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 mt-3 mb-3">
+                        <div class="game-titulo">
+                            <p>Pantanal</p>
+                        </div>
+                        <div id="slot-4" class="slot">
+                        
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 mt-3 mb-3">
+                        <div class="game-titulo">
+                            <p>Amazônia</p>
+                        </div>
+                        <div id="slot-5" class="slot">
+                        
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 mt-3 mb-3">
+                        <div class="game-titulo">
+                            <p>Cerrado</p>
+                        </div>
+                        <div id="slot-6" class="slot">
+                        
+                        </div>
+                    </div>
+                    </div>
+                    
+                </div>
+    
+                <div id="cardPile" class="game-itens-container">
+                    <div id="card1" class="card text-center" data-target="slot-1">
+                        <img src="thumb/mandacaru.jpg" class="d-inline-block text-center" style="max-width: 76px;" alt=""><br>
+                        Mandacaru
+                    </div>
+                    <div id="card2" class="card text-center"  data-target="slot-2">
+                        <img src="thumb/pau-brasil.jpg" class="d-inline-block text-center" style="max-width: 76px;" alt=""><br>
+                        Pau-brasil
+                    </div>
+                    <div id="card3" class="card text-center" data-target="slot-3">
+                        <img src="thumb/zorrilho.jpg" class="d-inline-block text-center" style="max-width: 76px;" alt=""><br>
+                        Zorrilho
+                    </div>
+                    <div id="card4" class="card text-center" data-target="slot-4">
+                        <img src="thumb/jaburu.jpg" class="d-inline-block text-center" style="max-width: 76px;" alt=""><br>
+                        Jaburu (tuiuiú)
+                    </div>
+                    <div id="card5" class="card text-center" data-target="slot-5">
+                        <img src="thumb/guaranazeiro.jpg" class="d-inline-block text-center" style="max-width: 76px;" alt=""><br>
+                        Guaranazeiro
+                    </div>
+                    <div id="card6" class="card text-center" data-target="slot-2">
+                        <img src="thumb/mico-leao-dourado.jpg" class="d-inline-block text-center" style="max-width: 76px;" alt=""><br>
+                        Mico-leão-dourado
+                    </div>
+                    <div id="card7" class="card text-center" data-target="slot-5">
+                        <img src="thumb/arara-caninde.jpg" class="d-inline-block text-center" style="max-width: 76px;" alt=""><br>
+                        Arara-canindé 
+                    </div>
+                    <div id="card8" class="card text-center" data-target="slot-6">
+                        <img src="thumb/pequizeiro.jpg" class="d-inline-block text-center" style="max-width: 76px;" alt=""><br>
+                        Pequizeiro
+                    </div>
+                    <div id="card9" class="card text-center" data-target="slot-1">
+                        <img src="thumb/tatu-bola.jpg" class="d-inline-block text-center" style="max-width: 76px;" alt=""><br>
+                        Tatu-bola-do-nordeste
+                    </div>
+                    <div id="card10" class="card text-center" data-target="slot-3">
+                        <img src="thumb/capim-forquilha.jpg" class="d-inline-block text-center" style="max-width: 76px;" alt=""><br>
+                        Capim-forquilha
+                    </div>
+                    <div id="card11" class="card text-center" data-target="slot-6">
+                        <img src="thumb/lobo-guara.jpg" class="d-inline-block text-center" style="max-width: 76px;" alt=""><br>
+                        Lobo-guará
+                    </div>
+                    <div id="card12" class="card text-center" data-target="slot-4">
+                        <img src="thumb/aguapes.jpg" class="d-inline-block text-center" style="max-width: 76px;" alt=""><br>
+                        Aguapés
+                    </div>
+                
+                </div>
+            
+                
+               
+        
+            
+            </div>
+        </div>
+    </div>                           
+    
+    <div class="modal fade" id="bgmodal-acerto" tabindex="-1" aria-labelledby="bgmodal-passou" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="bgmodal-passou"><i class="fas fa-check    "></i> Parabéns, resposta correta! </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-12 col-lg-4">
+                            <img src="img/acerto.png" class="img-fluid imgModal" alt="">
+                        </div>
+                        <div class="col-12 col-lg-8">
+                    <p class="feedbackPositivoTxt">Muito bem! Este item faz parte desta etapa de produção.
+                    </p>
+                    </div></div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="bgmodal-erro" tabindex="-1" aria-labelledby="bgmodal-passou" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header bg-danger">
+                    <h5 class="modal-title" id="bgmodal-passou"><i class="fas fa-times    "></i> Atenção! </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-12 col-lg-4">
+                            <img src="img/erro.png" class="img-fluid imgModal" alt="">
+                        </div>
+                        <div class="col-12 col-lg-8">
+                    <p class="feedbackNegativoTxt">Este item não faz parte desta etapa de produção. Tente novamente.
+                    </p>
+                    </div></div>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+<!-- NÃO LEVAR PARA O MATERIAL -->
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+<!-- NÃO LEVAR PARA O MATERIAL -->
+
+
+    <script src='js/dragula.js'></script>
+    <script src="js/game-custom.js"></script>
+
+ 
+
+</body>
+</html>
