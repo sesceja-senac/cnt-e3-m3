@@ -124,12 +124,13 @@
                         <p>Você concorda que é mais fácil mencionar as diferenças entre as crianças e as plantas do que
                             as semelhanças entre elas? </p>
                         <p class="no-print">Entenda melhor a respeito da biodiversidade no vídeo a seguir: </p>
-                        <iframe class="no-print" src="" title="YouTube video player" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            allowfullscreen="" style="height: 100%; width: 100%; background-color: #00767F;"></iframe>
+
+                        <!-- Vídeo Biodiversidade -->
+                        <iframe class="d-none d-sm-block mx-auto no-print" width="640" height="360" src="https://www.youtube.com/embed/jsjIPy5oWFo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <iframe class="d-block d-sm-none mx-auto no-print" width="320" height="180" src="https://www.youtube.com/embed/jsjIPy5oWFo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                         <div class="only-print">
                             <h4>Biodiversidade</h4>
-                            <p> A diversidade de formas que a vida pode assumir é chamada de biodiversidade. Mesmo com a
+                            <p> A diversidade de formas que a vida pode assumir é chamada de <b>biodiversidade</b>. Mesmo com a
                                 tecnologia e as pesquisas científicas, ainda não se sabe quantos tipos de vegetais,
                                 animais e
                                 microrganismos existem no mundo. Isso significa que a biodiversidade é tão grande que
@@ -163,6 +164,7 @@
                                 Pampa e
                                 Pantanal.</p>
                         </div>
+
                         <p>Como você viu no vídeo, o Brasil é reconhecido por ter uma “megadiversidade”, já que 20% das
                             espécies conhecidas da Terra estão aqui. Isso acontece por causa da pluralidade de ambientes
                             naturais no território brasileiro. O conjunto de diferentes tipos de solos, climas e seres
@@ -172,42 +174,49 @@
                                 title="Biomas são espaços geográficos que compartilham das mesmas características físicas, biológicas e climáticas, abrigando um grande número de espécies de plantas e animais.">
                                 bioma </button> da sua região e comparar com os demais tipos: </p>
                         <p class="no-print">Clique ou toque para visualizar o conteúdo. </p>
-                        <div data-aos="fade-up-left"> <img src="img/assets/pg1/parallax/grafico_esq.png" alt=""
-                                class="rellax rellax-1 no-print" data-rellax-speed="2"></div>
-                        <div data-aos="fade-down-right"><img src="img/assets/pg1/parallax/grafico_dir2.png" alt=""
-                                class="rellax rellax-2 no-print" data-rellax-speed="2"></div>
+
+                        <div data-aos="fade-up-left"> <img src="img/assets/pg1/parallax/grafico_esq.png" alt="" class="rellax rellax-1 no-print" data-rellax-speed="2"></div>
+                        <div data-aos="fade-down-right"><img src="img/assets/pg1/parallax/grafico_dir2.png" alt="" class="rellax rellax-2 no-print" data-rellax-speed="2"></div>
+                        
+                        <!--
                         <div class="painel d-none d-sm-block">
-                            <button type="button" class="bt-amazonia" data-bs-toggle="modal"
-                                data-bs-target="#bt-amazonia"></button>
-                            <button type="button" class="bt-cerrado" data-bs-toggle="modal"
-                                data-bs-target="#bt-cerrado"></button>
-                            <button type="button" class="bt-pantanal" data-bs-toggle="modal"
-                                data-bs-target="#bt-pantanal"></button>
-                            <button type="button" class="bt-caatinga" data-bs-toggle="modal"
-                                data-bs-target="#bt-caatinga"></button>
-                            <button type="button" class="bt-pampa" data-bs-toggle="modal"
-                                data-bs-target="#bt-pampa"></button>
-                            <button type="button" class="bt-mata" data-bs-toggle="modal"
-                                data-bs-target="#bt-mata"></button>
+                            <button type="button" class="bt-amazonia" data-bs-toggle="modal" data-bs-target="#bt-amazonia"></button>
+                            <button type="button" class="bt-cerrado" data-bs-toggle="modal" data-bs-target="#bt-cerrado"></button>
+                            <button type="button" class="bt-pantanal" data-bs-toggle="modal" data-bs-target="#bt-pantanal"></button>
+                            <button type="button" class="bt-caatinga" data-bs-toggle="modal" data-bs-target="#bt-caatinga"></button>
+                            <button type="button" class="bt-pampa" data-bs-toggle="modal" data-bs-target="#bt-pampa"></button>
+                            <button type="button" class="bt-mata" data-bs-toggle="modal" data-bs-target="#bt-mata"></button>
                         </div>
+                        -->
+
+                        <h3 class="titulo-mapa">Mapa da biodiversidade brasileira</h3>
+                        <div class="painel-mapa d-none d-sm-block no-print" aria-hidden="true">
+                            <button type="button" class="btn-mapa btn-amazonia" data-bs-toggle="modal" data-bs-target="#bt-amazonia"></button>
+                            <button type="button" class="btn-mapa btn-cerrado" data-bs-toggle="modal" data-bs-target="#bt-cerrado"></button>
+                            <button type="button" class="btn-mapa btn-pantanal" data-bs-toggle="modal" data-bs-target="#bt-pantanal"></button>
+                            <button type="button" class="btn-mapa btn-caatinga" data-bs-toggle="modal" data-bs-target="#bt-caatinga"></button>
+                            <button type="button" class="btn-mapa btn-pampa" data-bs-toggle="modal" data-bs-target="#bt-pampa"></button>
+                            <button type="button" class="btn-mapa btn-mata" data-bs-toggle="modal" data-bs-target="#bt-mata"></button>
+                        </div>
+
                         <div class="row d-block d-sm-none no-print" aria-hidden="true">
                             <div class="col-xs-12">
-                                <button type="button" class="bt-amazonia_mobile" data-bs-toggle="modal" data-bs-target="#bt-amazonia"></button>
+                                <button type="button" class="bt-mapa_mobile bt-amazonia_mobile" data-bs-toggle="modal" data-bs-target="#bt-amazonia"></button>
                             </div>
                             <div class="col-xs-12">
-                                <button type="button" class="bt-cerrado_mobile" data-bs-toggle="modal" data-bs-target="#bt-cerrado"></button>
+                                <button type="button" class="bt-mapa_mobile bt-cerrado_mobile" data-bs-toggle="modal" data-bs-target="#bt-cerrado"></button>
                             </div>
                             <div class="col-xs-12">
-                                <button type="button" class="bt-pantanal_mobile" data-bs-toggle="modal" data-bs-target="#bt-pantanal"></button>
+                                <button type="button" class="bt-mapa_mobile bt-pantanal_mobile" data-bs-toggle="modal" data-bs-target="#bt-pantanal"></button>
                             </div>
                             <div class="col-xs-12">
-                                <button type="button" class="bt-caatinga_mobile" data-bs-toggle="modal" data-bs-target="#bt-caatinga"></button>
+                                <button type="button" class="bt-mapa_mobile bt-caatinga_mobile" data-bs-toggle="modal" data-bs-target="#bt-caatinga"></button>
                             </div>
                             <div class="col-xs-12">
-                                <button type="button" class="bt-pampa_mobile" data-bs-toggle="modal" data-bs-target="#bt-pampa"></button>
+                                <button type="button" class="bt-mapa_mobile bt-pampa_mobile" data-bs-toggle="modal" data-bs-target="#bt-pampa"></button>
                             </div>
                             <div class="col-xs-12">
-                                <button type="button" class="bt-mata_mobile" data-bs-toggle="modal" data-bs-target="#bt-mata"></button>
+                                <button type="button" class="bt-mapa_mobile bt-mata_mobile" data-bs-toggle="modal" data-bs-target="#bt-mata"></button>
                             </div>
                         </div>
                         <!-- <div class="painel2">
@@ -564,7 +573,7 @@
     
     <div class="modal fade" id="bgmodal-acerto" tabindex="-1" aria-labelledby="bgmodal-passou" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
+            <div class="modal-content no-print">
                 <div class="modal-header">
                     <h5 class="modal-title" id="bgmodal-passou"><i class="fas fa-check    "></i> Parabéns, resposta correta! </h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -586,10 +595,9 @@
         </div>
     </div>
 
-
     <div class="modal fade" id="bgmodal-erro" tabindex="-1" aria-labelledby="bgmodal-passou" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
+            <div class="modal-content no-print">
                 <div class="modal-header bg-danger">
                     <h5 class="modal-title" id="bgmodal-passou"><i class="fas fa-times    "></i> Atenção! </h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -652,9 +660,11 @@
                             mesma espécie, entretanto, a cor dos pelos, o tamanho, a personalidade e outros atributos
                             mudam conforme o indivíduo. A variação de características em uma população é a base para que
                             as seleções natural e artificial possam atuar. </p>
-                        <iframe class="no-print" src="" title="YouTube video player" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            allowfullscreen="" style="height: 100%; width: 100%; background-color: #00767F;"></iframe>
+                        
+                        <!-- Vídeo Sobrevivência -->
+                        <iframe class="d-none d-sm-block mx-auto no-print" width="640" height="360" src="https://www.youtube.com/embed/1wVo6u78xaY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <iframe class="d-block d-sm-none mx-auto no-print" width="320" height="180" src="https://www.youtube.com/embed/1wVo6u78xaY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        
                         <div class="only-print">
                             <p>Os indivíduos com características favoráveis à sua sobrevivência em um certo ambiente
                                 conseguem se manter vivos por mais tempo e, assim, reproduzem-se, deixando descendentes
@@ -715,6 +725,7 @@
             <div class="pagina">
                 <div class="bloco1-pg2">
                     <div class="container estilopg2">
+                        <br>
                         <h4 class="fontetitulo">Tragédia de Mariana: o impacto na biodiversidade </h4>
                         <p>Em uma cidade chamada Mariana, localizada no centro-sul de Minas Gerais, ocorreu, em 2015, um
                             dos maiores desastres ambientais do Brasil. O desastre foi causado pelo rompimento de uma
@@ -1319,7 +1330,7 @@
                         </p>
                         <h4>Ciclo do nitrogênio</h4>
                         <p>O nitrogênio é o elemento químico mais abundante na atmosfera – neste exato momento, você
-                            está “nadando” em uma piscina de gás nitrogênio (N2) – e, assim como o carbono, tem uma
+                            está “nadando” em uma piscina de gás nitrogênio (N<sub>2</sub>) – e, assim como o carbono, tem uma
                             grande capacidade de se ligar aos demais elementos da tabela periódica. </p>
                         <p class="no-print">Observe esse processo no GIF a seguir: </p>
                         <div id="carouselId" class="carousel slide sesc no-print" data-bs-ride="">
@@ -1360,8 +1371,8 @@
                         </div>
                         <div class="only-print">
                             <h3>Nitrogênio</h3>
-                            <p>Está na atmosfera na forma de gás nitrogênio (N2) – pouco solúvel. É transformado pela
-                                corrente elétrica dos raios em NO3-, que chamamos de “nitrato”, e se dissolve mais
+                            <p>Está na atmosfera na forma de gás nitrogênio (N<sub>2</sub>) – pouco solúvel. É transformado pela
+                                corrente elétrica dos raios em NO<sub>3</sub><sup>-</sup>, que chamamos de “nitrato”, e se dissolve mais
                                 facilmente na água da chuva. O nitrogênio fica mais disponível e penetra no solo. Do
                                 solo, as plantas absorvem esse nitrogênio e usam como nutriente na composição de
                                 proteínas, do DNA (ácido desoxirribonucleico) e da clorofila. É um adubo natural, tendo
@@ -1384,9 +1395,9 @@
                                     data-aos="zoom-in" alt="">
                             </figure>
                         </div>
-                        <p> Esse gás nitrogênio (N2) disponível na atmosfera pode ser transformado pela energia dos
+                        <p> Esse gás nitrogênio (N<sub>2</sub>) disponível na atmosfera pode ser transformado pela energia dos
                             raios
-                            elétricos, por exemplo. Assim, ele é transformado em nitrato (NO<sub>3</sub>-), que se
+                            elétricos, por exemplo. Assim, ele é transformado em nitrato (NO<sub>3</sub><sup>-</sup>), que se
                             dissolve na água
                             da
                             chuva e chega ao solo e depois às plantas. As plantas absorvem o nitrogênio presente no
@@ -1415,14 +1426,14 @@
                         </figure>
                         <div class="only-print">
                             <h3>- Ciclo do carbono -</h3>
-                            <p> Fotossíntese: absorve gás carbônico (CO2).</p>
-                            <p> Respiração (animal/vegetal): emite gás carbônico (CO2).</p>
+                            <p> Fotossíntese: absorve gás carbônico (CO<sub>2</sub>).</p>
+                            <p> Respiração (animal/vegetal): emite gás carbônico (CO<sub>2</sub>).</p>
                             <p> Digestão/decomposição: emite metano (CH4), que, com o tempo, transforma-se gás carbônico
-                                ([CO2).</p>
+                                (CO<sub>2</sub>).</p>
                             <h3>- Ação humana -</h3>
                             <p> Aumenta a quantidade de carbono circulando.</p>
-                            <p> Queimadas: libera CO2.</p>
-                            <p> Uso de combustíveis a base de petróleo (C): libera CO2.</p>
+                            <p> Queimadas: libera CO<sub>2</sub>.</p>
+                            <p> Uso de combustíveis a base de petróleo (C): libera CO<sub>2</sub>.</p>
                             <p> O carbono do petróleo e das queimadas estava fora do ciclo natural e agora perturba o
                                 equilíbrio
                                 causando, entre outras coisas, as condições para a crise climática.</p>
@@ -1439,13 +1450,13 @@
                                     data-aos="zoom-in" alt="">
                             </figure>
                         </div>
-                        <p> O dióxido de carbono (CO2) presente em toda a atmosfera é absorvido por organismos que fazem
+                        <p> O dióxido de carbono (CO<sub>2</sub>) presente em toda a atmosfera é absorvido por organismos que fazem
                             a
                             fotossíntese, sendo usado para produzir moléculas orgânicas – proteínas, gorduras, tecidos
                             etc.
                             –, as quais viajam através das cadeias alimentares. No final, os átomos de carbono são
                             liberados
-                            como CO2 na respiração.</p>
+                            como CO<sub>2</sub> na respiração.</p>
                         <p>A ação humana vem aumentando a quantidade de carbono na forma de gases na atmosfera. Mas de
                             onde
                             vem esse carbono? Vem principalmente da queima de matéria orgânica, seja nas queimadas de
@@ -1477,9 +1488,13 @@
                         <p class="no-print">Assista ao vídeo a seguir para conhecer mais detalhes sobre o efeito estufa
                             e a pegada do
                             carbono: </p>
-                        <iframe class="no-print" src="" title="YouTube video player" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            allowfullscreen="" style="height: 100%; width: 100%; background-color: #fff;"></iframe>
+                        
+                            
+                        <!-- Vídeo Efeito Estufa -->
+                        <iframe class="d-none d-sm-block mx-auto no-print" width="640" height="360" src="https://www.youtube.com/embed/ogXe9tG76rU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <iframe class="d-block d-sm-none mx-auto no-print" width="320" height="180" src="https://www.youtube.com/embed/ogXe9tG76rU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
                         <div class="only-print">
                             <p>Observe as características das imagens abaixo: </p>
                             <p>Imagine que você está saindo de casa para o trabalho e verifica que a previsão da
@@ -1632,10 +1647,8 @@
                                     pode promover práticas mais sustentáveis e reduzir os impactos negativos das
                                     atividades
                                     humanas.
-                                    A pressão social pode mudar políticas públicas e práticas empresariais a fim de que
-                                    favoreçam a
-                                    proteção ambiental e a sustentabilidade. É importante ressaltar que a sensibilização
-                                    coletiva
+                                    <b>A pressão social pode mudar políticas públicas e práticas empresariais a fim de que favoreçam a proteção ambiental e a sustentabilidade.</b>
+                                    É importante ressaltar que a sensibilização coletiva
                                     não é um evento único, mas sim um processo em constante evolução.</p>
                             </div>
                         </div>
@@ -1645,7 +1658,7 @@
                                     informações
                                     sobre a importância da proteção ambiental que se pode estimular a reflexão crítica
                                     sobre a
-                                    relação do homem com o meio ambiente. Assim, é possível promover uma cultura de
+                                    relação do ser humano com o meio ambiente. Assim, é possível promover uma cultura de
                                     sustentabilidade
                                     que se reflita em todas as esferas da sociedade, desde o consumo consciente até a
                                     adoção de
