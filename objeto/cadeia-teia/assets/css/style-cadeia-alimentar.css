@@ -1,0 +1,488 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap');
+
+:root {
+    /* --font-alimentar: 'Quicksand', sans-serif; */
+    --font-fase-label: 30px 'Quicksand', sans-serif;
+    --font-fase-nome: bold 60px 'Quicksand', sans-serif;
+    --font-descricao: 30px 'Quicksand', sans-serif;
+    --font-txtFeedback: 20px 'Quicksand', sans-serif;
+    --font-bto-fechar: 18px 'Quicksand', sans-serif;
+    --color-descricao: #790305;
+    --background-color: #f4d6C5;
+    --bordinha: 10px;
+    --cadeia-alimentar-background-color: #f2a863;
+    --titulo-color: #790305;
+    --titulo-font-size: 100%;
+    --encaixe-width: 207px;
+    --encaixe-height: 208px;
+    --encaixe-background-color: white;
+    --sombrinha: 5px 5px #790305;
+    --sombra-container_especime: 15px 15px #790305;
+    --btn-sombrinha: 4px 2px #790305;
+    --descricao-background-color: #f4d6C5;
+    --grupo-margin-top: 30px;
+    --fundo2-background-color: #790305;
+    --elemento-width: 207px;
+    --elemento-height: 208px;
+    --elemento-background-color: #f2a863;
+    --elemento-margin-top: 10px;
+    --btn-verificar-bg: #f2a863;
+    --btn-verificar-font: #790305;
+    --btn-verificar-border: #69d7bd;
+    --btn-verificar-hover: #f4d6C5;
+    --cor-estilo-pontas-bg: #f2a863;
+    --cor-estilo-pontas-texto: #790305;
+    --footer-bg: #790305;
+    --cor-opcoes-bg: #790305;
+    --cor-opcoes-hover-bg: #f2a863;
+    --cor-btn-fechar-bg: #790305;
+    --cor-btn-fechar-hover-bg: #f2a863;
+    --cor-btn-fechar-hover-borda: #790305;
+    --cor-btn-fechar-hover-texto: #790305;
+    --cor-btn-interrogacao-bg: #f2a863;
+    --cor-btn-interrogacao-texto: #790305;
+    --cor-btn-interrogacao-hover-bg: #69d7bd;
+    --cor-img-interrogacao: #000;
+    --cor-btn-resposta-bg: #f2a863;
+    --cor-btn-resposta-borda: #790305;
+    --cor-btn-resposta-texto: #790305;
+    --btn-sombrinha: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+html, body {
+    height: 100%;
+}
+body {
+    background-color: #000;
+    font-family: var(--font-alimentar);
+    height: 100%;
+    overflow: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.txtFeedback {
+  font: var(--font-txtFeedback)
+}
+
+/* Modais */
+/* estrutura */
+[data-bs-dismiss="modal"] {
+  font: var(--font-bto-fechar)
+}
+/* Intro */
+.modal-header h5 {
+  color: #790305;
+  font-family: "QuickSand", sans-serif;
+  font-weight: 600 !important;
+}
+
+.modal-body p {
+  font-family: "QuickSand", sans-serif;
+  font-weight: 400 !important;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+  background-color: #b31417 !important;
+  
+}
+.btn-primary {
+  background-color: var(--btn-verificar-font);
+  border: 0px none;
+  font-family: "QuickSand", sans-serif;
+  font-weight: 400 !important;
+  font-size: 20px;
+  margin-left: auto; 
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+
+/* App Cadeia Alimentar */
+/* - Estrutura */
+#app-cadeia-alimentar {
+    width: 1920px;
+    height: 1080px;
+    position: fixed;
+    left: calc(50% - 1920px / 2);
+    margin: auto;
+    top: calc(50% - 1080px / 2);
+  }
+
+
+#app-cadeia-alimentar {
+    background-color: var(--background-color);
+    padding: 20px 20px;
+}
+
+.app-ca-conteudo {
+    background-color: var(--cadeia-alimentar-background-color);
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+/* HEADER */
+h1 {
+    position: relative;
+    width: 494px;
+    margin-left: 70px;
+    margin-top: 50px;
+  }
+
+  .diretrizes {
+    position: absolute;
+    top: 70px;
+    right: 80px;
+    background-color: var(--descricao-background-color);
+    box-shadow: var(--sombrinha);
+    padding: 50px;
+    font: var(--font-descricao);
+    color: var(--color-descricao)
+  }
+
+
+  /* CONTAINERS */
+  .container_especime {
+    background: url(../img/fase1-container.png) top left / 100% auto no-repeat;
+    width: 352px;
+    height: 352px;
+    box-shadow: var(--sombra-container_especime);
+    position: relative;
+  }
+  .container_especime > img {
+    width: 100%;
+    height: auto;
+  }
+  .container_especime.seta::before {
+    content: "";
+    background: url(../img/fase1-seta.png) top left / 100% auto no-repeat;
+    width: 100px;
+    height: 54px;
+    display: block;
+    position: absolute;
+    top: 150px;
+    right: -113px;
+}
+
+.containers-itens {
+    width: 1860px;
+    position: absolute;
+    top: 340px;
+    left: 77px;
+
+  }
+  #slot1.container_especime.donttouchme {
+    background: url(../img/fase1-1.png) top left / 100% auto no-repeat;
+  }
+  #slot2.container_especime.donttouchme {
+    background: url(../img/fase1-2.png) top left / 100% auto no-repeat;
+  }
+  #slot3.container_especime.donttouchme {
+    background: url(../img/fase1-3.png) top left / 100% auto no-repeat;
+  }
+  #slot4.container_especime.donttouchme {
+    background: url(../img/fase1-4.png) top left / 100% auto no-repeat;
+  }
+  .container_especime.donttouchme > img {
+    opacity: 0;
+   }
+  .donttouchme {
+    pointer-events: none;
+    touch-action: none;
+  }
+
+  /*
+  FOOTER
+  */
+  footer .centralizar {
+    max-width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 22px;
+    text-align: center;
+  }
+  footer .centralizar > img {
+    margin-right: 79px;
+  }
+  footer .centralizar > img:last-child {
+    margin-right: 0px;
+  }
+  #fase1 footer {
+    background-color: var(--footer-bg);
+    width: calc(100% - 40px);
+    height: 252px;
+    position: absolute;
+    bottom: 19px;
+    left: 20px;
+  }
+
+  /* Botão avançar fase */
+  .bto-avancar {
+    display: block;
+    position: relative;
+    margin: auto;
+    border: 0px none;
+    background-color: #f4d6c5;
+    padding: 20px;
+    font-size: 30px;
+    font-family: "QuickSand", sans-serif;
+    box-shadow: 0 0 10px;
+  }
+  .bto-avancar:hover{
+    background-color: #f4d6c5a2;
+
+  }
+
+  .bto-avancar:active {
+    box-shadow: none;
+    top: 10px;
+  }
+/* Fases */
+
+.fases {
+    width: 100%;
+    height: auto;
+
+}
+
+.fase-label {
+    font: var(--font-fase-label);
+    color: var(--titulo-color);
+    text-transform: uppercase;
+    display: block;
+}
+
+.fase-nome {
+    color: var(--titulo-color);
+    font: var(--font-fase-nome);
+    display: block;
+}
+
+
+/* FASE 2 */
+.text-center.premio {
+  color: #f4ac02;
+}
+.section-body .teia-bg {
+  position: absolute;
+  top: 20px;
+  left: 190px;
+  width: 1580px;
+}
+.b1 {
+  top: 10px;
+  left: 820px;
+}
+.elementoPosicionado.b1 {
+  left: 598px;
+}
+.b2 {
+  top: 150px;
+  left: 580px;
+}
+.elementoPosicionado.b2 {
+  right: 1251px;
+  top: 173px;
+  left: unset;
+}
+.b3 {
+  top: 294px;
+  left: 820px;
+}
+.elementoPosicionado.b3 {
+  left: 614px;
+}
+.b4 {
+  top: 529px;
+  left: 420px;
+}
+.elementoPosicionado.b4 {
+  left: 210px;
+  top: 534px;
+}
+.b5 {
+  top: 243px;
+  left: 250px;
+}
+.elementoPosicionado.b5 {
+  left: 67px;
+  top: 246px;
+}
+.b6 {
+  bottom: 240px;
+  left: 650px;
+}
+.elementoPosicionado.b6 {
+  left: 440px;
+  bottom: 250px;
+}
+.b7 {
+  bottom: 10px;
+  right: 770px;
+}
+.elementoPosicionado.b7 {
+  right: 776px;
+  bottom: 20px;
+}
+
+.b8 {
+  bottom: 460px;
+  right: 780px;
+}
+.elementoPosicionado.b8 {
+  bottom: 470px;
+  right: 610px;
+}
+.b9 {
+  top: 390px;
+  right: 530px;
+}
+.elementoPosicionado.b9 {
+  right: 330px;
+  top: 393px;
+}
+.b10 {
+  bottom: 210px;
+  right: 380px;
+}
+.elementoPosicionado.b10 {
+  right: 330px;
+  bottom: 217px;
+}
+.bto-ask:hover {
+  background: url(../img/fase2-bto_ask2.png) top left / 100% auto no-repeat;
+}
+.bto-ask {
+  border: 0px none;
+  background: url(../img/fase2-bto_ask.png) top left / 100% auto no-repeat;
+  width: 94px;
+  height: 93px;
+  color: rgba(0,0,0,0);
+  position: absolute;
+}
+.elementoPosicionado {
+  position: absolute;
+  background-color:#f4ac02;
+  font-family: "QuickSand", sans-serif;
+  font-weight: 600;
+  padding: 20px 20px;
+  border-radius: 50px;
+  box-shadow: 5px 5px 0px #790305;
+  border: 5px solid #790305;
+  font-size: 20px;
+  text-transform: uppercase;
+
+}
+.bto-reiniciar {
+  position: absolute;
+  background-color: #f4ac02;
+  font-family: "QuickSand", sans-serif;
+  font-weight: 600;
+  padding: 20px 20px;
+  border-radius: 50px;
+  box-shadow: 5px 5px 0px #790305;
+  border: 5px solid #790305;
+  font-size: 35px;
+  bottom: 80px;
+  right: 110px;
+}
+.bto-ajuda:hover {
+  background-color: #990b0e;
+}
+.bto-ajuda {
+  position: absolute;
+top: 194px;
+right: 90px;
+z-index: 200;
+background-color: #790305;
+border: 0px none;
+color: white;
+font-size: 25px;
+font-family: "Quicksand", sans-serif;
+text-transform: uppercase;
+padding: 10px 50px;
+box-shadow: 0 0 5px #333;
+}
+#fase2 .bto-ajuda {
+  top: 230px;
+}
+#slot1:after{
+  content: "Produtor";
+  display: block;
+  position: absolute;
+  top: -50px;
+  left: 0px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+#slot2:after{
+  content: "Consumidor primário";
+  display: block;
+  position: absolute;
+  top: -50px;
+  left: 0px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+#slot3:after{
+  content: "Consumidor secundário";
+  display: block;
+  position: absolute;
+  top: -50px;
+  left: 0px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+}
+#slot4:after{
+  content: "Consumidor terciário";
+  display: block;
+  position: absolute;
+  top: -50px;
+  left: 0px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+}
+  /* modo smart */
+  .modo-smart {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    color: white;
+    margin: auto;
+    height: 100%;
+    text-align: center;
+    display: none;
+    background-color: black;
+  }
+
+  .modo-smart > div 
+  {
+    position: absolute;
+    top: 0;
+    left:0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    max-width: 550px;
+    height: 500px;
+  }
+.modo-smart > div {
+    display: block;
+}
+.modo-smart p {
+    color: white;
+}
+
+
+@media only screen and (orientation: portrait){
+    .modo-smart {
+        display: block;
+    }
+}

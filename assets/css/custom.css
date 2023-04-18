@@ -22,7 +22,10 @@ h4 {
     margin: 0;
     padding-top: 60px;
 }
-
+.btn.btn-primary.prim2 {
+    background-color: #2d5f54;
+    border-color: #2d5f54;
+  }
 /*
 .rellax-fig {
     width: 25%;

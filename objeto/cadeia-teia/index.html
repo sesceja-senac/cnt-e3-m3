@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jogo de cadeia alimentar</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/js/dragula.min.css">
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/style-cadeia-alimentar.css">
+</head>
+
+<body>
+  <div id="app-cadeia-alimentar">
+    <div class="app-ca-conteudo">
+        <section id="fase1" class="fases">
+            <button type="button" class="bto-ajuda" data-bs-target="#intro" data-bs-toggle="modal">+ Ajuda</button>
+            <header>
+                <h1>
+                    <span class="fase-label">Fase 1</span>
+                    <span class="fase-nome">Cadeia Alimentar</span>
+                </h1>
+
+                <div class="diretrizes">
+                    <p>Arraste os seguintes espécimes para sua posição na cadeia alimentar.</p>
+                </div>
+            </header>
+            <div class="containers-itens">
+                <div class="row">
+                    <div class="col-3">
+                        <div class="container_especime seta" id="slot1"></div>
+                    </div>
+                    <div class="col-3">
+                        <div class="container_especime seta" id="slot2"></div>
+                    </div>
+                    <div class="col-3">
+                        <div class="container_especime seta" id="slot3"></div>
+                    </div>
+                    <div class="col-3">
+                        <div class="container_especime" id="slot4"></div>
+                    </div>
+                </div>
+            </div>
+            <footer>
+               <div id="cardPile" class="centralizar dragallowed">
+                   <img id="caracol" src="assets/img/fase1-bto2.png" alt="" data-target="slot2">
+                   <img id="peixe" src="assets/img/fase1-bto3.png" alt="" data-target="slot3">
+                   <img id="ave" src="assets/img/fase1-bto4.png" alt="" data-target="slot4">
+                   <img id="planta" src="assets/img/fase1-bto1.png" alt="" data-target="slot1">
+               </div>
+            </footer>
+        </section>
+        <div id="fase2" class="fases" style="display: none">
+            <button type="button" class="bto-ajuda" data-bs-target="#introfase2" data-bs-toggle="modal">+ Ajuda</button>
+            <header>
+                <h1>
+                    <span class="fase-label">Fase 2</span>
+                    <span class="fase-nome">Teia Alimentar</span>
+                </h1>
+
+                <div class="diretrizes">
+                    <p>Clique ou toque nos botões <i class="fa-regular fa-circle-question"></i> e selecione <br>a opção correta para adicionar os níveis tróficos.</p>
+                </div>
+            </header>
+            <div class="section-body">
+                <img src="assets/img/bg-fase2.png" class="donttouchme teia-bg" alt="">
+                <button type="button" class="bto-ask b1" data-tipo="ave_de_rapina" id="b1">?</button>
+                <button type="button" class="bto-ask b2" data-tipo="ave_de_rapina" id="b2">?</button>
+                <button type="button" class="bto-ask b3" data-tipo="ave_de_rapina" id="b3">?</button>
+                <button type="button" class="bto-ask b4" data-tipo="serpente" id="b4">?</button>
+                <button type="button" class="bto-ask b5" data-tipo="serpente" id="b5">?</button>
+                <button type="button" class="bto-ask b6" data-tipo="sapo" id="b6">?</button>
+                <button type="button" class="bto-ask b7" data-tipo="lagarta" id="b7">?</button>
+                <button type="button" class="bto-ask b8" data-tipo="passaro" id="b8">?</button>
+                <button type="button" class="bto-ask b9" data-tipo="passaro" id="b9">?</button>
+                <button type="button" class="bto-ask b10" data-tipo="arvore" id="b10">?</button>
+
+                <div class="elementoPosicionado d-none b1">Consumidor quaternário</div>
+                <div class="elementoPosicionado d-none b2">Consumidor terciário</div>
+                <div class="elementoPosicionado d-none b3">Consumidor secundário</div>
+                <div class="elementoPosicionado d-none b4">Consumidor secundário</div>
+                <div class="elementoPosicionado d-none b5">Consumidor terciário</div>
+                <div class="elementoPosicionado d-none b6">Consumidor secundário</div>
+                <div class="elementoPosicionado d-none b7">Consumidor primário</div>
+                <div class="elementoPosicionado d-none b8">Consumidor primário</div>
+                <div class="elementoPosicionado d-none b9">Consumidor secundário</div>
+                <div class="elementoPosicionado d-none b10">Produtor</div>
+
+                <button type="button" class="bto-reiniciar animate__infinite animate__delay-2s animate__animated animate__bounce d-none">Reiniciar</button>
+            </div>
+        </div>
+    </div>
+  </div>
+    <div class="modo-smart">
+        <div class="text-center">
+          <p class="p-paisagem text-center"><img src="assets/Img/vire.gif" class="img-fluid img-paisagem d-inline-block"><br><strong>Por favor, gire o aparelho para o modo paisagem.</strong></p>
+        </div>
+      </div>
+
+      <!-- Modal -->
+      <div class="modal fade" id="intro" tabindex="-1" role="dialog" aria-labelledby="modalIntro" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                    <div class="modal-header">
+                            <h5 class="modal-title" id="modalIntro">Introdução</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <p>Nesta atividade, vamos trabalhar com a classificação dos seres vivos de acordo com a posição deles na cadeia alimentar. Serão apresentados diferentes organismos e você deverá identificar em que nível trófico eles estão, colocando-os na posição adequada na cadeia alimentar. Esta atividade ajudará você a compreender como os seres vivos estão interconectados em um ecossistema e como a energia flui através deles. Em seguida, após a realização da primeira atividade, você será redirecionado para a fase 2, na qual deverá realizar um desafio a respeito das teias alimentares. Vamos lá?</p>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Iniciar</button>
+                   
+                </div>
+            </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="introfase2" tabindex="-1" role="dialog" aria-labelledby="modalintrofase2" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                    <div class="modal-header">
+                            <h5 class="modal-title" id="modalintrofase2">Fase 2 - Teia Alimentar</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <p>Olá, estudantes! Nesta fase, você exercitará seus conhecimentos referentes às teias alimentares. Observe que os seres vivos já estão posicionados corretamente na teia alimentar, mas seus níveis tróficos não estão indicados. Você deverá colocar cada nível trófico no ser vivo correspondente, ou seja, no lugar adequado na teia alimentar em que eles se encontram. Cada ser vivo é importante para a manutenção do equilíbrio ecológico e é fundamental que estejamos atentos aos seus papéis na teia alimentar. Vamos começar!​</p>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Continuar</button>
+                   
+                </div>
+            </div>
+        </div>
+      </div>
+      
+      <div class="modal fade" id="feedbackPositivo" tabindex="-1" role="dialog" aria-labelledby="modalFeedbackPositivo" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                    <div class="modal-header">
+                            <h5 class="modal-title" id="modalFeedbackPositivo"><i class="fa-regular fa-thumbs-up"></i> Muito bem!</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-12 col-md-4 text-center pb-3">
+                                <img src="" class="img-fluid imgFeedback d-inline-block" alt="">
+                            </div>
+                            <div class="col-12 col-md-8 txtFeedback">
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+      </div>
+      
+      <div class="modal fade" id="feedbackNegativo" tabindex="-1" role="dialog" aria-labelledby="modalFeedbackNegativo" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                    <div class="modal-header">
+                            <h5 class="modal-title" id="modalFeedbackNegativo"><i class="fa-regular fa-thumbs-down"></i> Ops, não foi dessa vez.</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-12 col-md-4 text-center pb-3">
+                                <img src="" class="img-fluid imgFeedback d-inline-block" alt="">
+                            </div>
+                            <div class="col-12 col-md-8 txtFeedback">
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+      </div>
+
+
+      
+      <!-- Modal -->
+      <div class="modal fade" id="modalselecionar" tabindex="-1" role="dialog" aria-labelledby="modalTituloSelecionar" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                    <div class="modal-header">
+                            <h5 class="modal-title" id="modalTituloSelecionar">Níveis tróficos</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                       <p>Selecione o nível trófico correto para este espécime.</p>
+                        <hr>
+                        <button type="button" class="select form-control btn btn-primary" data-nivelt="produtor">Produtor</button>
+                        <button type="button" class="select form-control btn btn-primary" data-nivelt="c1">Consumidor primário</button>
+                        <button type="button" class="select form-control btn btn-primary" data-nivelt="c2">Consumidor secundário</button>
+                        <button type="button" class="select form-control btn btn-primary" data-nivelt="c3">Consumidor terciário</button>
+                        <button type="button" class="select form-control btn btn-primary" data-nivelt="c4">Consumidor quaternário</button>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+      </div>
+      
+ 
+      <div class="modal fade" id="fase2_feedbackNegativo" tabindex="-1" role="dialog" aria-labelledby="modalFeedbackNegativo2" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                    <div class="modal-header">
+                            <h5 class="modal-title" id="modalFeedbackNegativo2"><i class="fa-regular fa-thumbs-down"></i> Ops, foi quase!</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <p class="txtFeedback">
+                            
+                        </p>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+      </div>
+      
+
+      
+      <!-- Modal -->
+      <div class="modal fade" id="fimdejogo" tabindex="-1" role="dialog" aria-labelledby="modalfimdejogo" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                    <div class="modal-header">
+                            <h5 class="modal-title" id="modalfimdejogo">Muito bem!</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <p class="text-center premio"><i class="fa-solid fa-4x fa-trophy"></i></p>
+                        <p>Muito bem! Você conseguiu adicionar todos os níveis tróficos corretamente. Caso queira começar de novo, basta clicar em reiniciar.</p>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    
+
+                </div>
+            </div>
+        </div>
+      </div>
+     
+      
+      
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src='assets/js/dragula.min.js'></script>
+    <script src="assets/js/script-cadeia-alimentar.js"></script>
+</body>
+
+</html>
