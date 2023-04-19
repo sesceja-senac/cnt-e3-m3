@@ -55,7 +55,7 @@ var containers = [
 
   // Containers que irão receber os cards
   document.querySelector("#slot1"),
-  document.querySelector('#slot2'), 
+  document.querySelector('#slot2'),
   document.querySelector('#slot3'),
   document.querySelector('#slot4')
 ];
@@ -65,14 +65,16 @@ var erro = 0;
 // Solução ao dragindrop
 var scrollable = true;
 
-var listener = function(e) {
+var listener = function (e) {
   console.log(scrollable)
-    if (! scrollable) {
-        e.preventDefault();
-    }
+  if (!scrollable) {
+    e.preventDefault();
+  }
 }
 
-document.addEventListener('touchmove', listener, { passive:false });
+document.addEventListener('touchmove', listener, {
+  passive: false
+});
 
 // Solução ao dragindrop
 let fase1_count = 4;
@@ -81,12 +83,12 @@ dragula({
   revertOnSpill: true,
   direction: 'vertical',
   accepts: function (el, target, source, sibling) {
-      return el.dataset.target == target.id; 
+    return el.dataset.target == target.id;
   }
-}).on('drag', function(el, source) {
+}).on('drag', function (el, source) {
   // On mobile this prevents the default page scrolling while dragging an item.
   scrollable = false;
-}).on("drop", function(el, source){
+}).on("drop", function (el, source) {
   scrollable = true;
   console.log(el.id)
   if (--fase1_count < 1) trocar_fase();
@@ -95,23 +97,23 @@ dragula({
   $("#feedbackPositivo .txtFeedback").text(fase1_feedbacks[el.id].positivo)
   $('#feedbackPositivo').modal('show')
 
-      audio.setAttribute('src','assets/audios/acerto.mp3'); //change the source
-      audio.load(); //load the new source
-      audio.play(); //play
+  audio.setAttribute('src', 'assets/audios/acerto.mp3'); //change the source
+  audio.load(); //load the new source
+  audio.play(); //play
 
-}).on("cancel", function(el){
+}).on("cancel", function (el) {
   scrollable = true;
 
   $("#feedbackNegativo .imgFeedback").attr("src", el.src)
   $("#feedbackNegativo .txtFeedback").text(fase1_feedbacks[el.id].negativo)
   $('#feedbackNegativo').modal('show')
 
-      audio.setAttribute('src','assets/audios/erro.mp3'); //change the source
-      audio.load(); //load the new source
-      audio.play(); //play
+  audio.setAttribute('src', 'assets/audios/erro.mp3'); //change the source
+  audio.load(); //load the new source
+  audio.play(); //play
 });
 
-function trocar_fase(){
+function trocar_fase() {
 
   $("#cardPile").remove();
   $("#cardPile.dragallowed").remove();
@@ -148,19 +150,19 @@ const fase1_feedbacks = {
   }
 }
 const fase2_base = {
-  "arvore": { 
+  "arvore": {
     feedback: "Quase lá! Lembre-se de que as árvores são os seres vivos que iniciam a cadeia alimentar e fornecem alimento para outros animais.​",
     nome: "Árvore"
-},
+  },
   "passaro": {
-    feedback:"Quase acertou! Os pássaros podem se alimentar diretamente dos produtores ou de outros animais que já se alimentaram dos produtores.​",
+    feedback: "Quase acertou! Os pássaros podem se alimentar diretamente dos produtores ou de outros animais que já se alimentaram dos produtores.​",
     nome: "Pássaro"
   },
   "lagarta": {
     feedback: "Quase lá! As lagartas se alimentam diretamente dos seres vivos que iniciam a cadeia alimentar.​",
     nome: "Lagarta"
-},
-    
+  },
+
   "sapo": {
     feedback: "Quase acertou! Os sapos se alimentam dos animais que estão em um nível trófico abaixo deles na cadeia alimentar.​",
     nome: "Sapo"
@@ -168,64 +170,64 @@ const fase2_base = {
   "serpente": {
     feedback: "Quase lá! As serpentes se alimentam de outros animais que estão em um nível trófico abaixo delas na cadeia alimentar.​",
     nome: "Serpente"
-},
+  },
   "ave_de_rapina": {
     feedback: "Quase acertou! As aves de rapina se alimentam de outros animais que estão em níveis tróficos mais baixos na cadeia alimentar.​",
     nome: "Ave de rapina"
   }
- 
+
 }
 
 let etipo;
 let bid;
-$(function (){
-  $("body").on("click", ".bto-avancar", function (){
-    $("#fase1").fadeOut("fast", function (){
+$(function () {
+  $("body").on("click", ".bto-avancar", function () {
+    $("#fase1").fadeOut("fast", function () {
       $("#fase2").fadeIn("fast");
       $("#introfase2").modal("show")
     })
-    
+
   });
 
-  $(".bto-ask").click(function (){
+  $(".bto-ask").click(function () {
     etipo = $(this).attr("data-tipo");
     bid = $(this).attr("id");
     $("#modalselecionar").modal("show")
   });
-  
-  $(".select").click(function (){
+
+  $(".select").click(function () {
     verifica_resposta($(this).attr("data-nivelt"));
-    
+
   });
 
-$(".bto-reiniciar").click(function (){
-  window.location.href = "index.html";
-})
+  $(".bto-reiniciar").click(function () {
+    window.location.href = "index.html";
+  })
 
 })
 
-function traduzir (sigla){
+function traduzir(sigla) {
   console.log(sigla)
   let traducao;
-  switch(sigla){
-      case "produtor":
-        traducao = "Produtor";
-        break;
-      case "c1":
-        traducao = "Consumidor primário";
-        break;
-      case "c2":
-        traducao = "Consumidor secundário";
-        break;
-      case "c3": 
-        traducao = "Consumidor terciário";
-        break;
-      case "c4":
-        traducao = "Consumidor quaternário";
-        break;
-    }
-    console.log(traducao)
-    return traducao;
+  switch (sigla) {
+    case "produtor":
+      traducao = "Produtor";
+      break;
+    case "c1":
+      traducao = "Consumidor primário";
+      break;
+    case "c2":
+      traducao = "Consumidor secundário";
+      break;
+    case "c3":
+      traducao = "Consumidor terciário";
+      break;
+    case "c4":
+      traducao = "Consumidor quaternário";
+      break;
+  }
+  console.log(traducao)
+  return traducao;
 }
 
 const permissoes = {
@@ -246,47 +248,48 @@ let inseridos = {
   arvore: []
 }
 
-function verifica_resposta(nivelt){
-  console.log(etipo,bid,nivelt,fase2_base[etipo].nome)
+function verifica_resposta(nivelt) {
+  console.log(etipo, bid, nivelt, fase2_base[etipo].nome)
   //fase2_base
   //
   $("#modalselecionar").modal("hide");
 
-  if(permissoes[etipo].indexOf(nivelt) != -1){
-    if(inseridos[etipo].indexOf(nivelt) == -1){
+  if (permissoes[etipo].indexOf(nivelt) != -1) {
+    if (inseridos[etipo].indexOf(nivelt) == -1) {
       $("#" + bid).remove();
       $("." + bid).removeClass("d-none");
       $("." + bid).html(traduzir(nivelt))
       inseridos[etipo].push(nivelt);
-      audio.setAttribute('src','assets/audios/acerto.mp3'); //change the source
+      audio.setAttribute('src', 'assets/audios/acerto.mp3'); //change the source
       audio.load(); //load the new source
       audio.play(); //play
       fimdejogo();
-    }else {
-    $("#fase2_feedbackNegativo .txtFeedback").html("Ops! Você já inclui este nível trófico <br>para: <strong>" + fase2_base[etipo].nome + "</strong>.");
-    $("#fase2_feedbackNegativo").modal("show")
-    audio.setAttribute('src','assets/audios/erro.mp3'); //change the source
+    } else {
+      $("#fase2_feedbackNegativo .txtFeedback").html("Ops! Você já inclui este nível trófico <br>para: <strong>" + fase2_base[etipo].nome + "</strong>.");
+      $("#fase2_feedbackNegativo").modal("show")
+      audio.setAttribute('src', 'assets/audios/erro.mp3'); //change the source
       audio.load(); //load the new source
       audio.play(); //play
     }
-  }else {
+  } else {
     $("#fase2_feedbackNegativo .txtFeedback").text(fase2_base[etipo].feedback);
     $("#fase2_feedbackNegativo").modal("show")
-    audio.setAttribute('src','assets/audios/erro.mp3'); //change the source
-      audio.load(); //load the new source
-      audio.play(); //play
- 
+    audio.setAttribute('src', 'assets/audios/erro.mp3'); //change the source
+    audio.load(); //load the new source
+    audio.play(); //play
+
   }
- 
+
 }
 let contador = 0;
-function fimdejogo(){
-if(contador >= 9){
-  $("#fimdejogo").modal("show");
-  $(".bto-reiniciar").removeClass("d-none");
-  $(".bto-ajuda").addClass("d-none");
-  $(".diretrizes p").html("Comece de novo, clicando no botão <strong>Reiniciar</strong>")
-}else{
-  contador++;
-}
+
+function fimdejogo() {
+  if (contador >= 9) {
+    $("#fimdejogo").modal("show");
+    $(".bto-reiniciar").removeClass("d-none");
+    $(".bto-ajuda").addClass("d-none");
+    $(".diretrizes p").html("Comece de novo, clicando no botão <strong>Reiniciar</strong>")
+  } else {
+    contador++;
+  }
 }
